@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: jh@debian.org\n"
+"POT-Creation-Date: 2007-01-22 22:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../conserver-client.templates:1001
+msgid "Do you want to configure console automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../conserver-client.templates:1001
+msgid ""
+"Setting this to true will edit /etc/conserver/console.cf and replace "
+"CONSERVER_MASTER and CONSERVER_PORT with the configured values in the next "
+"questions"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-client.templates:2001
+msgid "Hostname where your conserver server is installed:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-client.templates:2001
+msgid ""
+"The conserver hostname is the hostname where the conserver-server package is "
+"installed. The client, 'console', will use the hostname 'console' if left "
+"empty. The server name can be changed during runtime with the -M option."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-client.templates:3001
+msgid "The server port number to connect to:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-client.templates:3001
+msgid ""
+"Set the conserver server port to connect to. This may be either a port "
+"number or a service name."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:1001
+msgid "The master port number for the conserver server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:1001
+msgid ""
+"Set the TCP port for the master process to listen on for clients. This may "
+"be either a port number or a service name. The original port number for "
+"conserver is 782, must be higher than 1024 if running as non-root."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:2001
+msgid "The base port number for the conserver children:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:2001
+msgid ""
+"Set the base port for children to listen on. Each child starts looking for "
+"free ports at this port number and working upward, trying a maximum number "
+"of ports equal to twice the maximum number of groups. If no free ports are "
+"available in that range, conserver exits. By default, conserver lets the "
+"operating system choose a free port. Empty input selects the default. "
+"(Conserver forks a child for each group of consoles it must manage and "
+"assigns each process a port number to listen on.)"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:3001
+msgid "The listen address (defaults to all addresses if empty):"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../conserver-server.templates:3001
+msgid ""
+"Set the address to listen on.  This allows conserver to bind to a particular "
+"IP address (like `127.0.0.1') instead of all interfaces. The default is to "
+"bind to all interfaces."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../conserver-server.templates:4001
+msgid "Should conserver run as root?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../conserver-server.templates:4001
+msgid ""
+"Conserver can be configured to run as root or as 'conservr'. It is not "
+"possible to use the shadow password if running as non-root in conserver."
+"passwd. (See the manual for conserver.passwd for more details.)"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../conserver-server.templates:5001
+msgid "Convert conserver.cf and conserver.passwd to new format?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../conserver-server.templates:5001
+msgid ""
+"Protocol and file format has changed! The client/server protocol has been "
+"rearchitected. You *MUST* use an 8.0.1 client with an 8.0.1 server.  No "
+"combination of client/server will work with pre-8.0.0 code. The config file "
+"format for both conserver.cf and conserver.passwd has been changed, read /"
+"usr/share/doc/conserver-server/README.Debian for more details. The /etc/"
+"conserver/conserver.cf and /etc/conserver/conserver.passwd will be converted "
+"to the new format and the old will be renamed with .OLD as suffix. Check the "
+"files after the conversion!"
+msgstr ""

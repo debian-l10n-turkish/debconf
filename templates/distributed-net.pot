@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: distributed-net\n"
+"Report-Msgid-Bugs-To: distributed-net@packages.debian.org\n"
+"POT-Creation-Date: 2014-04-06 19:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid "Run the distributed.net client configuration utility?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid ""
+"The distributed.net client needs to be configured before it can be used. "
+"While most options have reasonable defaults, you need to specify the e-mail "
+"address to which you would like distributed.net to credit any work done by "
+"the client. If you are installing the distributed-net package for the first "
+"time, then you must configure the client, otherwise the distributed.net "
+"client will refuse to start."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid ""
+"When the distributed.net client is run as a daemon (via /etc/init.d/"
+"distributed-net), the output will be redirected to /var/log/distributed-net."
+"log. You do not need to set up a log file. Since the init script is "
+"controlling the distributed.net client, you should not enable \"quiet mode\" "
+"as that breaks the init script."
+msgstr ""

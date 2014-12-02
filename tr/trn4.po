@@ -1,0 +1,98 @@
+# Turkish translation of trn4 package
+# Copyright (C) 2014 Mert Dirik
+# This file is distributed under the same license as the trn4 package.
+# Mert Dirik <mertdirik@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: trn4\n"
+"Report-Msgid-Bugs-To: trn4@packages.debian.org\n"
+"POT-Creation-Date: 2007-11-12 10:08+0000\n"
+"PO-Revision-Date: 2014-08-08 22:37+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "What news server should be used for reading and posting news?"
+msgstr ""
+"Haberleri okumak ve göndermek için hangi haber sunucusu kullanılsın? (tam "
+"nitelikli alan adı)"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"trn is configured to read news via an NNTP connection, and needs to know the "
+"fully-qualified host name of the server (such as news.example.com). If you "
+"have a local news spool, you should consider installing some NNTP server "
+"like inn2; in that case, enter \"localhost\" as your news server."
+msgstr ""
+"trn haberleri bir NNTP bağlantısı ile okuyacak şekilde yapılandırılmış, bu "
+"nedenle haber sunucusunun tam nitelikli alan adını bilmesi gerekiyor "
+"(örneğin haberler.örnek.com). Eğer yerel bir haber sistemi kullanıyorsanız "
+"inn2 gibi bir NNTP sunucusu kurmayı düşünün. Bu durumda haber sunucusu "
+"olarak \"localhost\" girmeniz yeterli olacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "What is your system's mail name?"
+msgstr "Sisteminizin posta adı nedir?"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Please enter the 'mail name' of your system. This is the hostname portion of "
+"the address to be shown on outgoing news and mail messages, and is used by "
+"many packages. trn4 users may override this individually by setting the FROM "
+"environment variable."
+msgstr ""
+"Lütfen sisteminizin \"posta adı\"nı girin. Posta adı, sisteminizden "
+"gönderilen haber ve posta iletilerinin gönderen adres kısmında belirtilen "
+"makine adı kısmıdır ve birçok paket tarafından kullanılır. trn4 "
+"kullanıcıları FROM ortam değişkenini düzenleyerek bu ayarı geçersiz "
+"kılabilir."
+
+#. Type: error
+#. Description
+#: ../templates:3001
+msgid "/etc/news/whoami and /etc/mailname differ"
+msgstr "/etc/news/whoami ve /etc/mailname farklı"
+
+#. Type: error
+#. Description
+#: ../templates:3001
+msgid ""
+"Some versions of Debian's various trn packages used /etc/news/whoami to "
+"construct the default From: line of outgoing mail and news messages. This "
+"package uses /etc/mailname instead, to comply with Debian policy."
+msgstr ""
+"Debian trn paketinin geçmişteki bazı sürümleri giden postaların ve haber "
+"iletilerinin öntanımlı \"From:\" satırını oluşturmak için /etc/news/whoami "
+"dosyasını kullanmıştır. Bu paket ise /etc/mailname dosyasını kullanır."
+
+#. Type: error
+#. Description
+#: ../templates:3001
+msgid ""
+"However, /etc/news/whoami says that addresses on your system are in the "
+"domain ${whoami}, while /etc/mailname says that they are in the domain "
+"${mailname}. In common with your mail configuration, trn4 will use /etc/"
+"mailname from now on anyway; if you need to change this, you might consider "
+"setting the FROM environment variable for each user to be that user's e-mail "
+"address."
+msgstr ""
+"Ancak /etc/news/whoami dosyasına göre sisteminizdeki adresler ${whoami} alan "
+"adını kullandığı halde /etc/mailname dosyasında ${mailname} alan adı "
+"kullanılmaktadır. Posta yapılandırmanıza uygun olarak trn4 /etc/mailname "
+"dosyasını kullanacaktır. Bu ayarı değiştirmek istediğiniz takdirde her "
+"kullanıcının FROM ortam değişkenini posta adreslerine uygun olarak "
+"ayarlayabilirsiniz."

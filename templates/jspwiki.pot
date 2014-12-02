@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: jspwiki@packages.debian.org\n"
+"POT-Creation-Date: 2009-09-13 19:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../jspwiki.templates:2001 ../jspwiki.templates:3001
+msgid "Default application name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:2001
+msgid ""
+"Please enter the name of the wiki. This name appears in HTML titles and log "
+"files, and is usually the same as the top level URL (for instance 'http://"
+"www.example.org/JSPWiki')."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:3001
+msgid ""
+"Please enter the HTTP prefix of the wiki. This rewrites all JSPWiki internal "
+"link references, so it needs to be correct. It also needs to contain the "
+"trailing slash."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:4001
+msgid "Page storage mechanism to be used by JSPWiki:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:4001
+msgid "Please choose the mechanism that should be used for storing pages:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:4001
+msgid ""
+" FileSystemProvider:     simply storing pages as files;\n"
+" RCSFileProvider:        using an external Revision Control System;\n"
+" VersioningFileProvider: versioning storage implemented in Java."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:5001
+msgid "Should JSPWiki use a page cache?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:5001
+msgid "Page caching usually improves performance but increases memory usage."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:6001
+msgid "JSPWiki base URL:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:6001
+msgid "Base URLs are used to rewrite all of JSPWiki's internal references."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:6001
+msgid "A trailing slash ('/') character is mandatory."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:7001
+msgid "Page encoding:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:7001
+msgid ""
+"Please choose which character encoding should be used by JSPWiki. UTF-8 is "
+"strongly recommended."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:8001
+msgid "Break at capitals in page names?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:8001
+msgid ""
+"Please choose whether page titles should be rendered using an extra space "
+"after each capital letter. This causes 'RSSPage' to be shown as 'R S S Page'."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:9001
+msgid "Match plural form to singular form in page names?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:9001
+msgid ""
+"Choosing this option will cause JSPWiki to match 'PageLinks' to 'PageLink' "
+"if 'PageLinks' is not found."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:10001
+msgid "Use CamelCase links?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:10001
+msgid ""
+"Please choose whether JSPWiki should consider traditional WikiNames (names "
+"of pages JustSmashedTogether without square brackets) as hyperlinks."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:11001
+msgid "Generate RSS feed?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:11001
+msgid ""
+"JSPWiki can generate a Rich Site Summary feed so that users can track "
+"changes to the wiki."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:12001
+msgid "RSS refresh time in seconds:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:12001
+msgid "Please choose the delay between RSS feed refreshes."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:13001
+msgid "RSS channel description:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:13001
+msgid ""
+"Please give a channel description for the RSS feed, to be shown in channel "
+"catalogs. There is no maximum length, so include whatever details users may "
+"find helpful."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:14001
+msgid "RSS channel language:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../jspwiki.templates:14001
+msgid ""
+"Please choose the RSS feed language. This should match the language of the "
+"wiki."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../jspwiki.templates:15001
+msgid "nothing"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:15002
+msgid "Attachment storage mechanism to use:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../jspwiki.templates:15002
+msgid ""
+"'BasicAttachmentProvider' uses the same directory structure as the selected "
+"page storage mechanism. It simply stores the attachments in a dedicated "
+"directory for a page."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:16001
+msgid "Should all wiki pages be deleted on package purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../jspwiki.templates:16001
+msgid ""
+"Please choose whether you want all wiki pages to be removed when the package "
+"is purged."
+msgstr ""

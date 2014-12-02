@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: kstars-data-extra-tycho2@packages.debian.org\n"
+"POT-Creation-Date: 2011-07-27 09:34+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: title
+#. Description
+#: ../templates:2001
+msgid "Handling of kstars configuration file"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "keep"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "replace (preserving backup)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "overwrite"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid "Action for the /etc/kde4/kstarsrc file:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid "A kstars global configuration file already exists."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid ""
+"The package installation process can't modify it, but you can back it up now "
+"and create a new one. You will be prompted for options in this file."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Create /etc/kde4/kstarsrc file?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "There is no kstars global configuration file."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"A configuration file will be needed if user downloads should be disabled, "
+"but if not then it is still safe to create one. You will be prompted for "
+"options in this file."
+msgstr ""
+
+#. Type: title
+#. Description
+#: ../templates:5001
+msgid "Disable or lock data downloads"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "enable"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "disable"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "lock"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid "User data downloads for kstars:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid ""
+"KStars has a download feature allowing users to download extra data files "
+"for their own use. Since packaged catalogs can be handled more efficiently "
+"by installing a single central copy, you may wish to restrict the use of "
+"this feature."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid ""
+" * enable - users will be able to download data files;\n"
+" * disable - individual users can re-enable data downloads (to\n"
+"   download other data files) in their .kstarsrc;\n"
+" * lock - users cannot enable data downloads."
+msgstr ""
+
+#. Type: title
+#. Description
+#: ../templates:7001
+msgid "Backup of old kstarsrc file"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:8001
+msgid "Former kstarsrc file saved"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../templates:8001
+msgid ""
+"The old kstarsrc file has been saved as /etc/kde4/kstarsrc.backup.kstars-"
+"data-extra."
+msgstr ""

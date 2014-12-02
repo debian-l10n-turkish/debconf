@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: rocksndiamonds@packages.debian.org\n"
+"POT-Creation-Date: 2009-09-14 10:29+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Download non-free game data?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"The data files required by rocksndiamonds do not have licenses that would "
+"allow them to be distributed as a package. However, they can be "
+"automatically downloaded from the Internet and installed locally."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:3001
+msgid "Games to download data for:"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid "Missing utilities for download or unpacking"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid ""
+"Downloading and unpacking the game data requires the packages wget, p7zip, "
+"and unzip, but not all of these are available."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:4001
+msgid ""
+"You should install them and then reconfigure this package by using \"dpkg-"
+"reconfigure rocksndiamonds\"."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Cannot download required resources"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"An error occurred while downloading game data. You should check the network "
+"connection and settings and retry later on."
+msgstr ""

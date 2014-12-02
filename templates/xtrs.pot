@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: xtrs@packages.debian.org\n"
+"POT-Creation-Date: 2010-03-14 17:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "ROM images and/or operating system needed for xtrs to operate"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"The xtrs package will not function as it ships because it requires a ROM "
+"image from one of the original TRS-80 Model I, III, 4, or 4P computers to "
+"operate.  (In Model 4P mode, only a disk image of a compatible operating "
+"system is required.)  Because of licensing restrictions on the ROM images "
+"and TRS-80 operating systems, they cannot be distributed with this Debian "
+"package.  You will need to obtain this software and install it where xtrs "
+"expects to find it for the program to work."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "See /usr/share/doc/xtrs/README.Debian for more information."
+msgstr ""

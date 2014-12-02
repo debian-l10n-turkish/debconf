@@ -1,0 +1,60 @@
+# Turkish translation of distributed-net package
+# Copyright (C) 2014 Mert Dirik
+# This file is distributed under the same license as the distributed-net package.
+# Mert Dirik <mertdirik@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: distributed-net 2.9111.520-2\\nReport-Msgid-Bugs-To: "
+"distributed-net@packages.debian.org\n"
+"Report-Msgid-Bugs-To: distributed-net@packages.debian.org\n"
+"POT-Creation-Date: 2014-04-06 19:24+0200\n"
+"PO-Revision-Date: 2014-08-08 22:26+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid "Run the distributed.net client configuration utility?"
+msgstr "distributed.net istemci yapılandırma aracı çalıştırılsın mı?"
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid ""
+"The distributed.net client needs to be configured before it can be used. "
+"While most options have reasonable defaults, you need to specify the e-mail "
+"address to which you would like distributed.net to credit any work done by "
+"the client. If you are installing the distributed-net package for the first "
+"time, then you must configure the client, otherwise the distributed.net "
+"client will refuse to start."
+msgstr ""
+"distributed.net istemcisini kullanmadan önce yapılandırmanız gerekmektedir. "
+"Çoğu işlem için öntanımlı ayarlar gayet makul olsa da istemcinizin yaptığı "
+"işlerin kredilerinin aktarılabilmesi için bir e-posta adresi vermeniz "
+"gerekmektedir. distributed.net paketini ilk defa kuruyorsanız istemciyi "
+"yapılandırmanız gerekmektedir, aksi takdirde istemcinin çalışması mümkün "
+"olmaz."
+
+#. Type: boolean
+#. Description
+#: ../distributed-net.templates:2001
+msgid ""
+"When the distributed.net client is run as a daemon (via /etc/init.d/"
+"distributed-net), the output will be redirected to /var/log/distributed-net."
+"log. You do not need to set up a log file. Since the init script is "
+"controlling the distributed.net client, you should not enable \"quiet mode\" "
+"as that breaks the init script."
+msgstr ""
+"distributed.net istemcisi (/etc/init.d/distributed-net vasıtasıyla) bir "
+"artalan hizmeti olarak çalıştığında çıktısı /var/log/distributed-net.log "
+"dosyasına yönlendirilir. Ayrıca bir günlük dosyası ayarlamanıza gerek "
+"yoktur. distributed.net istemcisi init betiği tarafından kontrol edildiği "
+"için ve \"sessiz kip\" (\"quiet mode\") init betiğini bozduğu için sessiz "
+"kipi etkinleştiremezsiniz."

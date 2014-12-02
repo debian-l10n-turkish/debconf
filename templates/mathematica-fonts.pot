@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mathematica-fonts\n"
+"Report-Msgid-Bugs-To: mathematica-fonts@packages.debian.org\n"
+"POT-Creation-Date: 2012-09-07 18:02-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "HTTP proxy to use:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"If you need to use a proxy server, please enter it here (example: "
+"http://192.168.0.1:8080). This will cause the font file to be downloaded "
+"through the proxy."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Leave this field blank if you don't use a proxy server."
+msgstr ""
+
+#. Type: note
+#. Description
+#. This debconf note displays the original license of fonts
+#. The license terms themselves are not translatable, which explains
+#. that translators do not see them in the PO files
+#: ../templates:3001
+msgid "License for Mathematica fonts"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:3001
+msgid ""
+"Read this agreement carefully before proceeding. It is an agreement between "
+"Wolfram Research, Inc. (\"WRI\") and you. Acceptance of its terms creates a "
+"binding contract between you and WRI. By downloading the fonts below, you "
+"are accepting the terms of this agreement."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Do you accept the license of Mathematica fonts?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"In order to install this package, you must accept its license terms. Not "
+"accepting will cancel the installation."
+msgstr ""
