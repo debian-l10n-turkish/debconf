@@ -1,0 +1,366 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uswsusp\n"
+"Report-Msgid-Bugs-To: uswsusp@packages.debian.org\n"
+"POT-Creation-Date: 2013-01-17 19:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#: ../uswsusp.templates:2001
+msgid "Swap space to resume from:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uswsusp.templates:2001
+msgid ""
+"To be able to suspend the system, uswsusp needs a swap partition or file to "
+"store a system snapshot. Please choose the device to use, from the list of "
+"suitable swap spaces, sorted by size (largest first)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:3001
+msgid "Offset of swap file's header:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:3001
+msgid ""
+"When using a swap file for storing the snapshot during suspend, the location "
+"of the swap file's header must be specified. This will be stored in "
+"<PAGE_SIZE> units, as the offset from the beginning of the partition that "
+"contains the swap file."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:4001
+msgid "No suitable swap space for software suspend"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:4001
+msgid ""
+"To be able to suspend the system, uswsusp needs a swap partition or file to "
+"write a system snapshot to. No such space seems to be available for this."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:4001
+msgid ""
+"You should create a swap partition or file, preferably twice the size of the "
+"system's physical RAM."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:4001
+msgid ""
+"Then, run 'dpkg-reconfigure uswsusp' or edit the configuration file manually."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:5001
+msgid "No userspace software suspend support in the kernel"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../uswsusp.templates:5001
+msgid ""
+"The current kernel doesn't support userspace software suspend. Please "
+"recompile the kernel with the 'CONFIG_HIBERNATION=y' option."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:6001
+msgid "Continue without a valid swap space?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:6001
+msgid ""
+"The swap file or partition that was found in uswsusp's configuration file is "
+"not active."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:6001
+msgid ""
+"In most cases this means userspace software suspend will not work as "
+"expected. You should choose another swap space."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:6001
+msgid "However, in some rare cases, this configuration may be intentional."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:7001
+msgid "The device node through which uswsusp can talk to the kernel:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:7001
+msgid ""
+"If this is empty, the hardcoded default, /dev/snapshot, is used. This should "
+"be OK in almost all cases. Don't change this unless there is a good reason "
+"to do so."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:8001
+msgid "Preferred maximum image size:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:8001
+msgid "Please specify a maximum system snapshot image size (in bytes)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:8001
+msgid ""
+"This limit is not strict; the uswsusp does its best to respect it, but will "
+"exceed the specified limit if suspend needs a bigger image."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:8001
+#, no-c-format
+msgid ""
+"Using 0 here will enforce the use of the smallest possible snapshot image. "
+"An empty value will use the hard coded default, which is 500MB. The default "
+"value is 45% of the system's memory: this is not the maximal size, but some "
+"additional free memory speeds up the suspend and resume process."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:9001
+msgid "Log level for software suspend:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:9001
+msgid ""
+"Please specify the kernel console log level which the s2disk/s2both and "
+"resume utilities will use to report the progress of suspend and resume.  On "
+"a stock kernel, messages with levels higher than 7 are usually not shown."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:10001
+msgid "Maximal log level:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:10001
+msgid ""
+"Please specify the kernel console log level which the resume utility will "
+"use if the resume fails."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:11001
+msgid "Perform checksum on image?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:11001
+msgid ""
+"Performing a checksum using the MD5 algorithm to verify the image integrity "
+"is slightly safer, but also takes more time."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:12001
+msgid "Compress image?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:12001
+msgid ""
+"Compressing the image with the LZF compression algorithm will result in a "
+"smaller image, which makes it possible to suspend with a smaller swap "
+"partition. Generally, it will also make reading and writing the image faster "
+"because there is less to read and write."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:13001
+msgid "Perform early write out?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:13001
+msgid ""
+"The synchronization of the resume device can start early in the process of "
+"writing the image to it. This has been reported to speed up suspend on some "
+"systems and eliminate the 'fast progress meter and long fsync wait' effect."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:14001
+msgid "Encrypt snapshot?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:14001
+msgid ""
+"For increased security, it is possible to encrypt the snapshot that is "
+"written to disk during suspend. On resume (and suspend if you don't use an "
+"RSA key), you will be prompted for a passphrase. Encryption adds a "
+"significant time to the suspend and resume processes."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:15001
+msgid "Path to RSA key file:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:15001
+msgid ""
+"To avoid the need for a passphrase prompt during each suspend, an RSA key "
+"can be used to encrypt the image."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:15001
+msgid ""
+"Please specify the path to that file. Leave this field empty to not use an "
+"RSA key."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:16001
+msgid "Create an RSA key?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../uswsusp.templates:16001
+msgid ""
+"The key necessary for using the RSA encryption scheme can be generated now. "
+"You will be prompted for a passphrase."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:17001
+msgid "RSA key size:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uswsusp.templates:17001
+msgid ""
+"Please specify the size of the RSA key (number of bits between 1024 and "
+"4096). A bigger key increases the encryption strength but slows down the "
+"encryption process."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../uswsusp.templates:18001
+msgid "RSA passphrase:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../uswsusp.templates:18001
+msgid ""
+"Please choose the passphrase to use on every resume to decrypt the image."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../uswsusp.templates:19001
+msgid "RSA passphrase confirmation:"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uswsusp.templates:20001
+msgid "reboot"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uswsusp.templates:20001
+msgid "platform"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uswsusp.templates:20001
+msgid "shutdown"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uswsusp.templates:20002
+msgid "Shutdown method:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uswsusp.templates:20002
+msgid ""
+"If this parameter is set to 'reboot', the s2disk utility will reboot the "
+"machine rather than powering down. This can be useful for testing purposes."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uswsusp.templates:20002
+msgid ""
+"If it is set to 'platform', hardware-specific optimization is used if "
+"available."
+msgstr ""

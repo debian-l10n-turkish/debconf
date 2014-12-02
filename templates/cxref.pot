@@ -1,0 +1,49 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-04 08:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../cxref.templates:1001
+msgid "Automatically configure cxref-cpp?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../cxref.templates:1001
+msgid ""
+"cxref-cpp is a cpp-like program used by cxref for better comment processing "
+"and support.  Proper operation of cxref-cpp requires configuration against "
+"the gcc and cpp versions you have installed on your system.  These of course "
+"may change with each upgrade.  This package can attempt to automatically "
+"keep track of your installed gcc and cpp versions and reconfigure cxref-cpp "
+"accordingly, or it can leave such configuration up to you.  In the latter "
+"case, you can run /usr/bin/cxref-cpp-configure as root whenever you wish, "
+"and/or you can edit the file /etc/cxref/cxref-cpp.defines by hand.  In the "
+"former case, the defines file will be automatically updated every time the "
+"cxref package is reconfigured.  In addition, cxref-cpp will detect any gcc "
+"version mismatch at runtime and regenerate a temporary cxref-cpp.defines "
+"file on the fly, warning the user of the situation."
+msgstr ""

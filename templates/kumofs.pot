@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: kumofs@packages.debian.org\n"
+"POT-Creation-Date: 2010-11-14 01:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Description
+#: ../templates:2001
+msgid "Kumofs components to run on this host:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2001
+msgid ""
+"Please choose which components of kumofs should run on this host.\n"
+" * kumo-server stores data and replicates it into other servers;\n"
+" * kumo-manager monitors and balances the servers;\n"
+" * kumo-gateway relays requests from client applications."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Command-line options for kumo-manager:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Please specify the command-line options to use with kumo-manager."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:3001 ../templates:4001 ../templates:5001
+msgid "The default value is well adapted for a single-node setup."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Command-line options for kumo-server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Please specify the command-line options to use with kumo-server."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Command-line options for kumo-gateway:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Please specify the command-line options to use with kumo-gateway."
+msgstr ""

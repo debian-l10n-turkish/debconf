@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-18 01:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Shall slay punish users?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Normally slay will punish ordinary users trying to run it by slaying "
+"themselves. This is The Right Thing(TM), as users should not mess with "
+"administrative commands like slay, but some administrators find it "
+"inconvenient. Therefore slay can be configured to punish users or just to "
+"display error message."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Shall slay use `Butt-head' mode by default?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Slay has two sets of messages: a standard set and an alternative set that is "
+"more informal.  The alternative set is named after \"Butt-head\" from MTV's "
+"\"Beavis & Butt-head\" cartoon show, a character who uses the sort of "
+"language you'll find in the alternative set.  In most cases, the standard "
+"set of messages is more appropriate."
+msgstr ""

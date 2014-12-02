@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: camrdale@gmail.com\n"
+"POT-Creation-Date: 2006-11-22 00:09-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "WARNING: include path for php has changed!"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"libphp-adodb is no longer installed in /usr/share/adodb. New installation "
+"path is now /usr/share/php/adodb."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"Please update your php.ini file. Maybe you must also change your web-server "
+"configuraton."
+msgstr ""

@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tomoyo-tools\n"
+"Report-Msgid-Bugs-To: tomoyo-tools@packages.debian.org\n"
+"POT-Creation-Date: 2012-07-17 19:17-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../tomoyo-tools.templates:2001
+msgid "Enable TOMOYO Linux at boot time?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../tomoyo-tools.templates:2001
+msgid ""
+"Enabling TOMOYO Linux functionality in the running kernel requires an "
+"appropriate kernel command line at boot time. This can be configured by "
+"setting GRUB_CMDLINE_LINUX=\"security=tomoyo\" in /etc/default/grub and "
+"running grub-update."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../tomoyo-tools.templates:2001
+msgid ""
+"If you accept here, these actions will be performed automatically and TOMOYO "
+"Linux will be enabled at next boot."
+msgstr ""

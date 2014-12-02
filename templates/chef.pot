@@ -1,0 +1,39 @@
+# LANGUAGE translation of chef debconf messages.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the chef package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: chef\n"
+"Report-Msgid-Bugs-To: chef@packages.debian.org\n"
+"POT-Creation-Date: 2014-02-18 07:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../chef.templates:2001
+msgid "URL of Chef server"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../chef.templates:2001
+msgid ""
+"Please choose the full URI that clients will use to connect to the server "
+"(for instance: http://chef.example.com:4000)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../chef.templates:2001
+msgid ""
+"This setting will be stored in /etc/chef/client.rb as \"chef_server_url\"."
+msgstr ""

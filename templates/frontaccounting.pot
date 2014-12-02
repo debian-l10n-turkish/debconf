@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: frontaccounting@packages.debian.org\n"
+"POT-Creation-Date: 2010-06-25 06:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Choices
+#: ../templates:2001
+msgid "apache2"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../templates:2001
+msgid "lighttpd"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid "Web server to reconfigure automatically:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid ""
+"Please choose the web server that should be automatically configured to run "
+"FrontAccounting."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Has the FrontAccounting database already been initialized?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Skip database creation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"The FrontAccounting database can be set up automatically or you can create "
+"it manually after installation."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Manual database configuration required"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"No MySQL client was found, which means it is not possible to automatically "
+"create FrontAccounting's database."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"You should install the mysql-client package (as well as mysql-server if you "
+"want the database to be hosted on this machine) and then run \"dpkg-"
+"reconfigure frontaccounting\" again. For now, the database configuration "
+"will be skipped."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "FrontAccounting database server host name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"Please enter the host name or IP address of the database server that will "
+"host FrontAccounting's database."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "FrontAccounting database name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Please choose the name for FrontAccounting's database."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Use a prefix on FrontAccounting tables?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"If the same FrontAccounting database should host more than one company, "
+"table names should be prefixed by \"0_\"."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Database administrator username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Please provide the username for the account that will create "
+"FrontAccounting's database. This account must have database and user "
+"creation privileges on the database server."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:10001
+msgid "Database administrative password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:10001
+msgid ""
+"Please provide the password for the account that will create "
+"FrontAccounting's database."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid "FrontAccounting database username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid ""
+"Please choose a username for the account that FrontAccounting will use to "
+"access the database."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid "Password to access the database:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid ""
+"Please provide the password that FrontAccounting will use to access the "
+"database."
+msgstr ""
+
+#. Type: password
+#. Description
+#. Type: password
+#. Description
+#: ../templates:13001 ../templates:17001
+msgid "Re-enter password to verify:"
+msgstr ""
+
+#. Type: password
+#. Description
+#. Type: password
+#. Description
+#: ../templates:13001 ../templates:17001
+msgid ""
+"Please enter the same password again to verify that you have typed it "
+"correctly."
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../templates:14001 ../templates:18001
+msgid "Password mismatch"
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../templates:14001 ../templates:18001
+msgid ""
+"The two passwords you entered were not the same. Please enter a password "
+"again."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:15001
+msgid "Company name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:15001
+msgid ""
+"Please enter the name that will be used to identify the company in the "
+"selector list on the login screen."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:16001
+msgid "Password for company administrator:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:16001
+msgid "Please choose the password for the company administrator account."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:19001
+msgid "Company administrator email:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:19001
+msgid "Please enter the email address of the company administrator."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:20001
+msgid "Add demo data to FrontAccounting tables?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:20001
+msgid ""
+"If you choose this option, some example data will be added to the "
+"FrontAccounting database."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:21001
+msgid "Restart ${webserver} now?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:21001
+msgid ""
+"In order to activate the new configuration, ${webserver} has to be restarted."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:22001
+msgid "Delete FrontAccounting data on purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:22001
+msgid ""
+"If you choose this option, the FrontAccounting database and the associated "
+"database user account will be removed when the frontaccounting package is "
+"purged."
+msgstr ""

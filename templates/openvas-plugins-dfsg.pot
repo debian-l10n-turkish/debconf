@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: jfs@debian.org\n"
+"POT-Creation-Date: 2007-10-31 22:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../openvas-plugins.templates:1001
+msgid "Remove unknown OpenVAS plugins?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../openvas-plugins.templates:1001
+msgid ""
+"The /var/lib/openvas/plugins directory includes some unknown plugins. This "
+"is probably because you downloaded additional plugins into it (e.g. by "
+"running openvas-update-plugins). You currently have ${countnewplugs} plugin"
+"(s) which are not provided by this package."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../openvas-plugins.templates:1001
+msgid ""
+"Note: This will apply to all your new installations/upgrades of this package "
+"until you reconfigure it. You should say 'No' if you plan to use openvas-"
+"update-plugins in the future."
+msgstr ""

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bruno@debian.org\n"
+"POT-Creation-Date: 2006-10-29 19:45-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "PortSentry does not block anything by default."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"Please note that by default PortSentry takes no action against potential "
+"attackers. It only dumps messages into /var/log/syslog. To change this edit /"
+"etc/portsentry/portsentry.conf."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+" You may also want to check:\n"
+" /etc/default/portsentry (daemon startup options) and\n"
+" /etc/portsentry/portsentry.ignore.static (hosts/interfaces to ignore)"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"For further details see the portsentry(8) and portsentry.conf(5) manpages."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "startup.conf is obsolete - use /etc/default/portsentry instead"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"/etc/portsentry/startup.conf is no longer used and /etc/default/portsentry "
+"is used instead. In order to ease the transition I'll do my best to preserve "
+"your settings while copying them over to the new location.  Please check /"
+"etc/default/portsentry against /etc/portsentry/startup.conf and remove it "
+"after the installation has finished."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Sorry for any inconvenience."
+msgstr ""

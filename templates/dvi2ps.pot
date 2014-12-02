@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: ohura@debian.org\n"
+"POT-Creation-Date: 2006-12-04 23:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "Old fontdesc file backuped"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"The old fontdesc could not work with this version of dvi2ps so it was "
+"renamed as /etc/texmf/dvi2ps/fontdesc.disable and the new version of "
+"fontdesc is installed now."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"If you don't know what is fontdesc or you haven't modified it, you should or "
+"might remove unnecessary fontdesc.disable file."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"If you had modified fontdesc then please compare fontdesc with fontdesc."
+"disable and you could edit fontdesc so that dvi2ps works in the same way as "
+"the previous version.  After that, you should or might remove unnecessary "
+"fontdesc.disable file."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Old configk file backuped"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"The old configk could not work with the current tetex environment, so it was "
+"renamed as /etc/texmf/dvi2ps/configk.disable and the new version of configk "
+"is installed now."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"If you don't know what is configk or you haven't modified it, you should or "
+"might remove unnecessary configk.disable file."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"If you had modified configk then please compare configk with configk.disable "
+"and you could edit configk so that dvi2ps works in the same way as the "
+"previous version.  After that, you should or might remove unnecessary "
+"configk.disable file."
+msgstr ""

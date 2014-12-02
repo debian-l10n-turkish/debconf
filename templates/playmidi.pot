@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Source: playmidi@packages.debian.org\n"
+"POT-Creation-Date: 2007-11-28 08:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Options for playmidi when invoked through MIME:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"The playmidi package sets up a MIME entry which allows mail user agents and "
+"other applications to play MIDI files."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"In order for playmidi to work properly, you may need to set hardware-"
+"specific options:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+" '-a': Sound Blaster AWE32;\n"
+" '-e': external MIDI device, Ensoniq SoundScape, Turtle\n"
+"       Beach WaveFront or WaveBlaster sound card;\n"
+" '-g': Gravis Ultrasound."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Most other cards require no specific options and will work with this field "
+"left blank. This setting is kept in /etc/playmidi/playmidi.conf."
+msgstr ""

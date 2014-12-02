@@ -1,0 +1,21 @@
+# Translation of debconf strings for igaelic.
+# Translation taken from iso-codes package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: igaelic 0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-05-05 20:08+0100\n"
+"PO-Revision-Date: 2004-08-03 19:57+0100\n"
+"Last-Translator: Alastair McKinstry <mckinstry@debian.org>\n"
+"Language-Team: Turkish\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: text
+#. Default
+#: ../igaelic.po-master.templates:12 ../wgaelic.po-master.templates:7
+msgid "Gaidhlig (Scots Gaelic)"
+msgstr "Gaidhlig (Galler dili; İskoçyaca)"

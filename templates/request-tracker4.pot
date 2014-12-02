@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: request-tracker4@packages.debian.org\n"
+"POT-Creation-Date: 2010-12-10 23:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Name for this Request Tracker (RT) instance:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Every installation of Request Tracker must have a unique name. The domain "
+"name or an abbreviation of the organization name are usually good candidates."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Please note that once you start using a name, you should probably never "
+"change it. Otherwise, mail for existing tickets won't get put in the right "
+"place."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "This setting corresponds to the $rtname configuration variable."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Identifier for this RT instance:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"In addition to its name, every installation of Request Tracker must also "
+"have a unique identifier. It is used when linking between RT installations."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"It should be a persistent DNS domain relating to your installation, for "
+"example example.org, or perhaps rt.example.org. It should not be changed "
+"during the lifetime of the RT database, so it is recommended not to use the "
+"default value of the system hostname. Therefore, if you plan to restore an "
+"existing database to this installation, you should use the same value as "
+"previous installations using the same database."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "This setting corresponds to the $Organization configuration variable."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Default email address for RT correspondence:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"Please choose the address that will be listed in From: and Reply-To: headers "
+"of emails tracked by RT, unless overridden by a queue-specific address."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This setting corresponds to the $CorrespondAddress configuration variable."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Default email address for RT comments:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"Please choose the address that will be listed in From: and Reply-To: headers "
+"of comment emails, unless overridden by a queue-specific address. Comments "
+"can be used for adding ticket information that is not visible to the client."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "This setting corresponds to the $CommentAddress configuration variable."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Base URL for the RT web interface:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"Please specify the scheme, server and (optionally) port for constructing RT "
+"web interface URLs."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "The value should not have a trailing slash (/)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "This setting corresponds to the $WebBaseURL configuration variable."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Path to the RT web interface:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid ""
+"If the RT web interface is going to be installed somewhere other than at the "
+"documents root of the web server, you should specify the path to it here."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "The value requires a leading slash (/) but not a trailing one."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "This setting corresponds to the $WebPath configuration variable."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Handle RT_SiteConfig.pm permissions?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"The RT web interface needs access to the database password, stored in the "
+"main RT configuration file. Because of this, the file is made readable by "
+"the www-data group in normal setups. This may have security implications."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"If you reject this option, the file will be readable only by root, and you "
+"will have to set up appropriate access controls yourself."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"With the SQLite backend, this choice will also affect the permissions of "
+"automatically-generated local database files."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Install cron jobs?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"Some features of RT depend on cron jobs, and they can be set up for you by "
+"this package. You should normally accept this option unless you are working "
+"on a snapshot of data (and would like to avoid events which send out email "
+"to users) or this system will be part of a cluster (in which case only one "
+"system should have cron jobs enabled)."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:10001
+msgid "Initial root password for RT system:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:10001
+msgid ""
+"The RT system will be populated with an initial superuser, named 'root', and "
+"the password you provide here will be used as the initial password of this "
+"superuser. It should be five characters or more."
+msgstr ""

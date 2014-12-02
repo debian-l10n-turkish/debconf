@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: italc\n"
+"Report-Msgid-Bugs-To: italc@packages.debian.org\n"
+"POT-Creation-Date: 2014-08-18 12:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:6001
+msgid "Automatically set up iTALC's role model and create key pairs?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:6001
+msgid ""
+"iTALC knows four different access roles for iTALC clients (teacher, student, "
+"supporter, and administrator)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:6001
+msgid "iTALC manages this role-based client access via SSL keys."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:6001
+msgid ""
+"Automatically generated SSL keys will be created in subfolders of /etc/italc/"
+"keys."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:7001
+msgid "Create groups for iTALC roles now?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:7001
+msgid ""
+"iTALC's role model requires four groups to exist: \"teacher\", \"student\", "
+"\"supporter\", and \"admin\"."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:7001
+msgid ""
+"If these four groups are not created now, you will be asked to assign "
+"existing groups in their place."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:8001
+msgid "Use already existing groups for iTALC roles?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:8001
+msgid ""
+"If groups reflecting the iTALC role model have already been set up (e.g. in "
+"the LDAP user/group database) then you can specify those group names on the "
+"next screens."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:9001
+msgid "iTALC teachers role group:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:9001
+msgid "Please specify the group name for iTALC teachers."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:9001
+msgid "The teacher role gives basic control over iTALC clients in classrooms."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../italc-client.templates:9001 ../italc-client.templates:11001
+#: ../italc-client.templates:13001 ../italc-client.templates:15001
+msgid "If you leave this empty, the \"root\" group will be used."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:10001 ../italc-client.templates:12001
+#: ../italc-client.templates:14001 ../italc-client.templates:16001
+msgid "Delete the group that was formerly used for this role?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:10001
+msgid "The group for the iTALC teacher role has been modified."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:10001 ../italc-client.templates:12001
+#: ../italc-client.templates:14001 ../italc-client.templates:16001
+msgid ""
+"Please specify whether the old group should be deleted. If unsure, keep the "
+"formerly used group and manually investigate later."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:11001
+msgid "iTALC students role group:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:11001
+msgid "Please specify the group name for iTALC students."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:11001
+msgid "The iTALC client only starts for users who are members of this group."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:12001
+msgid "The group for the iTALC student role has been modified."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:13001
+msgid "iTALC supporters role group:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:13001
+msgid "Please specify the group name for iTALC supporters."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:13001
+msgid ""
+"The supporter role gives extended control over the iTALC setup on this site "
+"and facilitates giving support to iTALC users."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:14001
+msgid "The group for the iTALC supporter role has been modified."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:15001
+msgid "iTALC administrators role group:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:15001
+msgid "Please specify the group name for iTALC administrators."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../italc-client.templates:15001
+msgid ""
+"The administrator role grants full access to the iTALC instance on this site."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:16001
+msgid "The group for the iTALC administrator role has been modified."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../italc-client.templates:17001
+msgid "Non-existing group"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../italc-client.templates:17001
+msgid ""
+"The given group does not exist on this system. You should specify an already "
+"existing group."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:18001
+msgid "Make iTALC's SSL keys accessible to the role model groups?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:18001
+msgid ""
+"To make the iTALC role model fully functional, the appropriate groups now "
+"need to be granted access to the created SSL keys."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:18001
+msgid ""
+"If you skip this step, iTALC SSL keys will only be accessible to the super-"
+"user \"root\" and you will have to manually set up file permissions on the "
+"keys later."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:19001
+msgid "Start the iTALC client on desktop session startup?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:19001
+msgid ""
+"For the desktop session to be controlled via iTALC, the iTALC client applet "
+"needs to be running, listening on a TCP/IP socket for authorized VNC-like "
+"connections from the iTALC master application."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:19001
+msgid ""
+"It can be configured to start automatically on desktop session startup, but "
+"for security reasons this is not the default."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../italc-client.templates:19001
+msgid ""
+"Remember that the iTALC client will only launch for users that are members "
+"of the iTALC student group."
+msgstr ""

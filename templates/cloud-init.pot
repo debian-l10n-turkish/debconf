@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-06 14:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "/var/lib/cloud/seed only"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "AltCloud Config Drive"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "CloudStack metadata service"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "OpenStack Config Drive"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "EC2 Metadata service"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "Ubuntu MAAS"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "OVF Transports"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "Google Cloud Engine"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../cloud-init.templates:1001
+msgid "Failsafe datasource"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../cloud-init.templates:1002
+msgid "Data sources to read from:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../cloud-init.templates:1002
+msgid ""
+"Cloud-init supports searching different \"Data Sources\" for information "
+"that it uses to configure a cloud instance."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../cloud-init.templates:1002
+msgid ""
+"Please note that \"EC2 Metadata service\" should be used only if the EC2 "
+"metadata service is present. Otherwise, it will trigger a very noticeable "
+"timeout on boot."
+msgstr ""

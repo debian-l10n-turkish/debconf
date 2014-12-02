@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: aegis@packages.debian.org\n"
+"POT-Creation-Date: 2008-06-14 22:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../aegis.templates:1001
+msgid "/var/lib/aegis not on a local drive"
+msgstr ""
+
+#. Type: note
+#. Description
+#. Type: note
+#. Description
+#: ../aegis.templates:1001 ../aegis.templates:2001
+msgid ""
+"Aegis requires that /var/lib/aegis be owned by sys.sys and be set-gid, and "
+"group writable."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../aegis.templates:1001
+msgid ""
+"Your /var/lib/aegis is on a remote partition, most likely an NFS server. "
+"This could cause the postinst to fail, since the script may not have "
+"permission to change the owner/permissions of the directory on the remote "
+"server."
+msgstr ""
+
+#. Type: note
+#. Description
+#. Type: note
+#. Description
+#: ../aegis.templates:1001 ../aegis.templates:2001
+msgid ""
+"If this happens, change the permissions on the NFS server, or ask the server "
+"administrator to do it for you."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../aegis.templates:2001
+msgid "/var/lib not on a local drive"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../aegis.templates:2001
+msgid ""
+"Your /var/lib is on a remote partition, most likely an NFS server. This "
+"could cause the postinst to fail, since the script may not have permission "
+"to change the owner/permissions of the directory on the remote server."
+msgstr ""

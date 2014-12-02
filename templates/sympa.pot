@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sympa\n"
+"Report-Msgid-Bugs-To: sympa@packages.debian.org\n"
+"POT-Creation-Date: 2013-07-03 19:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#: ../templates:1001
+msgid "Default language for Sympa:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Sympa hostname:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"This is the name of the machine or the alias you will use to reach sympa."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:2001 ../templates:3001
+msgid "Example:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "  listhost.cru.fr"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "  Then, you will send your sympa commands to:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "  sympa@listhost.cru.fr"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Listmaster email address(es):"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Listmasters are privileged people who administrate mailing lists (mailing "
+"list superusers)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Please give listmasters email addresses separated by commas."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "  postmaster@cru.fr, root@home.cru.fr"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Should lists home and spool directories be removed?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"The lists home directory (/var/lib/sympa) contains the mailing lists "
+"configurations, mailing list archives and S/MIME user certificates (when "
+"sympa is configured for using S/MIME encryption and authentication). The "
+"spool directory (/var/spool/sympa) contains various queue directories."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Note that if those directories are empty, they will be automatically removed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Please choose whether you want to remove lists home and spool directories."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "URL to access WWSympa:"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Apache 2"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Other"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid "Which Web Server(s) are you running?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Do you want WWSympa to run with FastCGI?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid ""
+"FastCGI is an Apache module that makes WWSympa run much faster. This option "
+"will be activated only if the `libapache2-mod-fcgid' package is installed on "
+"your system. Please first make sure you installed this package. FastCGI is "
+"required for using the Sympa SOAP server."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Do you want the sympa SOAP server to be used?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"Sympa SOAP server allows to access a Sympa service from within another "
+"program, written in any programming language and on any computer. The SOAP "
+"server provides a limited set of high level functions including login, "
+"which, lists, subscribe, signoff."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"The SOAP server uses libsoap-lite-perl package and a webserver like apache."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Should the web archives and the bounce directory be removed?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"If you used the default configuration, WWSympa web archives are located in /"
+"var/lib/sympa/wwsarchive. The WWSympa bounce directory contains bounces (non-"
+"delivery reports) and is set to /var/spool/sympa/wwsbounce by default."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"Please choose whether you want to remove the web archives and the bounce "
+"directory."
+msgstr ""

@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: michael.hanke@gmail.com\n"
+"POT-Creation-Date: 2006-10-05 13:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: title
+#. description
+#: ../templates:1001
+msgid "arno-iptables-firewall configuration"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2001
+msgid "External network interfaces:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2001
+msgid ""
+"The external network interfaces connect this machine to untrusted networks "
+"(e.g. the Internet). The firewall will only permit connections attempts with "
+"explicitly allowed source/destination-port combinations on these interfaces. "
+"You have to specify all external interfaces (e.g. eth0 and/or ppp0)."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2001
+msgid ""
+"For a ppp-interface that doesn't exist yet you can use the wildcard device "
+"called \"ppp+\", but you can only use ppp+ if there aren't any other ppp "
+"interfaces!"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2001
+msgid ""
+"If no interfaces are specified here, no firewall setup will be performed."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2001
+msgid "Multiple interfaces should be specified space separated."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:3001
+msgid "Is DHCP used on external interfaces?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:3001
+msgid ""
+"This machine might use DHCP to dynamically obtain its IP address from your "
+"Internet service provider (ISP). This will be almost always the case if you "
+"have a non-permanent (e.g. dialup) connection."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:3001
+msgid ""
+"If DHCP is not explicitly enabled, the firewall will block all DHCP-related "
+"network traffic."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:3001
+msgid "Leave this enabled, if you are unsure."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:4001
+msgid "Open external TCP-ports:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:4001
+msgid ""
+"The default firewall policy is to deny all incoming traffic on the external "
+"interfaces. If this machine provides services to the outside world (e.g. the "
+"Internet) they have to be explicitly enabled."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:4001
+msgid ""
+"Please specify the TCP-ports numbers associated with the services that shall "
+"be accessible from the outside world. Some frequently used ports are: 80 "
+"(http), 443 (https) or 22 (ssh)."
+msgstr ""
+
+#. Type: string
+#. description
+#. Type: string
+#. description
+#: ../templates:4001 ../templates:5001
+msgid ""
+"In addition to single port numbers you may also specify port ranges (e.g. "
+"10000:11000). Multiple entries should be entered space separated."
+msgstr ""
+
+#. Type: string
+#. description
+#. Type: string
+#. description
+#: ../templates:4001 ../templates:5001
+msgid "If unsure, leave this empty."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:5001
+msgid "Open external UDP-ports:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:5001
+msgid ""
+"The default firewall policy is to deny all incoming traffic on the external "
+"interfaces. If this machine provides services for the outside world (e.g. "
+"the Internet) they have to be explicitly enabled."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:5001
+msgid ""
+"Please specify the UDP-ports numbers associated with the services that shall "
+"be accessible from the outside world."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:6001
+msgid "Should the firewall be (re)started now?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:6001
+msgid ""
+"For security reasons the new firewall setup is not applied automatically. "
+"You might want to perform a manual inspection of the firewall configuration "
+"in /etc/arno-iptables-firewall/firewall.conf, especially when upgrading to a "
+"new version, as configuration variables might have changed."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:6001
+msgid ""
+"In order to later manually apply the new firewall settings before the next "
+"reboot, invoke 'invoke-rc.d arno-iptables-firewall start'."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:6001
+msgid ""
+"If you do not need manual inspection, the firewall-setup can be applied now."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:7001
+msgid "Do you want to enable NAT?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:7001
+msgid ""
+"If the connected internal networks should be able to access the outside "
+"world (e.g. the Internet) through the firewall, masquerading (NAT) has to be "
+"enabled."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:7001
+msgid "When in doubt, you can safely leave this disabled."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:8001
+msgid "Internal network interfaces:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:8001
+msgid ""
+"The internal network interfaces connect this machine to trusted networks (e."
+"g. the office or home LAN). The firewall will permit all connection attempts "
+"on these interfaces. If you specify such interfaces, you will be able to "
+"permit the internal networks to access the Internet through this host. If "
+"there are no such interfaces, leave this empty."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:8001
+msgid "Multiple interfaces should be entered space separated."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:9001
+msgid "Internal subnets:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:9001
+msgid ""
+"You have to specify which subnets are connected to the internal network "
+"interfaces. Hosts in the internal networks can connect to all the services "
+"on this machine."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:9001
+msgid ""
+"Give subnets in CIDR notation (e.g. 192.168.1.0/24). If you have multiple "
+"internal networks, they should be space separated."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:10001
+msgid "Internal networks with access to external networks:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:10001
+msgid ""
+"If you want to restrict the access to the external networks, you can specify "
+"the allowed internal subnets in CIDR notation (e.g. 192.168.1.0/24). It is "
+"also possible to specify single hosts by their IP addresses. If you have "
+"multiple internal networks and/or hosts, they should be given space "
+"separated."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:10001
+msgid ""
+"If you leave this empty, the value is automatically set to equal the "
+"internal network. Therefore the WHOLE internal network will have access to "
+"the external networks, so be careful to only specify networks that should "
+"have access to the outside world."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:10001
+msgid "If you are unsure, leave this empty."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:11001
+msgid "Should the machine be pingable from the outside world?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:11001
+msgid ""
+"For increased security the firewall can be setup to ignore ICMP echo "
+"requests (pings). While this is generally a good idea (the host seems to be "
+"down at a first glance), this is sometimes not useful (e.g. failure "
+"diagnostics)."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:11001
+msgid "If you are not sure, leave this disabled."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:12001
+msgid "Do you want to manage the firewall setup with debconf?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:12001
+msgid ""
+"A basic firewall setup that is suitable for most purposes can be created by "
+"answering a few questions. This should be the preferred option for all who "
+"are not familiar with firewall-related topics."
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:12001
+msgid ""
+"If you do not want that, the firewall will not work before you have edited "
+"the configuration manually."
+msgstr ""

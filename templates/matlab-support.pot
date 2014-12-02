@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: matlab-support@packages.debian.org\n"
+"POT-Creation-Date: 2011-05-17 08:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: title
+#. description
+#: ../matlab-support.templates:2001
+msgid "MATLAB interface configuration"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:3001
+msgid "Location of MATLAB installation(s):"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:3001
+msgid ""
+"The MATLAB interface needs to know where MATLAB is installed on this system. "
+"This can be specified as a single directory or, in case of multiple MATLAB "
+"installations, as a glob expression (any expression supported by bash, "
+"including extended pattern matching operators)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:3001
+msgid ""
+"If, for example, the MATLAB executable is installed in /opt/matlab76/bin/"
+"matlab, please enter \"/opt/matlab76\". If there are multiple MATLAB "
+"versions installed, you can enter \"/opt/matlab*\" or a similar expression. "
+"Only matches that really contain a MATLAB executable will be considered. "
+"Therefore, a glob expression may match more than just MATLAB installation "
+"directories without negative side effects."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../matlab-support.templates:4001
+msgid "Default MATLAB version:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../matlab-support.templates:4001
+msgid ""
+"The following MATLAB versions were found on this system. Please select which "
+"one should serve as the default MATLAB on this system."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../matlab-support.templates:5001
+msgid "No MATLAB installation found"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../matlab-support.templates:5001
+msgid "No MATLAB executables were found in the directories you specified."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../matlab-support.templates:5001
+msgid "This package requires at least one local installation of MATLAB."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:6001
+msgid "Authorized user for MATLAB:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:6001
+msgid ""
+"If MATLAB can only be launched by a limited set of user accounts, please "
+"specify one of these. This account will be used by other packages to build "
+"MEX extensions upon installation."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../matlab-support.templates:6001
+msgid ""
+"You may leave this field empty if any user account  (including root) is "
+"allowed to launch MATLAB."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../matlab-support.templates:7001
+msgid "Rename MATLAB's GCC libraries?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../matlab-support.templates:7001
+msgid ""
+"A MATLAB installation is shipped with copies of GCC dynamic loadable "
+"libraries, which typically come from an old version of GCC."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../matlab-support.templates:7001
+msgid "These libraries sometimes cause conflicts."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../matlab-support.templates:7001
+msgid ""
+"If you choose this option, the conflicting libraries will be renamed by "
+"appending a \".bak\" extension. These libraries are located in the \"sys/os/"
+"glnx86\" or \"sys/os/glnxa64\" subdirectory of a MATLAB installation tree."
+msgstr ""

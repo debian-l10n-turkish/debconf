@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pluxml\n"
+"Report-Msgid-Bugs-To: pluxml@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-27 21:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Choices
+#: ../templates:2001
+msgid "apache2"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../templates:2001
+msgid "lighttpd"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid "Web servers to configure:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid ""
+"PluXml can run on any web server supporting PHP, but only listed web servers "
+"can be configured automatically by this package."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid "Please select the web servers that should be configured for PluXml."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:2002
+msgid ""
+"Note that you will have to make sure a PHP interpreter is enabled for the "
+"web server."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Should the web server(s) be reloaded?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"To activate the configuration for PluXml, the web server(s) have to be "
+"reloaded."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"Accepting this option will reload the web server(s) when the installation is "
+"complete, otherwise you will have to do that yourself."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Purge blog data on package removal?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "PluXml will store all blog data in /var/lib/pluxml."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Accepting this option will remove all blog data when this package is purged, "
+"which will leave you with a tidy system but may cause data loss if you purge "
+"an operational blog."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Allow editing the configuration files from the web interface?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"PluXml includes a web-based configuration interface that allows the user to "
+"change blog settings, including the list of registered users. To be usable, "
+"it requires the web server to have write permission to the configuration "
+"files."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"Accepting this option will give the web server write permissions to the "
+"configuration files. These files will still be readable and editable by hand "
+"regardless of whether or not you accept this option."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "German"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "English"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Spanish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "French"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Italian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Dutch"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Polish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Portuguese"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Romanian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Russian"
+msgstr ""
+
+#. Type: select
+#. Default
+#. You must NOT translate this string, but you can change its value.  You should
+#. put your language two-letter code (if it is among the possible choices, see
+#. Choices-C from the templates file if in doubt) so that it becomes the default
+#. for users of that language
+#. DO NOT TRANSLATE what is inside brackets!
+#: ../templates:6002
+msgid "en[ translators, please see comment in PO files]"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6003
+msgid "Blog default language:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6003
+msgid ""
+"Please choose the default language of this blog, which will be used for the "
+"public pages."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6003
+msgid ""
+"Registered blog contributors will be able to choose their language for the "
+"administration pages."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Blog title:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid ""
+"Please choose a title for this blog. It will be displayed at the top of each "
+"page and in the browser window title."
+msgstr ""
+
+#. Type: string
+#. Default
+#. This is the default blog description (subtitle); official translations of
+#. this string are available at
+#. <https://github.com/pluxml/PluXml/tree/master/core/lang/$LANG/install.php>
+#. (replace $LANG by your language code), under the name "L_SITE_DESCRIPTION".
+#: ../templates:8001
+msgid "Blog or CMS, XML powered!"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8002
+msgid "Blog description or subtitle:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8002
+msgid ""
+"Please choose a short description for this blog. It will be displayed as a "
+"subtitle at the top of each page and in the browser window title."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Administrator real name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Please enter the real name associated with the blog administrator account."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"This name will be displayed for articles written with the administrator "
+"account."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "Administrator username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid ""
+"Please enter a name for the administrator account, which will be used to "
+"manage PluXml's configuration, users, and content. The username should only "
+"contain lowercase ASCII letters."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "Administrator password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "Please choose a password for the blog administrator account."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid "Confirm password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid ""
+"Please enter the same password again to verify that you have typed it "
+"correctly."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:13001
+msgid "Password input error"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:13001
+msgid "The two passwords you entered were not the same. Please try again."
+msgstr ""

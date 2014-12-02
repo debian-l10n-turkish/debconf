@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: astk\n"
+"Report-Msgid-Bugs-To: astk@packages.debian.org\n"
+"POT-Creation-Date: 2014-05-13 10:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:2001
+msgid "Aster platform:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:2001
+msgid "Select Aster platform."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:3001
+msgid "ASTK server domain name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:3001
+msgid ""
+"Please enter the domain name of the server that this ASTK client should "
+"connect to."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:4001
+msgid "ASTK server host name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:4001
+msgid ""
+"Please enter the host name (without domain name) of the server that this "
+"ASTK client should connect to."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:5001
+msgid "ASTK client node name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../code-aster-gui.templates:5001
+msgid ""
+"Please enter the public name by which this client will be known on the "
+"network. It must be a unique name within the domain."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:6001
+msgid "Standard editor:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:6001
+msgid ""
+"Please select the command line that ASTK should use to launch an editor."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:7001
+msgid "Standard terminal emulator:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../code-aster-gui.templates:7001
+msgid ""
+"Please select the command line that ASTK should use to launch a terminal "
+"window."
+msgstr ""

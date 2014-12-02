@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: leafnode@packages.debian.org\n"
+"POT-Creation-Date: 2008-02-18 08:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Server to download news from:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"The name of the news server should be provided by the organization providing "
+"you with network access, such as your Internet Service Provider."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"This server is generally called \"news.<domain>\" or \"nntp.<domain>\" where "
+"<domain> is the local domain name."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Enable access controls for Leafnode?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"If you do not enable some access controls for Leafnode, people everywhere "
+"will be able to use the news server which opens opportunities for spamming "
+"or resource abuse."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"Access controls will prevent computers other than the news server itself "
+"reading or posting to newsgroups using the server. If required access can be "
+"granted to other computers by editing /etc/hosts.allow."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "permanent"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "none"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid "Network connection type:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid "The Leafnode package can automatically download news."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid ""
+"The method used for this depends on the network connection type. Scripts "
+"provided with the package support two network connection types:\n"
+" - permanent: hourly news downloads;\n"
+" - PPP      : news downloads triggered by dialouts."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid "Either option will work for a dial-on-demand network connection."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid ""
+"Choosing 'none' will disable automatic news downloads. News can be "
+"downloaded manually by running 'fetchnews'."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Update the list of available groups?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"Leafnode updates the list of available newsgroups when it checks for new "
+"news. No newsgroups will be available until this has happened at least once."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"If you choose to update the list of groups immediately, newsgroups will be "
+"available to clients as soon as Leafnode has been set up."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Remove news groups and articles when purging the package?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"The /var/spool/news directory holds the database of news articles downloaded "
+"by Leafnode. Many other news servers also use this directory to store their "
+"news database and you may wish to keep it even when removing the leafnode "
+"package."
+msgstr ""

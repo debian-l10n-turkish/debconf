@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: chifflier@cpe.fr\n"
+"POT-Creation-Date: 2006-11-14 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want to configure WebSVN now?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"WebSVN needs to be configured before its use, ie you must set the locations "
+"of the repositories."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you want to configure it later, you should run 'dpkg-reconfigure websvn'."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "svn parent repositories:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"If you have directories containing svn repositories, enter the location of "
+"each parent directory you want to appear on websvn page."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"You must specify at least one existing subversion repository or WebSVN will "
+"not work. You can specify single repositories on the next step of the config."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:2001 ../templates:3001
+msgid "Separate each entry with a comma (,) but NO SPACE or leave empty."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "svn repositories:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Enter the location of each svn repository you want to appear on websvn page."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"You must specify at least one existing subversion repository or WebSVN will "
+"not work, except if you have given a parent path previously."
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../templates:4001
+msgid "apache, apache-ssl, apache-perl, apache2"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:4002
+msgid "Apache configuration:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:4002
+msgid ""
+"WebSVN supports any web server that php4 does, but this automatic "
+"configuration process only supports Apache."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:5001
+msgid "Note on permissions"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:5001
+msgid ""
+"Due to a limitation in the DB format, the 'svnlook' command needs read-write "
+"access to the repository (to create locks etc). You need to give read-write "
+"permissions to the user running your webserver on all your repositories."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:5001
+msgid ""
+"Another way of avoiding this problem is by creating SVN repositories with "
+"the --fs-type=fsfs option.  Existing DB repositories can be converted to the "
+"FSFS format by using the svnadmin dump/load commands."
+msgstr ""

@@ -1,0 +1,470 @@
+# Turkish translation of courier.
+# This file is distributed under the same license as the courier package.
+# Mehmet Türker <mturker@innova.com.tr>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: courier\n"
+"Report-Msgid-Bugs-To: courier@packages.debian.org\n"
+"POT-Creation-Date: 2014-03-09 21:30+0100\n"
+"PO-Revision-Date: 2008-05-05 13:35+0200\n"
+"Last-Translator: Mehmet Türker <mturker@innova.com.tr>\n"
+"Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Type: boolean
+#. Description
+#: ../courier-base.templates:2001
+msgid "Create directories for web-based administration?"
+msgstr "Web-tabanlı yönetim için gereken dizinler yaratılsın mı?"
+
+#. Type: boolean
+#. Description
+#: ../courier-base.templates:2001
+msgid ""
+"Courier uses several configuration files in /etc/courier. Some of these "
+"files can be replaced by a subdirectory whose contents are concatenated and "
+"treated as a single, consolidated, configuration file."
+msgstr ""
+"Courier, /etc/courier içinde bulunan birden fazla yapılandırma dosyası "
+"kullanır. Bazı dosyalar içerikleri bütünleştirilmiş ve tek bir düzenlenmiş "
+"yapılandırma dosyası haline getirilmiş alt dizin ile değiştirilebilir."
+
+#. Type: boolean
+#. Description
+#: ../courier-base.templates:2001
+msgid ""
+"The web-based administration provided by the courier-webadmin package relies "
+"on configuration directories instead of configuration files.  If you agree, "
+"any directories needed for the web-based administration tool will be created "
+"unless there is already a plain file in place."
+msgstr ""
+"courier-webadmin paketi tarafından sağlanan web-tabanlı yönetim sistemi, "
+"yapılandırma dosyaları yerine yapılandırma dizinleri kullanır. Eğer bunu "
+"onaylarsanız, web-tabanlı yönetim aracı için gerekli olan dizinler "
+"(halihazırda bunların yerinde bir dosya yok ise) yaratılacak."
+
+#. Type: string
+#. Description
+#: ../courier-base.templates:3001
+msgid "Path to Maildir directory:"
+msgstr "Maildir dizinini tanımlayan dosya yolu (path):"
+
+#. Type: string
+#. Description
+#: ../courier-base.templates:3001
+msgid ""
+"Please give the relative path name from each user's home directory to the "
+"Maildir directory where the Courier servers store and access the user's "
+"email. Please refer to the maildir.courier(5) manual page if you are "
+"unfamiliar with the mail storage format used by Courier."
+msgstr ""
+"Lütfen Courier sunucularının, kullanıcının e-postasına ulaşacağı ve "
+"saklayacağı Maildir dizinine her kullanıcının ev dizininden ulaşılan "
+"göreceli bir dosya yolu verin. Eğer Courier'ın kullandığı posta saklama "
+"düzenine alışık değilseniz lütfen maildir(5) kılavuz sayfasına başvurun."
+
+#. Type: note
+#. Description
+#: ../courier-base.templates:4001
+msgid "Obsolete setting of MAILDIR"
+msgstr "MAILDIR eski ayarı"
+
+#. Type: note
+#. Description
+#: ../courier-base.templates:4001
+msgid ""
+"The name of the Maildir directory is now recognized through the variable "
+"MAILDIRPATH in Courier configuration files. The MAILDIR setting in /etc/"
+"default/courier is therefore obsolete and will be not recognized."
+msgstr ""
+"Maildir dizininin adı artık Courier yapılandırma dosyalarındaki MAILDIRPATH "
+"değişkeni ile tanımlanmaktadır. /etc/default/courier dosyasındaki MAILDIR bu "
+"nedenle artık dikkate alınmayacaktır."
+
+#. Type: string
+#. Description
+#: ../courier-mta.templates:2001
+msgid "Default domain:"
+msgstr "Öntanımlı etki alanı:"
+
+#. Type: string
+#. Description
+#: ../courier-mta.templates:2001
+msgid ""
+"Please specify a valid email domain. Most header rewriting functions will "
+"append this domain to all email addresses which do not specify a domain, "
+"such as local accounts."
+msgstr ""
+"Lütfen geçerli bir e-posta etki alanı belirtin. Etki alanı belirtilmemiş "
+"bütün e-posta adresleri (ör. yerel hesaplar) bu etki alanı ile "
+"kullanılacaktır."
+
+#. Type: string
+#. Description
+#: ../courier-mta.templates:3001
+msgid "\"From\" header for delivery notifications:"
+msgstr "Teslimat uyarıları için \"Kimden\" başlığı:"
+
+#. Type: string
+#. Description
+#: ../courier-mta.templates:3001
+msgid ""
+"Please specify a valid value for the \"From\" header for mail delivery "
+"notifications. These notifications cannot be sent without that setting."
+msgstr ""
+"Lütfen teslimat uyarıları için geçerli bir \"Kimden\" Başlığı değeri "
+"belirtin. Bu ayar olmadan uyarılar gönderilemez."
+
+#. Type: note
+#. Description
+#: ../courier-ssl.templates:2001
+msgid "SSL certificate required"
+msgstr "SSL sertifikası gerekli"
+
+#. Type: note
+#. Description
+#: ../courier-ssl.templates:2001
+msgid ""
+"POP and IMAP over SSL requires a valid, signed, X.509 certificate. During "
+"the installation of courier-pop-ssl or courier-imap-ssl, a self-signed X.509 "
+"certificate will be generated if necessary."
+msgstr ""
+"POP ve SSL üzerinden IMAP, geçerli ve imzalanmış bir X.509 sertifikası "
+"gerektirir. Courier-pop-ssl yada courier-imap-ssl kurulumu sırasında eğer "
+"gerekliyse bir self-signed X.509 sertifikası üretilecektir."
+
+#. Type: note
+#. Description
+#: ../courier-ssl.templates:2001
+msgid ""
+"For production use, the X.509 certificate must be signed by a recognized "
+"certificate authority, in order for mail clients to accept the certificate. "
+"The default location for this certificate is /etc/courier/pop3d.pem or /etc/"
+"courier/imapd.pem."
+msgstr ""
+"Gerçek ortam kullanımı için X.509 sertifikası (e-posta istemcileri "
+"tarafından kabul edilebilmesi için) tanınmış bir sertifika otoritesi "
+"tarafından imzalanmış olmalıdır. Bu sertifika için öntanımlı dizin /etc/"
+"courier/pop3d.pem ve /etc/courier/imapd.pem dizinleridir."
+
+#. Type: boolean
+#. Description
+#: ../courier-webadmin.templates:2001
+msgid "Activate CGI program?"
+msgstr "CGI Uygulaması etkin kılınsın mı?"
+
+#. Type: boolean
+#. Description
+#: ../courier-webadmin.templates:2001
+msgid ""
+"To allow courier-webadmin to work out of the box, the CGI program /usr/lib/"
+"courier/courier/webmail/webadmin needs to be installed as /usr/lib/cgi-bin/"
+"courierwebadmin with the SUID bit set."
+msgstr ""
+"Courier-webadmin'in dışarıdan çalışabilmesi için /usr/lib/courier/courier/"
+"webmail/webadmin CGI uygulamasının /usr/lib/cgi-bin/courierwebadmin dizinine "
+"kurulması ve SUID bitinin etkinleştirilmesi gerekmektedir."
+
+#. Type: boolean
+#. Description
+#: ../courier-webadmin.templates:2001
+msgid ""
+"This may have serious security implications, because courierwebadmin runs as "
+"root. Moreover, that solution is not guaranteed to work, depending on the "
+"web server software and its configuration."
+msgstr ""
+"Bu ciddi güvenlik problemleri yaratabilir, çünkü courierwebadmin root "
+"kullanıcı hakları ile çalışır. Bundan başka, bu çözümün işe yarayacağı "
+"garanti değildir, web sunucusu yazılımı ve yapılandırmasına göre farklı "
+"durumlar söz konusu olabilir."
+
+#. Type: boolean
+#. Description
+#: ../courier-webadmin.templates:2001
+msgid ""
+"If you choose this option and the web server setup is policy-compliant, you "
+"can access the administration frontend through http://localhost/cgi-bin/"
+"courierwebadmin."
+msgstr ""
+"Eğer bu seçeneği seçtiyseniz ve web sunucusu yapılandırması politika-uyumlu "
+"ise, yönetim arayüzüne http://localhost/cgi-bin/courierwebadmin üzerinden "
+"ulaşabilirsiniz."
+
+#. Type: password
+#. Description
+#: ../courier-webadmin.templates:3001
+msgid "Password for Courier administration:"
+msgstr "Courier yönetimi için parola:"
+
+#. Type: password
+#. Description
+#: ../courier-webadmin.templates:3001
+msgid ""
+"A password is needed to protect access to the Courier administration web "
+"interface. Please choose one now."
+msgstr ""
+"Courier yönetimi web arayüzünü korumak için bir parola gerekiyor. Lütfen şu "
+"an bir tane seçin."
+
+#. Type: select
+#. Choices
+#: ../sqwebmail.templates:2001
+msgid "local"
+msgstr "yerel"
+
+#. Type: select
+#. Choices
+#: ../sqwebmail.templates:2001
+msgid "net"
+msgstr "ağ"
+
+#. Type: select
+#. Choices
+#: ../sqwebmail.templates:2001
+msgid "disabled"
+msgstr "etkisiz"
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:2002
+msgid "Calendaring mode:"
+msgstr "Takvim modu:"
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:2002
+msgid ""
+"Please specify if you would like to enable calendaring in 'local' mode, "
+"enable groupware or 'net' mode or disable it. The courier-pcp package is "
+"required to use the groupware mode."
+msgstr ""
+"Lütfen takvimlendirmeyi etkinleştirmek için 'yerel kip' modu, grup kipi "
+"(yada 'ağ' modu) veya etkisiz seçeneklerinden birini seçin. Grup kipini "
+"kullanmak için courier-pcp paketini kurmanız gerekir."
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:2002
+msgid ""
+"Local mode adds very little overhead over a disabled calendaring mode. On "
+"the other hand, groupware mode is less resources-friendly and requires a "
+"separate daemon process to be run."
+msgstr ""
+"Yerel kip takvimlendirmeye göre çok az iş gerektirir, fakat grup kipi biraz "
+"daha fazla ek sunucu kaynağı gerektirir. Eğer grup kipini seçerseniz, ayrı "
+"bir sunucu süreci çalıştırılacaktır."
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:2002
+msgid ""
+"For more information, please refer to /usr/share/doc/sqwebmail/PCP.html."
+msgstr ""
+"Daha fazla bilgi için, lütfen /usr/share/doc/sqwebmail/PCP.html'ye bakın."
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:3001
+msgid "Ispell dictionary:"
+msgstr "Ispell sözlüğü:"
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:3001
+msgid ""
+"SqWebMail allows you to spellcheck your emails. Please select an appropriate "
+"dictionary for ispell."
+msgstr ""
+"SqWebMail e-postalarınıza yazım denetimi yapmanızı sağlar. Lütfen ispell "
+"için uygun bir sözlük seçin."
+
+#. Type: select
+#. Choices
+#: ../sqwebmail.templates:4001
+msgid "symlink, copy, custom"
+msgstr "sembolik bağla, kopyala, özel"
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:4002
+msgid "Installation method for HTML documents and images:"
+msgstr "HTML dokümanları ve resimler için kurulum metodu:"
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:4002
+msgid ""
+"The HTML documents and images in /usr/share/sqwebmail can be made accessible "
+"at /var/www/sqwebmail via a symbolic link; or by being copied directly into "
+"a directory there; or not at all."
+msgstr ""
+"/usr/share/sqwebmail içindeki HTML dokümanları ve resimler bir sembolik bağ "
+"ile /var/www/sqwebmail içinde de erişilebilir hale getirilebilir; yada "
+"sadece bu dizine kopyalanabilir; herhangi birşey yapılmadan da bırakılabilir."
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:4002
+msgid ""
+"The 'copy' option is recommended for security reasons. However, if "
+"'FollowSymLinks' or 'SymLinksIfOwnerMatch' are already enabled in Apache "
+"configuration, the first option can be considered. The last option needs "
+"manual actions to configure the web server."
+msgstr ""
+"Güvenlik sebebi ile 'kopyala' (copy) seçeneği tavsiye edilir. Bunun yanında, "
+"eğer 'FollowSymLinks' yada 'SymLinksIfOwnerMatch' Apache yapılandırılmasında "
+"halihazırda etkin kılınmış ise, ilk seçenek dikkate elınabilir. Son seçenek "
+"web sunucusunun yapılandırılmasında elle yapılması gereken işler çıkarabilir."
+
+#. Type: select
+#. Description
+#: ../sqwebmail.templates:4002
+msgid ""
+"Please note that /var/www/sqwebmail will be removed if this package is "
+"purged unless the 'custom' option is chosen."
+msgstr ""
+"Kurulumda 'özel'i seçmiş olmanız durumu hariç, bu paket kaldırılırken /var/"
+"www/sqwebmail'in silineceğini unutmayın."
+
+#~ msgid "Modified authentication infrastructure"
+#~ msgstr "Değiştirilmiş doğrulama altyapısı"
+
+#~ msgid ""
+#~ "Beginning with Courier 0.48, the authentication modules that used to be "
+#~ "part of Courier have been separated into a standalone library. All "
+#~ "Courier applications are now using the same authentication "
+#~ "infrastructure, the Courier authentication library. Packages for this "
+#~ "library consists of a base package (courier-authlib) and one for each "
+#~ "authentication method (courier-authlib-userdb, -mysql, -postgresql, -"
+#~ "ldap, -pipe). Unfortunately it wasn't possible to setup the dependencies "
+#~ "in order to allow a seamless upgrade. Please install the package for your "
+#~ "authentication method manually."
+#~ msgstr ""
+#~ "Courier 0.48 ile beraber Courier'ın bir parçası olan doğrulama modülleri "
+#~ "bağımsız bir kütüphane şeklinde ayrılmıştır. Bütüb Courier uygulamaları "
+#~ "artık aynı doğrulama altyapısını yani Courier doğrulama kütüphanesini "
+#~ "kullanmaktadır. Bu kütüphanenin paketleri bir ana paket (courier-authlib) "
+#~ "ve her doğrulama metodu için (courier-authlib-userdb, -mysql, -"
+#~ "postgresql, -ldap, -pipe) birer paket daha içerir. Maalesef  "
+#~ "bağımlılıkları  kesintisiz bir güncellemeyi mümkün kılacak  şekilde "
+#~ "ayarlamak mümkün değildi. Lütfen kendi doğrulama metodunuz için gereken "
+#~ "paketi elle kurun."
+
+#~ msgid "To access the Courier administration a password is needed."
+#~ msgstr "Courier yönetimine ulaşmak için parola gereklidir."
+
+#~ msgid "local, net, disabled"
+#~ msgstr "yerel, ağ, etkisiz"
+
+#~ msgid ""
+#~ "The choices are to create a symbolic link /var/www/sqwebmail, copy all "
+#~ "files from /usr/share/sqwebmail to /var/www/sqwebmail or let /var/www "
+#~ "alone. For security reasons the second option is recommended. However, if "
+#~ "you have already enabled FollowSymLinks or SymLinksIfOwnerMatch in your "
+#~ "Apache configuration, you may as well chose the first option. The custom "
+#~ "option implies that you configure your web server manually."
+#~ msgstr ""
+#~ "Seçenekler şu şekildedir: /var/www/sqwebmail'a sembolik bağ yarat, bütün "
+#~ "dosyaları /usr/share/sqwebmail dizininden /var/www/sqwebmail dizinine "
+#~ "kopyala veya /var/www'yi kendi başına bırak. Güvenlik gerekçeleriyle "
+#~ "ikinci seçenek tavsiye edilir. Bununla beraber eğer Apache "
+#~ "yapılandırmanızda FollowSymLinks'i veya SymLinksIfOwnerMatch'i etkin "
+#~ "kıldıysanız, ilk seçeneği de seçebilirsiniz. \"özel\" seçeneği web "
+#~ "sunucunuzu elle yapılandıracağınız anlamına gelmektedir."
+
+#~ msgid "Move old configuration files to /etc/courier ?"
+#~ msgstr "Eski yapılandırma dosyaları /etc/courier'a taşınsın mı?"
+
+#~ msgid ""
+#~ "On your system are courier-imap configuration files within /etc. From now "
+#~ "on all configuration files related to Courier are located within /etc/"
+#~ "courier. If you like, we move the configuration files to the new "
+#~ "location. However, we cannot guarantee that they will work as before. "
+#~ "Please refer to the Courier documentation and tell the maintainer about "
+#~ "your experiences with the conversion."
+#~ msgstr ""
+#~ "Sisteminizde courier-imap yapılandırma dosyaları /etc içinde. Şu andan "
+#~ "itibaren Courier ile ilgili tüm yapılandırma dosyaları /etc/courier "
+#~ "dizininde bulunacak. Eğer isterseniz yapılandırma dosyalarını yeni yerine "
+#~ "taşırız. Bununla beraber daha önceki gibi çalışacaklarını garanti "
+#~ "edemeyiz. Lütfen Courier belgelerine başvurun ve paket geliştiricisini "
+#~ "değişiklikle ilgili deneyimleriniz hakkında bilgilendirin."
+
+#~ msgid ""
+#~ "How to you want to install the HTML documents and images for sqwebmail ?"
+#~ msgstr ""
+#~ "Sqwebmail için HTML belgeleri ve görüntülerinin nasıl kurulmasını "
+#~ "istersiniz?"
+
+#~ msgid "Packaging of Courier has been completely revised"
+#~ msgstr "Courier'in paketlenmesi tamamen gözden geçirilip düzeltildi."
+
+#~ msgid ""
+#~ "Formerly the courier-imap package(s) are generated from the separately "
+#~ "distributed Courier IMAP sources. This has changed, and now the entire "
+#~ "Courier suite gets packaged for Debian. For this reason, the "
+#~ "infrastructure has changed a lot; for example, all configuration files "
+#~ "have been moved to /etc/courier."
+#~ msgstr ""
+#~ "Eskiden courier-imap paket(ler)i ayrı ayrı dağıtılan Courier IMAP "
+#~ "kaynaklarından üretilirdi. Bu değişti ve artık bütün Courier suiti Debian "
+#~ "için paketleniyor. Bu sebeple, altyapı sistemi çok değişti, örnek olarak "
+#~ "bütün yapılandırma dosyaları /etc/courier dizinine taşındı."
+
+#~ msgid ""
+#~ "Please tell the maintainer about your experiences with the new "
+#~ "infrastructure."
+#~ msgstr ""
+#~ "Lütfen yeni altyapı sistemiyle ilgili deneyimlerinizi paket "
+#~ "geliştiricisine bildirin."
+
+#~ msgid "Authentification method \"authdaemon\" is mandatory now"
+#~ msgstr "Yetkilendirme yöntemi \"authdaemon\" artık zorunlu"
+
+#~ msgid ""
+#~ "In your configuration file ${conffile} AUTHMODULES is set to "
+#~ "\"${authmodules}\". This will no longer work as authdaemon is the only "
+#~ "available authentication method for Courier Debian packages version 0.35 "
+#~ "and above."
+#~ msgstr ""
+#~ "Yapılandırma dosyanız ${conffile} içinde AUTHMODULES \"${authmodules}\" "
+#~ "olarak ayarlanmış. Sürüm 0.35 ve üzeri Courier Debian paketleri için "
+#~ "mevcut olan yetkilendirme yöntemi sadece authdaemon olduğundan bu ayar "
+#~ "artık çalışmayacak."
+
+#~ msgid ""
+#~ "Please fix your configuration file, otherwise your setup will no longer "
+#~ "work."
+#~ msgstr ""
+#~ "Lütfen yapılandırma dosyanızı düzeltin, yoksa yaptığınız ayar artık "
+#~ "çalışmayacak."
+
+#~ msgid "Do you want the webmail password changer to be installed SUID root ?"
+#~ msgstr ""
+#~ "Webmail parola değiştiricisinin SUID root olarak kurulmasını ister "
+#~ "misiniz?"
+
+#~ msgid ""
+#~ "For changing passwords through the webmail interface to work, a program "
+#~ "to change (system) passwords has to be installed with the SUID bit set. "
+#~ "Because this program runs as root, this has serious security implications."
+#~ msgstr ""
+#~ "Webmail üzerinden parola değiştirme işleminin çalışabilmesi için sistem "
+#~ "parolalarını değiştirmek için gereken uygulama SUID biti etkinleştirilmiş "
+#~ "şekilde kurulmalıdır. Çünkü bu uygulama root olarak çalışır ve bu da "
+#~ "ciddi anlamda güvenlik gerektirir."
+
+#~ msgid ""
+#~ "(The webmail CGI program itself no longer has to be setuid root, since "
+#~ "accesses to users' mail and configs are now mediated by a daemon started "
+#~ "during system startup by /etc/init.d/sqwebmail.)"
+#~ msgstr ""
+#~ "(Webmail CGI uygulamasının kendisi artık root olarak çalışmak zorunda "
+#~ "değildir. Çünkü kullanıcının e-posta ve yapılandırma dosyalarına "
+#~ "erişimler artık sistem başlangıcında /etc/init.d/sqwebmail tarafından "
+#~ "başlatılan bir sunucu tarafından yönetilmektedir."

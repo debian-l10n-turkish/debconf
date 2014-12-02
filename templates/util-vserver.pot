@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: opal@debian.org\n"
+"POT-Creation-Date: 2006-10-07 13:59-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../util-vserver.templates:1001
+msgid "Remove local Linux-Vserver guest configurations?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../util-vserver.templates:1001
+msgid ""
+"Choose this option if you want the /etc/vservers directory, containing  your "
+"local Linux-Vserver guest configurations, to be removed. If you wish to "
+"keep  these configurations, do not choose this option."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../util-vserver.templates:2001
+msgid "Stop running Linux-Vserver guests?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../util-vserver.templates:2001
+msgid ""
+"Running Vserver guests were detected! If you remove util-vserver without  "
+"stopping these vservers they will continue to run and you will not be able  "
+"to manage them from the host, unless you reinstall util-vserver.  Choose  "
+"this option to stop any running Vserver guests now, otherwise they will  "
+"continue to run."
+msgstr ""

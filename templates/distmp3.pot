@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-22 20:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../distmp3.templates:1001
+msgid "Would you like to start distmp3host at boot time?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../distmp3.templates:1001
+msgid ""
+"distmp3host, if started at boot time, will accept encoder connections until "
+"manually stopped or shutdown is initiated."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../distmp3.templates:2001
+msgid "What nice level should distmp3host use by default?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../distmp3.templates:2001
+msgid ""
+"distmp3host is meant to be a system service like any other. Hence, it should "
+"let other services take precedence, and it is suggested to 'renice' "
+"distmp3host when starting it so that other tasks get priority. The default "
+"of 15 should be adequate for most situations. Nice values range from 19 "
+"(least priority) to -20 (most priority.)"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../distmp3.templates:2001
+msgid "If you would not like to renice distmp3, enter a blank line."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../distmp3.templates:3001
+msgid "Invalid nice value!"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../distmp3.templates:3001
+msgid ""
+"The nice value you specified is not blank, nor is it a valid nice value. "
+"Nice values range from 19 (least priority) to -20 (most priority.)"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../distmp3.templates:3001
+msgid "Please try again."
+msgstr ""

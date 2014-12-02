@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: vpb-driver@packages.debian.org\n"
+"POT-Creation-Date: 2009-11-02 04:10+1030\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Default
+#. Translators, you can find a list of the ITU-T codes here:
+#. http://en.wikipedia.org/wiki/List_of_country_calling_codes
+#. This is the prefix someone would dial to make an international call to a
+#. phone in the region you are translating for, without any "long distance call"
+#. prefix numbers that are specific to the telephone exchange being called from.
+#. Feel free to alter the examples given to other regions if appropriate, but do
+#. try to pick regions with numeric codes that are not easily confused with some
+#. other numeric series than the ITU-T codes.
+#: ../libvpb0.templates:1001
+msgid "61"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../libvpb0.templates:1002
+msgid "ITU-T telephone code:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../libvpb0.templates:1002
+msgid ""
+"This is the numeric code for the region your phone system will be operating "
+"in (eg. 61 for Australia or 33 for France).  It is used to configure the "
+"default regional standards that Voicetronix telephony hardware should comply "
+"with."
+msgstr ""

@@ -1,0 +1,50 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: cobaco@linux.be\n"
+"POT-Creation-Date: 2007-02-05 12:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "Global gconf path file needs to be changed!"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"The include directives used by desktop-profiles have changed (in response to "
+"bug 309978, see the bug report and corresponding entry in the changelog of "
+"version 1.4.6 of this package for details)."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"To reenable gconf profiles you need to change /etc/gconf/2/path as follows:"
+"\\n - 'include /var/cache/desktop-profiles/\\$(USER)_mandatory.path' should "
+"be 'include \\$(ENV_MANDATORY_PATH)' and\\n - 'include /var/cache/desktop-"
+"profiles/\\$(USER)_defaults.path' should be 'include \\$(ENV_DEFAULTS_PATH)'"
+msgstr ""

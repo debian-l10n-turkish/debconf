@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: xtell@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-01 20:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want xtell daemon to run from inetd?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "By default, xtelld runs from inetd."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"However, you can run it as standalone daemon. If you select No, xtell daemon "
+"will be started automatically at boot time."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "If unsure, select Yes"
+msgstr ""

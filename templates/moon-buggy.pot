@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: moon-buggy@packages.debian.org\n"
+"POT-Creation-Date: 2010-02-20 18:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../moon-buggy.templates:1001 ../moon-buggy-esd.templates:3001
+msgid "Old score file detected!"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../moon-buggy.templates:1001 ../moon-buggy-esd.templates:3001
+msgid ""
+"A score file was detected in the old location (/var/lib/games). It will be "
+"moved to the new location (/var/games/moon-buggy) as mbscore.old, your "
+"current score file (if one is present in the new location) will NOT be "
+"deleted."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../moon-buggy.templates:1001 ../moon-buggy-esd.templates:3001
+msgid ""
+"If you want to keep scores from the old scorefile or replace your current "
+"score file by the old scores, you must do this by-hand. moon-buggy should be "
+"able to automatically convert old scorefile formats to the new format."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../moon-buggy.templates:1001 ../moon-buggy-esd.templates:3001
+msgid ""
+"The directory /var/lib/games will not be deleted (although the package "
+"maintainer thinks it should be deleted when empty)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../moon-buggy-esd.templates:1001
+msgid "Do you have sound hardware installed?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../moon-buggy-esd.templates:1001
+msgid ""
+"The moon-buggy-esd package will only work properly if you have sound "
+"hardware installed (see Bug #76059). If you want to play moon-buggy, but do "
+"not have sound hardware, install the moon-buggy package instead."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../moon-buggy-esd.templates:2001
+msgid "Not installing moon-buggy-esd"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../moon-buggy-esd.templates:2001
+msgid "This package will not work properly without sound hardware."
+msgstr ""

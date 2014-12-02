@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-17 20:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: title
+#. Description
+#. Type: text
+#. Description
+#. Type: text
+#. Description
+#. Type: text
+#. Description
+#. Type: text
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:1001 ../goto-fai-progress.templates:2001
+#: ../goto-fai-progress.templates:3001 ../goto-fai-progress.templates:6001
+#: ../goto-fai-progress.templates:9001 ../goto-fai-progress.templates:15001
+msgid "${i}"
+msgstr ""
+
+#. Type: title
+#. Description
+#: ../goto-fai-progress.templates:4001
+msgid "GOto - Hardware detection"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../goto-fai-progress.templates:5001
+msgid "Progress of hardware detection"
+msgstr ""
+
+#. Type: title
+#. Description
+#: ../goto-fai-progress.templates:7001
+msgid "GOto - System Activation"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../goto-fai-progress.templates:8001
+msgid "Waiting"
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:10001 ../goto-fai-progress.templates:11001
+msgid "Error in network configuration"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:10001
+msgid "The system could not determine a network address."
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:10001 ../goto-fai-progress.templates:11001
+msgid "The installation cannot continue without this information."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:11001
+msgid "The system could not determine a system name for ip ${i}."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:12001
+msgid "FAI error"
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:12001 ../goto-fai-progress.templates:14001
+msgid ""
+"The last installation failed. Please unlock this system after the error has "
+"been resolved."
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:12001 ../goto-fai-progress.templates:14001
+msgid "Error code: ${i}"
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:12001 ../goto-fai-progress.templates:13001
+#: ../goto-fai-progress.templates:14001 ../goto-fai-progress.templates:15001
+msgid "Please inform your administrator."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:13001
+msgid "GOto error"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:13001
+msgid "Cannot register client. There is no activation server available."
+msgstr ""
+
+#. Type: error
+#. Description
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:14001 ../goto-fai-progress.templates:15001
+msgid "LDAP error"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../goto-fai-progress.templates:15001
+msgid "Cannot retrieve information about this system."
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../goto-fai-progress.templates:16001
+msgid "Debconf language"
+msgstr ""

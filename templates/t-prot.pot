@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the t-prot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: t-prot VERSION\n"
+"Report-Msgid-Bugs-To: t-prot@packages.debian.org\n"
+"POT-Creation-Date: 2006-08-02 15:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want to enable t-prot system wide for mutt?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"The t-prot package provides a config file /etc/t-prot/Muttrc -- to use the "
+"script from mutt you have to enable it.  You can do this either by creating "
+"a symlink in /etc/Muttrc.d/ for systemwide usage (rather, this can be done "
+"automatically for you), or let the users decide to add a \"source\" line for "
+"it in their ~/.muttrc or ~/.mutt/muttrc.  If you acknowledge this question "
+"the systemwide usage will be enabled."
+msgstr ""

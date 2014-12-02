@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jffnms\n"
+"Report-Msgid-Bugs-To: jffnms@packages.debian.org\n"
+"POT-Creation-Date: 2012-09-19 16:09-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid "jffnms user already exists"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:2001
+msgid ""
+"The installation has been aborted because there is already a user with the "
+"name \"jffnms\". See /usr/share/doc/jffnms/README.Debian."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:3001
+msgid "jffnms group already exists"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:3001
+msgid ""
+"The installation has been aborted because there is already a user group with "
+"the name \"jffnms\". See /usr/share/doc/jffnms/README.Debian."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Days until log files are compressed:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"Please choose how many days of uncompressed JFFNMS log files should be kept. "
+"The recommended value is two days. Reducing this value may cause problems, "
+"and it doesn't make sense for it to be higher than the number of days before "
+"log files are deleted."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Days until log files are deleted:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"Please choose how many days of log files (compressed or not) should be kept. "
+"The recommended value is seven days. It doesn't make sense to set this lower "
+"than the number of days of uncompressed files, as the cron job will compress "
+"the files and then delete them in the same run."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "abort"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "retry"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "retry (skip questions)"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid "Error installing database for jffnms:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid ""
+"An error seems to have occurred while installing the database. If it's of "
+"any help, this was the error encountered:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid ""
+"At this point, you have the option to retry or abort the operation. If you "
+"choose \"retry\", you will be prompted with all the configuration questions "
+"once more and another attempt will be made at performing the operation. "
+"\"retry (skip questions)\" will immediately attempt the operation again, "
+"skipping all questions. If you choose \"abort\", the operation will fail and "
+"you will need to downgrade, reinstall, reconfigure this package, or "
+"otherwise manually intervene to continue using it."
+msgstr ""

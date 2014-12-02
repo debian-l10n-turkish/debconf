@@ -1,0 +1,104 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-05 12:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "English"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "German"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "French"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Italian"
+msgstr ""
+
+#. Type: select
+#. Default
+#. You must NOT translate this string, but you can change its value.
+#. The comment between brackets is used to distinguish this msgid
+#. from the one in the Choices list; you do not have to worry about
+#. them, and have to simply choose a msgstr among the English values
+#. listed in the Choices field above, e.g. msgstr "Italian"
+#: ../templates:1002
+msgid "English[ default language]"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1003
+msgid "Output language:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1003
+msgid ""
+"Please select the language you would like the reports to be generated in. If "
+"you want your own custom language, please look in /usr/share/doc/fwanalog/"
+"support - there are a few scripts to convert analog .lng files to other "
+"languages. If you make a custom translation, please submit it to the author."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you wish to run fwanalog from cron daily ?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Enabling this option a daily cron-job will be set up to start fwanalog, "
+"thereby producing fresh reports every day."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "User who will receive the report via e-mail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Enter the email-address of the person who should receive the log created by "
+"the cron-job. Just enter a blank line, and no mail will be sent."
+msgstr ""

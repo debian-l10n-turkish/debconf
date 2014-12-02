@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: slashem@packages.debian.org\n"
+"POT-Creation-Date: 2011-07-13 19:45-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../slashem-common.templates:1001 ../slashem-common.templates:2001
+msgid "abort"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../slashem-common.templates:1001 ../slashem-common.templates:2001
+msgid "backup"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../slashem-common.templates:1001 ../slashem-common.templates:2001
+msgid "purge"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../slashem-common.templates:1001 ../slashem-common.templates:2001
+msgid "ignore"
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../slashem-common.templates:1002 ../slashem-common.templates:2002
+msgid "Should Slash'em back up your old, incompatible save files?"
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../slashem-common.templates:1002 ../slashem-common.templates:2002
+msgid ""
+"You are upgrading from a version of Slashe'em whose save files are not "
+"compatible with the version you are upgrading to. You may either have them "
+"backed up into /tmp, purge them, ignore this problem completely, or abort "
+"this installation and manually handle Slashem's save files."
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../slashem-common.templates:1002 ../slashem-common.templates:2002
+msgid ""
+"If you choose to back up, the files will be backed up into a gzip-compressed "
+"tar archive in /tmp with a random name starting with 'slash' and ending in '."
+"tar.gz'."
+msgstr ""

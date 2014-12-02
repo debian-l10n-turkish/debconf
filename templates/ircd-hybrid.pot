@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ircd-hybrid\n"
+"Report-Msgid-Bugs-To: ircd-hybrid@packages.debian.org\n"
+"POT-Creation-Date: 2014-03-07 22:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:2001
+msgid "Restart ircd-hybrid on each upgrade?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:2001
+msgid ""
+"Please choose whether the ircd-hybrid daemon should be restarted every time "
+"a new version of this package is installed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:2001
+msgid ""
+"Automatic restarts may be problematic if, for instance, the server is "
+"running with manually loaded modules, which will need to be reloaded after "
+"the restart."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:2001
+msgid ""
+"If you reject this option, you will have to restart ircd-hybrid via "
+"\"service ircd-hybrid restart\" when needed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:3001
+msgid "Upgrade ircd-hybrid to version without cryptlink support?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:3001
+msgid ""
+"The 8.x version of ircd-hybrid includes a change to the way secure server "
+"links are implemented, which is not backwards-compatible with ircd-hybrid 7."
+"x, from which you are upgrading."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:3001
+msgid ""
+"If you have any secure server links (cryptlinks) configured with this "
+"server, you should plan to either upgrade all servers in lock-step, or "
+"temporarily configure non-cryptlink server links, to ensure the continuity "
+"of your IRC links."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:4001
+msgid "Upgrade ircd-hybrid to version without compatible services?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:4001
+msgid ""
+"The 8.x version of ircd-hybrid includes a change to the way services are "
+"supported, losing compatibility with hybserv."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:4001
+msgid ""
+"The recommended services daemon for Hybrid 8 is Anope, for which no package "
+"is available yet, although one is planned."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:5001
+msgid "Upgrade ircd-hybrid to version without SSL support?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../ircd-hybrid.templates:5001
+msgid ""
+"The currently installed version of this package is one with \"ssl\" in the "
+"version number, which suggests that it is a locally compiled package with "
+"SSL support. If this is the case, you probably don't want to install this "
+"package but instead rebuild the SSL version following the instructions in /"
+"usr/share/doc/ircd-hybrid/README.SSL."
+msgstr ""

@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: rt-extension-assettracker\n"
+"Report-Msgid-Bugs-To: rt-extension-assettracker@packages.debian.org\n"
+"POT-Creation-Date: 2012-10-17 18:51+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:2001
+msgid "allow"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:2001
+msgid "prompt"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:2001
+msgid "deny"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:2002
+msgid "Permission to modify the Request Tracker database:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:2002
+msgid ""
+"Asset Tracker needs some modifications in the Request Tracker database to be "
+"functional. These modifications can be made automatically (choose \"allow\") "
+"or you may be prompted when they are needed (choose \"prompt\"). "
+"Alternatively, you can run the necessary commands manually (choose \"deny\")."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:2002
+msgid "Please check the README.Debian file for more details."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../rt4-extension-assettracker.templates:3001
+msgid "Set up the Request Tracker database?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../rt4-extension-assettracker.templates:3001
+msgid ""
+"New tables must be created in the Request Tracker database for Asset Tracker "
+"to be functional."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../rt4-extension-assettracker.templates:4001
+msgid "Upgrade the Request Tracker database?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../rt4-extension-assettracker.templates:4001
+msgid ""
+"The Request Tracker database schema and contents must be upgraded for this "
+"version of Asset Tracker."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:5001
+msgid "abort"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:5001
+msgid "retry"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../rt4-extension-assettracker.templates:5001
+msgid "ignore"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:5002
+msgid "Action after database modification error:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:5002
+msgid "An error occurred while modifying the database:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:5002
+msgid ""
+"The full output should be available in Request Tracker log, most probably "
+"syslog."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../rt4-extension-assettracker.templates:5002
+msgid ""
+"You can retry the modification, abort the installation or ignore the error. "
+"If you abort the installation, the operation will fail and you will need to "
+"manually intervene (for instance by purging and reinstalling). If you choose "
+"to ignore the error, the upgrade process will continue."
+msgstr ""

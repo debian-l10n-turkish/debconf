@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tiger@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-02 01:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Recipient of the daily mails:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"The user you enter below will receive all the emails that 'tiger' sends "
+"during the day when running the cron jobs. This does not mean that when "
+"executing the 'tiger' program standalone this user will receive the reports. "
+"Also note that any administrator will be able to access the reports since "
+"they are available in the /var/log/tiger/ directory."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Take a minute to customize 'tiger'"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"You should customize the files at /etc/tiger/ to adapt to your local "
+"security policy. Firstly, customizing the kind of checks that will be made "
+"in this system, as well as the information needed for tests in order to "
+"reduce false positives (in /etc/tiger/tigerrc). Secondly, customizing at "
+"what times these tests will be executed (in /etc/tiger/cronrc). And thirdly, "
+"since some modules warnings might not be problems regarding your current "
+"security policy, define a given template file at /etc/tiger/templates/ using "
+"runs from each of the modules. Once defined, all the runs will be checked "
+"against each one of the templates available (one per module) and only new "
+"warnings will be issued."
+msgstr ""

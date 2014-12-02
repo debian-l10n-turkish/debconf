@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: redmine@packages.debian.org\n"
+"POT-Creation-Date: 2010-08-13 14:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "Redmine package now supports multiple instances"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"You are migrating from an unsupported version. The current instance will be "
+"now called the \"default\" instance. Please check your web server "
+"configuration files, see README.Debian."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Redmine instances to be deconfigured:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Configuration files for these instances will be removed."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Database (de)configuration will be asked accordingly."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Redmine instances to be configured or upgraded:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Space-separated list of instances identifiers."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Each instance has its configuration files in /etc/redmine/<instance-"
+"identifier>/"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "To deconfigure an instance, remove its identifier from this list."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Default redmine language:"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "redmine-${dbtype} package required"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"Redmine instance ${instance} is configured to use database type ${dbtype}, "
+"but the corresponding redmine-${dbtype} package is not installed."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Configuration of instance ${instance} is aborted."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"To finish that configuration, please install the redmine-${dbtype} package, "
+"and reconfigure redmine using:"
+msgstr ""

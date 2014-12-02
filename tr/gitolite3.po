@@ -1,0 +1,88 @@
+# Turkish translation of gitolite3 package
+# Copyright (C) 2014 Mert Dirik
+# This file is distributed under the same license as the gitolite3 package.
+# Mert Dirik <mertdirik@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gitolite3\n"
+"Report-Msgid-Bugs-To: gitolite3@packages.debian.org\n"
+"POT-Creation-Date: 2013-05-19 17:14-0300\n"
+"PO-Revision-Date: 2014-08-30 22:55+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "System username for gitolite:"
+msgstr "'gitolite'ın kullanacağı sistem kullanıcı adı:"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Please enter the name for the system user which should be used by gitolite "
+"to access repositories. It will be created if necessary."
+msgstr ""
+"Lütfen gitolite tarafından depolara erişirken kullanılacak olan sistem "
+"kullanıcısının adını girin. Eğer böyle bir kullanıcı yoksa otomatik olarak "
+"oluşturulacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Repository path:"
+msgstr "Depo yolu:"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Please enter the path in which gitolite should store the repositories. This "
+"will become the gitolite system user's home directory."
+msgstr ""
+"Lütfen gitolite'ın depoları saklamasını istediğiniz konumu girin. Bu dizin "
+"gitolite sistem kullanıcısının ev dizini olacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Administrator's SSH key:"
+msgstr "Yöneticinin SSH anahtarı:"
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"Please specify the key of the user that will administer the access "
+"configuration of gitolite."
+msgstr ""
+"Lütfen gitolite erişim yapılandırmasını yönetecek olan kullanıcının "
+"anahtarını girin."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This can be either the SSH public key itself, or the path to a file "
+"containing it. If it is blank, gitolite will be left unconfigured and must "
+"be set up manually."
+msgstr ""
+"Bu anahtar bir SSH genel anahtarının kendisi olabileceği gibi, genel "
+"anahtarın saklandığı dosyanın yolu da olabilir. Bu alan boş bırakıldığı "
+"takdirde gitolite yapılandırılmamış olarak kalacaktır. Bu durumda gitolite'ı "
+"daha sonra elle yapılandırmanız gerekecekir."
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "If migrating from gitolite version 2.x, leave this blank."
+msgstr ""
+"Eğer gitolite'ın 2.x numaralı sürümlerinden yükseltme yapıyorsanız bu alanı "
+"boş bırakın."

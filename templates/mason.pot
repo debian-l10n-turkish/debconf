@@ -1,0 +1,94 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-29 22:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "accept"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "reject"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "deny"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Default action for new firewall rules:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The new rule default action specifies how Mason will handle unknown packets, "
+"when the firewall is in learning mode."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The \"accept\" action will allow the packet through.  \"Reject\" will stop "
+"the packet with a rejection reply, while \"deny\" will drop the packet "
+"silently."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Default action for rulesets:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"The default action specifies how Mason will handle unknown packets, when the "
+"firewall is not in learning mode."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Again, \"accept\" allows the packet through, \"reject\" drops the packet "
+"with a reply, and \"deny\" silently drops the packet."
+msgstr ""

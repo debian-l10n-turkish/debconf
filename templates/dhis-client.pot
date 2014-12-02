@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: guus@debian.org\n"
+"POT-Creation-Date: 2006-11-18 13:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../dhis-client.templates:1001
+msgid "You should register with a DHIS service provider"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../dhis-client.templates:1001
+msgid ""
+"If you are using the DHIS client for the first time you should read /usr/"
+"share/doc/dhis-client/README.Debian for instructions on how to register with "
+"a DHIS service provider and get the configuration data to make your own '/"
+"etc/dhid.conf'."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../dhis-client.templates:2001
+msgid "You seem to have a 3.x/4.x config file"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../dhis-client.templates:2001
+msgid ""
+"You should read /usr/share/doc/dhis-client/README.Debian for instructions on "
+"how to update /etc/dhid.conf."
+msgstr ""

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: phpbb3@packages.debian.org\n"
+"POT-Creation-Date: 2010-05-27 20:41-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Description
+#: ../phpbb3.templates:1001
+msgid "Web server to configure automatically:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../phpbb3.templates:1001
+msgid ""
+"Please select any web server that should be configured automatically for "
+"phpBB."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../phpbb3.templates:2001
+msgid "Configure the phpBB admin password?"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../phpbb3.templates:3001
+msgid "Password for phpBB admin:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../phpbb3.templates:3001
+msgid "Please provide a password for the phpBB user \"admin\"."
+msgstr ""
+
+#. Type: password
+#. Description
+#. Type: error
+#. Description
+#: ../phpbb3.templates:3001 ../phpbb3.templates:7001
+msgid "The password must be at least 6 characters long."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../phpbb3.templates:3001
+msgid "If the password is left blank, a random one will be generated."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../phpbb3.templates:4001
+msgid "Password confirmation:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../phpbb3.templates:4001
+msgid "Please confirm the password for the phpBB user \"admin\"."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../phpbb3.templates:5001
+msgid "Password mismatch"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../phpbb3.templates:5001
+msgid "The two passwords you entered were not the same. Please try again."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phpbb3.templates:6001
+msgid "Generation of random password"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phpbb3.templates:6001
+msgid "The following random password has been configured for the admin user:"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../phpbb3.templates:6001
+msgid "Make sure you remember it, as it will not be stored in cleartext."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../phpbb3.templates:7001
+msgid "Password complexity requirements"
+msgstr ""

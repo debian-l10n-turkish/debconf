@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sheepdog\n"
+"Report-Msgid-Bugs-To: sheepdog@packages.debian.org\n"
+"POT-Creation-Date: 2013-02-08 11:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../sheepdog.templates:2001
+msgid "Automatically start the sheepdog service?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../sheepdog.templates:2001
+msgid ""
+"Please choose whether the sheepdog service should start automatically when "
+"the system is booted."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sheepdog.templates:3001
+msgid "Arguments for the sheepdog daemon:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sheepdog.templates:3001
+msgid ""
+"Please choose the command line arguments that should be passed to the "
+"sheepdog daemon. If no argument is given, the default behavior is to start "
+"on port 7000, using the corosync driver."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sheepdog.templates:3001
+msgid ""
+"Available options include:\n"
+"  -p, --port              specify the TCP port to listen to\n"
+"  -l, --loglevel          specify the level of logging detail\n"
+"  -d, --debug             include debug messages in the log\n"
+"  -D, --directio          use direct I/O when accessing the object store\n"
+"  -z, --zone              specify the zone ID\n"
+"  -c, --cluster           specify the cluster driver\n"
+"More information can be found in the sheep(8) manual page."
+msgstr ""

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: mailgraph@packages.debian.org\n"
+"POT-Creation-Date: 2010-10-12 06:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../mailgraph.templates:1001
+msgid "Should Mailgraph start on boot?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mailgraph.templates:1001
+msgid ""
+"Mailgraph can start on boot time as a daemon. Then it will monitor your "
+"Postfix logfile for changes. This is recommended."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mailgraph.templates:1001
+msgid "The other method is to call mailgraph by hand with the -c parameter."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../mailgraph.templates:2001
+msgid "Logfile used by mailgraph:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../mailgraph.templates:2001
+msgid ""
+"Enter the logfile which should be used to create the databases for "
+"mailgraph. If unsure, leave default (/var/log/mail.log)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mailgraph.templates:3001
+msgid "Ignore mail to/from localhost?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mailgraph.templates:3001
+msgid ""
+"When using a content filter like amavis, incoming mail is counted more than "
+"once, which will result in wrong values. If you use some content filter, you "
+"should choose this option."
+msgstr ""

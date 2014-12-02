@@ -1,0 +1,64 @@
+#
+# Note to translators:
+# Some more messages that require translation are in the po/
+# directory. Additionally, there's also a manpage at
+# "man/check-support-status.txt", in the docbook format. If you
+# provide a translated version, use the file name
+# "man/check-support-status.txt.$LANG", and it will be added to the
+# package.
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-security-support\n"
+"Report-Msgid-Bugs-To: debian-security-support@packages.debian.org\n"
+"POT-Creation-Date: 2014-06-05 06:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+msgid "Ended security support for one or more packages"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+msgid ""
+"Unfortunately, it has been necessary to end security support for some "
+"packages before the end of the regular security maintenance life cycle."
+msgstr ""
+
+#. Type: text
+#. Description
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+#: ../debian-security-support.templates:3001
+msgid "The following packages found on this system are affected by this:"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:3001
+msgid "Limited security support for one or more packages"
+msgstr ""
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:3001
+msgid ""
+"Unfortunately, it has been necessary to limit security support for some "
+"packages."
+msgstr ""

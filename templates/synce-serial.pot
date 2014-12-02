@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: voc@debian.org\n"
+"POT-Creation-Date: 2007-01-28 08:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:1001
+msgid "Serial interface:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:1001
+msgid ""
+"Specify the serial interface used to connect your Windows CE device to the "
+"desktop. Possible serial interfaces are:\n"
+"   ttyS0: First serial port (COM1: on DOS and Windows)\n"
+"   ttyS1: Second serial port (COM2: on DOS and Windows)\n"
+"   ircomm0: First IrDA communication port\n"
+"   ircomm1: Second IrDA communication port\n"
+"   ttyUSB0: First USB-Serial port\n"
+"   ttyUSB1: Second USB-Serial port"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:2001
+msgid "Local IP-Address:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:2001
+msgid ""
+"The local IP-Address to use for the ppp connection to your Windows CE "
+"device. It is best practice to use the default one (192.168.131.102). If you "
+"want to specify this address yourself, you may want to read about the same "
+"option on the man page for pppd."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:3001
+msgid "Remote IP-Address:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:3001
+msgid ""
+"The remote IP-Address to use for the ppp connection to your Windows CE "
+"device. It is best practice to use the default one (192.168.131.201). If you "
+"want to specify this address yourself, you may want to read about the same "
+"option on the man page for pppd."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:4001
+msgid "The IP-Address of your Domain Name server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../synce-serial.templates:4001
+msgid ""
+"Specify the IP-Address of your Domain Name System (DNS) server. If you do  "
+"not have a DNS server let this field empty. Be aware, if you leave this  "
+"field empty, name-resolution would not work on your device. Nevertheless, "
+"synce will work correctly without a DNS server. If your internet connection "
+"is up you could use the DNS server specified in the /etc/resolv.conf file."
+msgstr ""

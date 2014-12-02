@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: xfonts-traditional@packages.debian.org\n"
+"POT-Creation-Date: 2012-06-14 19:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:1001
+msgid "Generate traditional versions of fonts?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:1001
+msgid ""
+"xfonts-traditional can automatically generate traditional versions (with "
+"foundry \"Trad\" instead of \"Misc\") of all fonts for which it has an idea "
+"about the glyphs.  (Currently this is versions of 6x13, aka \"fixed\".)"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:1001
+msgid ""
+"But you may prefer not to do this automatically, and would rather just have "
+"the tool installed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:2001
+msgid "Configure xterm to use traditional fonts?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:2001
+msgid ""
+"You can have the xterm default UTF-8 font changed to the traditional version."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:2001
+msgid ""
+"If you approve, I will edit /etc/X11/app-default/XTerm for you, and save "
+"your old file as XTerm.backup.not-trad.  (Note that this is a conffile so "
+"you may get prompts from dpkg about it in the future.)"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:2001
+msgid ""
+"Alternatively, if you do not want me to change the default, I will generate "
+"the file XTerm.trad, but it will not be used."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:2001
+msgid ""
+"To revert the change, simply change the key \"*VT100.utf8Fonts.font\" back "
+"from \"-trad-...\" to \"-misc-...\", or rename the old file back into place."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:3001
+msgid "Configure system to use traditional \"fixed\"?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:3001
+msgid "I can remap the font alias \"fixed\" to the traditional version."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:3001
+msgid ""
+"If you approve, I will edit /etc/X11/fonts/misc/xfonts-base.alias for you, "
+"and save your old file as xfonts-base.alias.backup.not-trad. (Note that this "
+"is a conffile, so you may get prompts from dpkg about it in the future.)"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:3001
+msgid ""
+"Alternatively, if you do not want me to change the default, I will generate "
+"xfonts-base-alias.trad for you to do what you like with."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:3001
+msgid ""
+"To revert this change, simply change the alias \"fixed\" back from \"-"
+"trad-...\"  to \"-misc-...\", or rename the old file back into place."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:4001
+msgid "Remove xfonts-traditional, breaking \"fixed\" and your X server?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:4001
+msgid ""
+"Removing xfonts-traditional would break your X server by removing \"fixed\"."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../xfonts-traditional.templates:4001
+msgid ""
+"You should not remove xfonts-traditional while \"fixed\" refers to one of "
+"its fonts.  You probably want to check the differences between the various /"
+"etc/X11/fonts/misc/xfonts-base.alias*, reconcile any changes, and then run "
+"\"update-fonts-alias misc\".  After that you can retry the removal."
+msgstr ""

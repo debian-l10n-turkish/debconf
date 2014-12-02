@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: iog@packages.debian.org\n"
+"POT-Creation-Date: 2010-02-25 07:42+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../iog.templates:2001
+msgid "Migrate old install out of /var/www/iog/?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../iog.templates:2001
+msgid ""
+"A previous package release has left data installed in the /var/www/iog/ "
+"directory. Current versions of the IOG package now use /var/lib/iog/ for IOG "
+"data files."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../iog.templates:2001
+msgid ""
+"If you choose this option, all existing network data will be moved to the "
+"new location."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../iog.templates:2001
+msgid ""
+"Consequently, directory settings in the IOG configuration file (/etc/iog."
+"cfg) will be changed to /var/lib/iog and a web server alias declaration will "
+"be added so that old network statistics are still published."
+msgstr ""

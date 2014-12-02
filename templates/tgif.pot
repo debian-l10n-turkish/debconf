@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tgif@packages.debian.org\n"
+"POT-Creation-Date: 2011-01-09 01:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../tgif.templates:2001
+msgid "A4"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../tgif.templates:2001
+msgid "Letter"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../tgif.templates:2002
+msgid "Paper size to be used:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../tgif.templates:2002
+msgid ""
+"Please select the size of paper to be used by Tgif. This selection will be "
+"appended to the global Tgif initialization file."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../tgif.templates:3001
+msgid "Centimeters"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../tgif.templates:3001
+msgid "Inches"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../tgif.templates:3002
+msgid "Units to use for the grid:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../tgif.templates:3002
+msgid ""
+"Please select the units to be used by Tgif when rendering the grid. This "
+"will also determine the scaling when the snap-to-grid option is enabled."
+msgstr ""

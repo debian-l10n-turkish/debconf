@@ -1,0 +1,446 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: boxbackup@packages.debian.org\n"
+"POT-Creation-Date: 2011-10-28 01:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:2001
+msgid "Should the BoxBackup client be configured automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:2001
+msgid ""
+"The package configuration scripts can create the configuration files for the "
+"BoxBackup client."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:2001
+msgid ""
+"You should choose this option if you are not familiar with BoxBackup's "
+"configuration options."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:2001
+msgid ""
+"Please read the /usr/share/doc/boxbackup-client/README.Debian for details "
+"about the configuration of the BoxBackup client."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../boxbackup-client.templates:3001
+msgid "Run mode for the BoxBackup client:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../boxbackup-client.templates:3001
+msgid "The BoxBackup client supports two modes of backup:"
+msgstr ""
+
+#. Type: select
+#. Description
+#. Translators, please keep reference to 'lazy' and 'snapshot' as
+#. these options are written as is in the software documentation
+#: ../boxbackup-client.templates:3001
+msgid ""
+"In the 'lazy' mode, the backup daemon will regularly scan the file system "
+"searching for modified files. It will then upload the files older than a "
+"specified age to the backup server."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../boxbackup-client.templates:3001
+msgid ""
+"In the 'snapshot' mode the backup will be explicitly run at regular "
+"intervals. A cron file (/etc/cron.d/boxbackup-client) is provided with the "
+"package and should be adapted to suit your needs."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:4001
+msgid "Account number for this node on the backup server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:4001
+msgid ""
+"The administrator of the BoxBackup server should have assigned this client a "
+"hexadecimal account number."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:4001
+msgid ""
+"If no account number has been assigned yet, leave this field blank and "
+"configure it later by running 'dpkg-reconfigure boxbackup-client' as root."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:5001
+msgid "Invalid account number"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:5001
+msgid "The account number must be a hexadecimal number (such as 1F04 or 4500)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:6001
+msgid "Fully qualified domain name of the backup server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:6001
+msgid ""
+"Please enter the fully qualified domain name of the BoxBackup server which "
+"your client will use."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:6001
+msgid "The client will connect to the server on TCP port 2201."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:7001
+msgid "List of directories to backup:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:7001
+msgid ""
+"Please give a space-separated list of directories to be backed up onto the "
+"remote server."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:7001
+msgid ""
+"Those directories should not contain mounted file systems at any level in "
+"their subdirectories."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:8001
+msgid "Invalid path name"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:8001 ../boxbackup-server.templates:4001
+msgid ""
+"The path names to the directories must be absolute path names, separated by "
+"spaces."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:8001
+msgid "For example: /home/myaccount /etc/"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:9001
+msgid "Interval (in seconds) between directory scans:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:9001
+msgid ""
+"BoxBackup regularly scans the selected directories, looking for modified "
+"files."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:9001
+msgid "Please choose the scan interval in seconds."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:10001
+msgid "Minimum time to wait (in seconds) before uploading a file:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:10001
+msgid ""
+"A file will be uploaded to the server only after a certain time after its "
+"last modification."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:10001
+msgid ""
+"Low interval values will trigger frequent uploads to the server and more "
+"revisions being created with older revisions being removed earlier."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:11001
+msgid "Maximum time to wait (in seconds) before uploading a file:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:11001
+msgid ""
+"Frequently modified files are likely to never get uploaded if they never "
+"reach the minimum wait time."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:11001
+msgid ""
+"Please enter the maximum time to reach before the upload of a modified file "
+"to the server is enforced."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:12001
+msgid "Invalid time entered"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-client.templates:12001
+msgid "Please enter an integer value greater null."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:13001
+msgid "Recipient for alert notifications:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:13001
+msgid ""
+"The BoxBackup client sends alert notifications when a problem occurs during "
+"the backup."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-client.templates:13001
+msgid ""
+"Please enter either a local user name (for example 'root') or an email "
+"address (for example 'admin@example.org')."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:14001
+msgid "Generate the client private key and X.509 certificate request?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:14001
+msgid ""
+"The BoxBackup client needs an RSA private key and the corresponding X.509 "
+"certificate to authenticate itself with the server."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:14001
+msgid ""
+"Both can be generated automatically. You will need to send the certificate "
+"request to the BoxBackup server administrator who will sign it and send it "
+"back to you along with the server's Certification Authority certificate."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-client.templates:14001
+msgid ""
+"These files should be copied into BoxBackup's configuration directory. The "
+"file names to use are given in the /etc/boxbackup/bbackupd.conf file."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:2001
+msgid "Should BoxBackup be configured automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:2001
+msgid ""
+"The package configuration scripts can create the configuration files for the "
+"BoxBackup server."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:2001
+msgid ""
+"You should choose this option if you are not familiar with BoxBackup's "
+"configuration options. The configuration can be done manually with the "
+"'raidfile-config' and 'bbstored-config' scripts."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:2001
+msgid ""
+"The server will not start if it is not configured. In all cases, reading "
+"the /usr/share/doc/boxbackup-server/README.Debian is recommended."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:3001
+msgid "Location of the RAID directories:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:3001
+msgid "Please choose the location for the three RAID file directories."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:3001
+msgid ""
+"To enable RAID, the directory names should be a space-separated list of "
+"three partitions, each on different physical hard drives (for example: '/"
+"raid/0.0 /raid/0.1 /raid/0.2')."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:3001
+msgid ""
+"If you don't want to enable RAID, just specify the path to one directory "
+"where the backups will be stored (for example, /usr/local/lib/boxbackup)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:3001
+msgid "These directories will be created if they do not exist."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-server.templates:4001
+msgid "Invalid path names"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-server.templates:4001
+msgid "For example: /raid/0.0 /raid/0.1 /raid/0.2"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:5001
+msgid "Block size for the userland RAID system:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:5001
+msgid "BoxBackup uses userland RAID techniques."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:5001
+msgid ""
+"Please choose the block size to use for the storage. For maximum efficiency, "
+"you should choose the block size of the underlying file system (which can be "
+"displayed for ext2 filesystems with the 'tune2fs -l' command)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../boxbackup-server.templates:5001
+msgid "This value should be set even if you don't plan to use RAID."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:6001
+msgid "Generate a server private key and X.509 certificate request?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:6001
+msgid ""
+"The BoxBackup server needs an RSA private key and the corresponding X.509 "
+"certificate to perform client-server authentication and communication "
+"encryption."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../boxbackup-server.templates:6001
+msgid ""
+"Both can be generated automatically. You will need to sign the certificate "
+"with your root CA (see the boxbackup-server package) and put this signed "
+"certificate and the root CA certificate in the configuration folder."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-server.templates:7001
+msgid "Invalid block size"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../boxbackup-server.templates:7001
+msgid "The block size must be a power of two (e.g. 1024 or 4096)."
+msgstr ""

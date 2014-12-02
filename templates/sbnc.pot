@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: sbnc@packages.debian.org\n"
+"POT-Creation-Date: 2011-04-16 12:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../sbnc.templates:1001
+msgid "Autostart shroudBNC on server boot?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../sbnc.templates:1001
+msgid "shroudBNC (sbnc) can start automatically when the server is booted."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:2001
+msgid "IP on which shroudBNC should listen for connections:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:2001
+msgid ""
+"shroudBNC will only listen for new client connections on the given IP "
+"address."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:2001
+msgid ""
+"If you choose 0.0.0.0 as address, shroudBNC will listen on all interfaces."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:3001
+msgid "TCP/IP port for shroudBNC:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:3001
+msgid "shroudBNC will listen on this port for new connections."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:3001
+msgid ""
+"Please note that you have to choose a port which is higher than 1023 and "
+"which is not used by any other program."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:4001
+msgid "Username for the first administrative user:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../sbnc.templates:4001
+msgid ""
+"shroudBNC needs a first user with administrative rights. Enter here the "
+"login name for your administrator."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../sbnc.templates:5001
+msgid "Password to set for the first user:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../sbnc.templates:5001
+msgid "Enter here your password for your first administrative user account."
+msgstr ""

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: opal@debian.org\n"
+"POT-Creation-Date: 2006-08-20 17:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../harden-clients.templates:1001 ../harden-servers.templates:1001
+msgid "Plaintext passwords"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-clients.templates:1001 ../harden-servers.templates:1001
+msgid ""
+"Services that use plaintext passwords are almost by definition insecure. The "
+"reason is that you cannot know if someone is sniffing your passwords."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-clients.templates:1001 ../harden-servers.templates:1001
+msgid ""
+"In a local environment with no connection to the outside world this is of "
+"course not a big problem. On the other hand then you will not need to secure "
+"your system at all and should not need this package."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-clients.templates:1001
+msgid ""
+"This package conflicts with a lot of client service components that depend "
+"on plaintext passwords. Some tools that use plaintext passwords are not "
+"conflicted because they can be configured not to use plaintext passwords. So "
+"installing this package will only help you with some of the most critical "
+"clients."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-clients.templates:1001
+msgid ""
+"The advice is to look at each available client and investigate if it uses "
+"plaintext passwords. If it does, try to configure it so it starts using "
+"encryption or some password exchange algorithm that does not require "
+"plaintext passwords."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:1001
+msgid ""
+"This package conflicts with a lot of server service components that depend "
+"on plaintext passwords. Some tools that use plaintext passwords are not "
+"conflicted because they can be configured not to use plaintext passwords. So "
+"installing this package will only help you with some of the most critical "
+"servers."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:1001
+msgid ""
+"The advice is to look at each available service and investigate if it uses "
+"plaintext passwords. If it does, try to configure it so it starts using "
+"encryption or some password exchange algorithm that does not require "
+"plaintext passwords."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:2001
+msgid "Default services and inetd"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:2001
+msgid ""
+"By default some unnecessary services are enabled on your system. The program "
+"that provides them is inetd. There are alternatives to inetd which are more "
+"flexible. The problem is not that inetd in itself is insecure so you will "
+"probably not need to remove it. The problem is that you have to configure it "
+"to provide only the services that are really needed."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:2001
+msgid ""
+"If you have the normal inetd program installed you should configure it by "
+"editing /etc/inetd.conf."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:2001
+msgid ""
+"The general rule is to comment all lines that you do not need. If you do not "
+"know what it is, you probably do not need it. If you discover some problem "
+"you can always uncomment it later."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:2001
+msgid ""
+"When you have edited that file, you have to restart the inet daemon with the "
+"following command: /etc/init.d/inetd restart"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:3001
+msgid "VNC server"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden-servers.templates:3001
+msgid ""
+"The VNC server in the Debian GNU/Linux distribution contains the tightvnc "
+"patches which in addition to adding compression make it possible to use ssh "
+"tunnelling. You do that from the client by adding the -via switch when "
+"connecting. To make sure that no plaintext passwords are transmitted over "
+"the network you have to add firewalling rules on the local machine that "
+"disallow direct connections to the VNC ports (see the manpage for exact "
+"numbers). Only connections from the local interface should be allowed, to "
+"make it possible to tunnel it using ssh."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden.templates:1001
+msgid "Harden your Debian GNU/Linux system"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden.templates:1001
+msgid ""
+"Hardening your Debian GNU/Linux system is NOT as simple as installing a "
+"package. You need a LOT of knowledge about what to do when configuring the "
+"system. This package will try to help you to take proper actions and will "
+"give some suggestions."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../harden.templates:1001
+msgid ""
+"In the harden-doc package you can find documentation on how to make your "
+"Debian installation more secure. It is also available at: http://www.debian."
+"org/doc/manuals/securing-debian-howto/"
+msgstr ""

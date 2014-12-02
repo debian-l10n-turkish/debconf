@@ -1,0 +1,112 @@
+# Turkish translation of mason debconf template
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mason\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-29 22:07+0200\n"
+"PO-Revision-Date: 2008-06-17 00:19+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Turkish\n"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "accept"
+msgstr "kabul et"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "reject"
+msgstr "reddet"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:1001 ../templates:2001
+msgid "deny"
+msgstr "inkâr et"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Default action for new firewall rules:"
+msgstr "Yeni güvenlik duvarı kurallarının öntanımlı eylemi:"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The new rule default action specifies how Mason will handle unknown packets, "
+"when the firewall is in learning mode."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The \"accept\" action will allow the packet through.  \"Reject\" will stop "
+"the packet with a rejection reply, while \"deny\" will drop the packet "
+"silently."
+msgstr ""
+"\"Kabul et\", paketin geçişine izin verir. \"Reddet\", paketin geçişini "
+"engeller ve bir ret yanıtı gönderir, \"inkâr et\" ise paketin geçişini "
+"sessiz sedasız engeller."
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Default action for rulesets:"
+msgstr "Kural setlerinin öntanımlı eylemi:"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"The default action specifies how Mason will handle unknown packets, when the "
+"firewall is not in learning mode."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Again, \"accept\" allows the packet through, \"reject\" drops the packet "
+"with a reply, and \"deny\" silently drops the packet."
+msgstr ""
+"Tekrar, \"kabul et\" paketlerin geçişine izin verir, \"reddet\" paketleri "
+"geçirmez ve yanıt gönderir; ve son olarak \"inkâr et\" ise paketin geçişini "
+"sessiz sedasız engeller."
+
+#~ msgid "accept, reject, deny"
+#~ msgstr "kabul et, reddet, inkâr et"
+
+#~ msgid ""
+#~ "When Mason detects a new kind of traffic and creates a rule for it, what "
+#~ "action should the rule take?"
+#~ msgstr ""
+#~ "Mason öncekilerden farklı türde bir trafik tespit edip bu yeni trafik "
+#~ "için bir kural oluşturduğunda, yeni oluşturulacak bu kuralın tanımlaması "
+#~ "gereken eylem ne olmalıdır?"
+
+#~ msgid ""
+#~ "What should the default action be when a packet does not match any of the "
+#~ "rules set up by Mason?"
+#~ msgstr ""
+#~ "Bir paket Mason tarafından oluşturulmuş hiç bir kuralla eşleşmiyorsa bu "
+#~ "pakete uygulanacak öntanımlı eylem ne olmalı?"

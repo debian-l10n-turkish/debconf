@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fiaif@packages.debian.org\n"
+"POT-Creation-Date: 2008-10-20 19:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Enable the fiaif init.d script?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"FIAIF init.d setup is completely optional, but is highly recommended. If you "
+"accept here, the package will create init.d runlevel symlinks to FIAIF. This "
+"allows FIAIF to be started automatically at every boot."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Note that fiaif will not start until you edited the configuration file /etc/"
+"fiaif/fiaif.conf, set DONT_START to zero, and reboot. So if you install "
+"fiaif for the first time, it is safe to accept here. If you have already set "
+"DONT_START to zero from an earlier installation, fiaif will be started after "
+"the next reboot."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Refuse here to not allow the package to create the runlevel symlinks. "
+"Existing symlinks to FIAIF will be removed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Send daily firewall log mail?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"The fiaif-scan utility can be run as a cron job to send a daily firewall log "
+"to the site administrator. Do you want to run a daily script to send "
+"firewall log per mail?"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:3001
+msgid "fiaif-scan logfile location"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:3001
+msgid ""
+"The standard logfile location of fiaif-scan is /var/log/syslog. If your "
+"system uses a non-standard system logfile location you have to adjust the /"
+"etc/cron.daily/fiaif-scan script to use the custom logfile."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid "Attention when using FIAIF"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:4001
+msgid ""
+"Beware. The tools can easily be misused, causing enormous amounts of grief "
+"by completely cripple network access to a computer system. It is not "
+"terribly uncommon for a remote system administrator to accidentally lock "
+"themself out of a system hundreds or thousands of miles away. One can even "
+"manage to lock himself out of a computer whose keyboard is under his "
+"fingers. Please, use due caution."
+msgstr ""

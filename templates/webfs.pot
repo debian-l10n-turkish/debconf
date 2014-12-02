@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: webfs@packages.debian.org\n"
+"POT-Creation-Date: 2010-03-09 07:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "IP address webfsd should listen to:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"On a system with multiple IP addresses, webfsd can be configured to listen "
+"to only one of them."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "If you leave this empty, webfsd will listen to all IP addresses."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Timeout for network connections:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Number of parallel network connections:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"For small private networks, the default number of parallel network "
+"connections should be fine. This can be increased for larger networks."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Directory cache size:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"Directory listings can be cached by webfsd. By default, the size of the "
+"cache is limited to 128 entries. If the web server has very big directory "
+"trees, you might want to raise this value."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Incoming port number for webfsd:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid ""
+"Please enter the port number for webfsd to listen to. If you leave this "
+"blank, the default port (8000) will be used."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Enable virtual hosts?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"This option allows webfsd to support name-based virtual hosts, taking the "
+"directories immediately below the document root as host names."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Document root for webfsd:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Webfsd is a lightweight HTTP server for mostly static content. Its most "
+"obvious use is to provide HTTP access to an anonymous FTP server."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Please specify the document root for the webfs daemon."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "If you leave this field blank, webfsd will not be started at boot time."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "Host name for webfsd:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "By default, webfsd uses the machine name as host name."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid ""
+"You can specify an alternate host name to be used as an external alias name "
+"(for instance \"ftp.example.org\") instead of the machine's fully qualified "
+"domain name."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid "User running the webfsd daemon:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid "Log webfsd events (start, stop, etc.) to syslog?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid "Access log file:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid "Access to webfsd is logged in common log format."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid ""
+"If this field is left empty, no logging of incoming connections will be done."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:14001
+msgid "Should logging be buffered?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:14001
+msgid ""
+"With buffered logging, entries will be written in chunks, not as soon as "
+"they are accepted as client calls."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:15001
+msgid "Group running the webfsd daemon:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:16001
+msgid "Directory index filename:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:16001
+msgid ""
+"If webfsd receives a request for a directory, it can optionally look for an "
+"index file to be sent to the client. Common names are \"index.html\" and "
+"\"default.html\"."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:16001
+msgid ""
+"If you leave this field empty, webfsd will send a directory listing to the "
+"client."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:17001
+msgid "CGI script catalog:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:17001
+msgid ""
+"Please specify the location for CGI scripts to be served by webfsd. This "
+"path should be located immediately below the document root."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:17001
+msgid ""
+"Please specify the full path name, not a relative path. If this field is "
+"left empty, CGI scripts will be disabled."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "Extra options to include:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "Please specify any webfsd options you want to use with the main daemon."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid ""
+"For instance, webfsd can run chrooted, provide timed expiration of files, "
+"and bind either IPv4 or IPv6 addresses."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:18001
+msgid "See webfsd's manual page for further options and details."
+msgstr ""

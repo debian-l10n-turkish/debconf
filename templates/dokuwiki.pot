@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dokuwiki\n"
+"Report-Msgid-Bugs-To: dokuwiki@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-27 19:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Choices
+#: ../templates:1001
+msgid "apache2"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../templates:1001
+msgid "lighttpd"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:1002
+msgid "Web server(s) to configure automatically:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:1002
+msgid ""
+"DokuWiki runs on any web server supporting PHP, but only listed web servers "
+"can be configured automatically."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../templates:1002
+msgid ""
+"Please select the web server(s) that should be configured automatically for "
+"DokuWiki."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Should the web server(s) be restarted now?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"In order to activate the new configuration, the reconfigured web server(s) "
+"have to be restarted."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Wiki location:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Specify the directory below the server's document root from which DokuWiki "
+"should be accessible."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid "Authorized network:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid ""
+"Wikis normally provide open access to their content, allowing anyone to "
+"modify it. Alternatively, access can be restricted by IP address."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid ""
+"If you select \"localhost only\", only people on the local host (the machine "
+"the wiki is running on) will be able to connect. \"local network\" will "
+"allow people on machines in a local network (which you will need to specify) "
+"to talk to the wiki. \"global\" will allow anyone, anywhere, to connect to "
+"the wiki."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:4001
+msgid ""
+"The default is for site security, but more permissive settings should be "
+"safe unless you have a particular need for privacy."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:4002
+msgid "localhost only"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:4002
+msgid "local network"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:4002
+msgid "global"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Local network:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"The specification of your local network should either be an IP network in "
+"CIDR format (x.x.x.x/y) or a domain specification (like .example.com)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"Anyone who matches this specification will be given full and complete access "
+"to DokuWiki's content."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Purge pages on package removal?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"By default, DokuWiki stores all its pages in a file database in /var/lib/"
+"dokuwiki."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"Accepting this option will leave you with a tidier system when the DokuWiki "
+"package is removed, but may cause information loss if you have an "
+"operational wiki that gets removed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Make the configuration web-writeable?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid ""
+"DokuWiki includes a web-based configuration interface. To be usable, it "
+"requires the web server to have write permission to the configuration "
+"directory."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid ""
+"Accepting this option will give the web server write permissions on the "
+"configuration directory and files."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid ""
+"The configuration files will still be readable and editable by hand "
+"regardless of whether or not you accept this option."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Make the plugins directory web-writeable?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"DokuWiki includes a web-based plugin installation interface. To be usable, "
+"it requires the web server to have write permission to the plugins directory."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"Accepting this option will give the web server write permissions to the "
+"plugins directory."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"Plugins can still be installed by hand regardless of whether or not you "
+"accept this option."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Wiki title:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"The wiki title will be displayed in the upper right corner of the default "
+"template and on the browser window title."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "CC0 \"No Rights Reserved\""
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "CC Attribution"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "CC Attribution-ShareAlike"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "GNU Free Documentation Licence"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "CC Attribution-NonCommercial"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "CC Attribution-NonCommercial-ShareAlike"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid "Wiki license:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid ""
+"Please choose the license you want to apply to your wiki content. If none of "
+"these licenses suits your needs, you will be able to add your own to the "
+"file /etc/dokuwiki/license.php and to refer it in the main configuration "
+"file /etc/dokuwiki/local.php when the installation is finished."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid ""
+"Creative Commons \"No Rights Reserved\" is designed to waive as many rights "
+"as legally possible."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid ""
+"CC Attribution is a permissive license that only requires licensees to give "
+"credit to the author."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid ""
+"CC Attribution-ShareAlike and GNU Free Documentation License are copyleft-"
+"based free licenses (requiring modifications to be released under similar "
+"terms)."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10002
+msgid ""
+"CC Attribution-NonCommercial and CC Attribution-Noncommercial-ShareAlike are "
+"non-free licenses, in that they forbid commercial use."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid "Enable ACL?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid ""
+"Enable this to use an Access Control List for restricting what the users of "
+"your wiki may do."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid ""
+"This is a recommended setting because without ACL support you will not have "
+"access to the administration features of DokuWiki."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid "Administrator username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid ""
+"Please enter a name for the administrator account, which will be able to "
+"manage DokuWiki's configuration and create new wiki users. The username "
+"should be composed of lowercase ASCII letters only."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:12001
+msgid ""
+"If this field is left blank, no administrator account will be created now."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid "Administrator real name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:13001
+msgid ""
+"Please enter the full name associated with the wiki administrator account. "
+"This name will be stored in the wiki password file as an informative field, "
+"and will be displayed with the wiki page changes made by the administrator "
+"account."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:14001
+msgid "Administrator email address:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:14001
+msgid ""
+"Please enter the email address associated with the wiki administrator "
+"account. This address will be stored in the wiki password file, and may be "
+"used to get a new administrator password if you lose the original."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:15001
+msgid "Administrator password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:15001
+msgid "Please choose a password for the wiki administrator."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:16001
+msgid "Re-enter password to verify:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:16001
+msgid ""
+"Please enter the same \"admin\" password again to verify you have typed it "
+"correctly."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:17001
+msgid "Password input error"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../templates:17001
+msgid "The two passwords you entered were not the same. Please try again."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:18001
+msgid "Initial ACL policy:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:18001
+msgid ""
+"Please select what initial ACL configuration should be set up to match the "
+"intended usage of this wiki:\n"
+" \"open\":   both readable and writeable for anonymous users;\n"
+" \"public\": readable for anonymous users, writeable for registered users;\n"
+" \"closed\": readable and writeable for registered users only."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:18001
+msgid ""
+"This is only an initial setup; you will be able to adjust the ACL rules "
+"later."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:18002
+msgid "open"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:18002
+msgid "public"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:18002
+msgid "closed"
+msgstr ""

@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: hearse@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-22 08:53-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../hearse.templates:1001
+msgid "Email address to submit to the Hearse server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../hearse.templates:1001
+msgid ""
+"The Hearse server requires that you supply an email address before you can "
+"exchange bones files.  If you supply an address here it will be submitted to "
+"the server for you.  If you don't supply an address, hearse will be "
+"installed but it won't run automatically until you create an account "
+"yourself."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../hearse.templates:1001
+msgid ""
+"The server operator states that your email address will only be used to "
+"contact you about Hearse, and will never be given to any third party.  If "
+"you enter an invalid address, the server won't be able to support you if you "
+"download a bad bones file, and will be forced to ban you if any of your "
+"uploaded files are bad."
+msgstr ""

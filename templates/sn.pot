@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: chris@niekel.net\n"
+"POT-Creation-Date: 2006-08-19 22:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../sn.templates:1001
+msgid "cron, ip-up, manually"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../sn.templates:1002
+msgid "sn should run from:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../sn.templates:1002
+msgid ""
+"The scripts provided with the package support several ways to run snget (the "
+"program to fetch new news):"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../sn.templates:1002
+msgid ""
+" cron     -- The program will be executed daily by cron -- useful e.g\n"
+"             for permanent connections;\n"
+" ip-up    -- The program will called from ip-up, that is, when your\n"
+"             computer makes a connection -- useful for e.g. dialup\n"
+"             connections;\n"
+" manually -- The program will never be called, you have to call it\n"
+"             manually to get new news (just type snget as root)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../sn.templates:2001
+msgid "Should sn only accept connections from localhost?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../sn.templates:2001
+msgid ""
+"sn is a small newsserver, intended mainly to be run for single user "
+"systems.  On such systems, it's better to have sn only answer connections "
+"from localhost.  If you intend to use sn from multiple machines, refuse here."
+msgstr ""

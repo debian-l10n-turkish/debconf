@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: movabletype-opensource\n"
+"Report-Msgid-Bugs-To: movabletype-opensource@packages.debian.org\n"
+"POT-Creation-Date: 2013-06-01 11:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Install Movable Type?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"When configuring a new database with this package (for example when "
+"installing it for the first time) the Movabletype install starts off being "
+"non-password-protected; that is, the first person to visit http://your."
+"server/cgi-bin/movabletype/mt.cgi will be able to set the admin password and "
+"take control of your Movable Type installation."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"You should take appropriate measures, such as remembering to configure the "
+"admin account straight after the install is completed, or restricting access "
+"to your web server."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Insecure umask setting"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"Due to an error preparing a previous version of the Movable Type package, a "
+"typo was introduced into the default configuration file which caused a "
+"dangerous umask to be set when publishing. This may have caused blog files "
+"to be created world-writable."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"You should check and fix the permissions of such files, and ensure that the "
+"typo fix (HTMLUask should be HTMLUmask) is applied to your configuration "
+"file, /etc/opensource-movabletype/mt-config.cgi, once this package "
+"installation has completed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Continue with package upgrade which may need schema upgrades?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"You are about to upgrade the Movable Type package to a version which may "
+"include a new database schema version. To ensure continued functionality of "
+"Movable Type sites, you should log into any configured instances with an "
+"administrator account immediately after this package upgrade has completed, "
+"where you will be prompted to upgrade databases as required."
+msgstr ""

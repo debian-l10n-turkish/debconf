@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-01 14:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../mlmmj.templates:1001
+msgid "Remove mlmmj lists on purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mlmmj.templates:1001
+msgid ""
+"Removing mlmmj on purge includes the removal of all subscriber lists, "
+"archives and configuration options for all lists currently stored."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../mlmmj.templates:1001
+msgid ""
+"Accepting here basically means that everything under /var/spool/mlmmj and /"
+"etc/mlmmj/lists will be removed when this package is purged. Also please "
+"note that any changes you might have made to /etc/aliases will not be unmade "
+"automatically when this package is removed. (A notice will be displayed "
+"however, to remind you to clean up your aliases.)"
+msgstr ""

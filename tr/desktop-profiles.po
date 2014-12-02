@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: $paket $surum\n"
+"Report-Msgid-Bugs-To: cobaco@linux.be\n"
+"POT-Creation-Date: 2007-02-05 12:40+0100\n"
+"PO-Revision-Date: 2008-06-17 17:23+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Turkish\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "Global gconf path file needs to be changed!"
+msgstr "Genel gconf yol dosyası değiştirilmeli!"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"The include directives used by desktop-profiles have changed (in response to "
+"bug 309978, see the bug report and corresponding entry in the changelog of "
+"version 1.4.6 of this package for details)."
+msgstr ""
+"desktop-profiles'ın kullandığı include yönergeleri 309978 numaralı hatayı "
+"gidermek için değiştirildi. Ayrıntılar için bu paketin 1.4.6 sürümünün "
+"değişiklik günlüğüne ve hata raporuna bakabilirsiniz."
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"To reenable gconf profiles you need to change /etc/gconf/2/path as follows:"
+"\\n - 'include /var/cache/desktop-profiles/\\$(USER)_mandatory.path' should "
+"be 'include \\$(ENV_MANDATORY_PATH)' and\\n - 'include /var/cache/desktop-"
+"profiles/\\$(USER)_defaults.path' should be 'include \\$(ENV_DEFAULTS_PATH)'"
+msgstr ""
+"gconf profillerini yeniden etkinleştirmek için /etc/gconf/2/path dosyasını "
+"aşağıdaki gibi değiştirmelisiniz:\\n - 'include /var/cache/desktop-profiles/"
+"\\$(USER)_mandatory.path' 'include \\$(ENV_MANDATORY_PATH)' olmalı; ve\\n - "
+"'include /var/cache/desktop-profiles/\\$(USER)_defaults.path' 'include \\"
+"$(ENV_DEFAULTS_PATH)' olmalı."

@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: haserl@packages.debian.org\n"
+"POT-Creation-Date: 2011-08-04 09:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../haserl.templates:2001
+msgid "Install haserl binary with suid root permissions?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../haserl.templates:2001
+msgid ""
+"When haserl is installed with suid root permissions, it will automatically "
+"set its UID and GID to match the owner and group of the script."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../haserl.templates:2001
+msgid ""
+"This is a potential security vulnerability, as scripts that are owned by "
+"root will be run as root, even when they do not have the suid root bit."
+msgstr ""

@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-01 14:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../calamaris.templates:2001
+msgid "auto"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../calamaris.templates:2001
+msgid "squid"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../calamaris.templates:2001
+msgid "squid3"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:2002
+msgid "Type of proxy log files to analyze:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:2002
+msgid ""
+"Calamaris is able to process log files from Squid or Squid3. If you choose "
+"'auto' it will look first for Squid log files and then for Squid3 log files."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:2002
+msgid ""
+"Choosing 'auto' is recommended when only one proxy is installed. Otherwise, "
+"the appropriate setting can be enforced here."
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../calamaris.templates:3001 ../calamaris.templates:7001
+#: ../calamaris.templates:11001
+msgid "nothing"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../calamaris.templates:3001 ../calamaris.templates:7001
+#: ../calamaris.templates:11001
+msgid "mail"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../calamaris.templates:3001 ../calamaris.templates:7001
+#: ../calamaris.templates:11001
+msgid "web"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../calamaris.templates:3001 ../calamaris.templates:7001
+#: ../calamaris.templates:11001
+msgid "both"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:3002
+msgid "Output method for Calamaris daily analysis reports:"
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../calamaris.templates:3002 ../calamaris.templates:7002
+#: ../calamaris.templates:11002
+msgid ""
+"The result of the Calamaris analysis can be sent as an email to a specified "
+"address or stored as a web page."
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../calamaris.templates:3002 ../calamaris.templates:7002
+#: ../calamaris.templates:11002
+msgid "Please choose which of these methods you want to use."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:4001
+msgid "Recipient for daily analysis reports by mail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:4001
+msgid ""
+"Please choose the address that should receive daily Calamaris analysis "
+"reports."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../calamaris.templates:4001 ../calamaris.templates:8001
+#: ../calamaris.templates:12001
+msgid "This setting is only needed if the reports are to be sent by email."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:5001
+msgid "Directory for storing HTML daily analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:5001
+msgid ""
+"Please choose the directory where daily Calamaris analysis reports should be "
+"stored."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../calamaris.templates:5001 ../calamaris.templates:9001
+#: ../calamaris.templates:13001
+msgid "This setting is only needed if the reports are to be generated as HTML."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:6001
+msgid "Title of the daily analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:6001
+msgid ""
+"Please choose the text that will be used as a prefix to the title for the "
+"daily Calamaris analysis reports."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:7002
+msgid "Output method for Calamaris weekly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:8001
+msgid "Recipient for weekly analysis reports by mail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:8001
+msgid ""
+"Please choose the address that should receive weekly Calamaris analysis "
+"reports."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:9001
+msgid "Directory for storing HTML weekly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:9001
+msgid ""
+"Please choose the directory where weekly Calamaris analysis reports should "
+"be stored."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:10001
+msgid "Title of the weekly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:10001
+msgid ""
+"Please choose the text that will be used as a prefix to the title for the "
+"weekly Calamaris analysis reports."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../calamaris.templates:11002
+msgid "Output method for Calamaris monthly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:12001
+msgid "Recipient for monthly analysis reports by mail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:12001
+msgid ""
+"Please choose the address that should receive monthly Calamaris analysis "
+"reports."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:13001
+msgid "Directory for storing HTML monthly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:13001
+msgid ""
+"Please choose the directory where monthly Calamaris analysis reports should "
+"be stored."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:14001
+msgid "Title of the monthly analysis reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:14001
+msgid ""
+"Please choose the text that will be used as a prefix to the title for the "
+"monthly Calamaris analysis reports."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:15001
+msgid "Names of proxy log files to analyze:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../calamaris.templates:15001
+msgid ""
+"Calamaris is supposed to run before the logrotation of the Squid logfiles. "
+"If you want to let it run right after the logrotation of Squid (e.g. by "
+"adding Calamaris to /etc/logrotate.d/squid), you should change this entry to "
+"access.log.1."
+msgstr ""

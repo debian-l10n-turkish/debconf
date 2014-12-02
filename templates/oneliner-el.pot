@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: oneliner-el\n"
+"Report-Msgid-Bugs-To: oneliner-el@packages.debian.org\n"
+"POT-Creation-Date: 2012-01-30 07:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Should oneliner-el be auto-loaded by default at your site?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you want to auto-load oneliner-el at your site, you should accept here."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you accept here, oneliner-el are loaded globally, i.e. all people in your "
+"site can use oneliner-el without special settings in their \"~/.emacs\". If "
+"your site is a single user site and you want to use oneliner-el, you should "
+"accept here without hesitating."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you refuse here, people who desire to use it will have to put the string "
+"\"(require 'oneliner)\" in their \"~/.emacs\" to load it."
+msgstr ""

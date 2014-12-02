@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bindgraph@packages.debian.org\n"
+"POT-Creation-Date: 2008-05-10 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Should bindgraph start on boot?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Bindgraph can start on boot time as a daemon. Then it will monitor your BIND "
+"logfile for changes. This is recommended."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "The other method is to call bindgraph.pl by hand with the -l parameter."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Bindgraph log file:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Please specify the name of the log file from which data should be pulled to "
+"create the databases for bindgraph. If unsure, leave the default value."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Remove RRD files on purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"Bindgraph keeps its database files under /var/lib/bindgraph. Please choose "
+"whether this directory should be removed completely on purge."
+msgstr ""

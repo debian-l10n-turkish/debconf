@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: spamprobe\n"
+"Report-Msgid-Bugs-To: spamprobe@packages.debian.org\n"
+"POT-Creation-Date: 2014-02-11 15:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Upgrading to Berkeley DB 5.3"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"As of spamprobe 1.4d-12.1, the database format changed to Berkeley DB 5.3 "
+"and spamprobe is no longer able to modify databases using an older format."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"Since there is no general way to locate all existing databases, no automatic "
+"upgrade is attempted. A manual upgrade path using spamprobe export/import is "
+"outlined in the 'DATABASE MAINTENANCE' section of the spamprobe(1) manual "
+"page."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"All spamprobe users on this system should be informed of this change and "
+"advised to read the README.Debian file."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"To avoid this issue at next Berkeley DB migration, converting to another "
+"data file format, like 'hash', is recommended.  See documentation of the -d "
+"option in spamprobe(1) man page."
+msgstr ""

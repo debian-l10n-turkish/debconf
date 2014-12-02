@@ -1,0 +1,620 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: console-cyrillic@packages.debian.org\n"
+"POT-Creation-Date: 2008-08-10 10:38-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want to setup Cyrillic on the console at boot-time?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you accept, the package console-cyrilic will setup Cyrillic on the "
+"console at boot-time."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Otherwise, refuse if you don't use Cyrillic the whole time or if for some "
+"reason you want to use the console setup by console-data package."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Your /etc/console-cyrillic file will be preserved unchanged."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"You have requested Debconf not to change the configuration file /etc/console-"
+"cyrillic.  The new version of this file will be written in /etc/console-"
+"cyrillic.debconf instead.  Note that this file is not read by console-"
+"cyrillic and will have no effect."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "What virtual consoles do you use?"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"Please enter a space delimited list of virtual consoles you use. The usual "
+"Unix filename wildcards are allowed (*, ? and [...])."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"If you are unsure, then use the default /dev/tty[1-6], it is for six virtual "
+"consoles. If you use devfs, then enter /dev/vc/[1-6] instead."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Unicode Normal"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Unicode Bold"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Unicode Framebuffer"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Slavic Normal"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Slavic Bold"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Slavic Framebuffer"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Asian Normal"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Asian Bold"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Terminus Asian Framebuffer"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "UniCyr"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "DOS"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Alt"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Pln"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Antiq"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Antiq Asian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Sans"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Lenta"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Cage"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Thin"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Sarge"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "A"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "A Asian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "B"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "B Asian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "C"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "ISO"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Arab"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid "Choose a font for the console."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+"Please choose the font you would like to use on the console. If you change "
+"your mind later on, you can use the command `dpkg-reconfigure console-"
+"cyrillic' to answer again all these questions."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+"Different videomodes require different font sizes. Usually font size 16 is "
+"for videomodes 80x25 and 80x30, font size 14 is for videomodes 80x28 and "
+"80x34 and font size 8 is for videomodes 80x43, 80x50 and 80x60."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+"Not all fonts are suitable for all alphabets. A table for the available "
+"fonts, and supported sizes and alphabets follows."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid "Legend:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+" a -- Asian Cyrillic letters;\n"
+" b -- Belarusian alphabet;\n"
+" r -- Russian alphabet with letters `E with diaeresis';\n"
+" u -- Ukrainian alphabet;\n"
+" y -- Macedonian and Serbian alphabets."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+"Remark: All fonts support the Bulgarian alphabet and the basic Russian "
+"alphabet."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+" Font name          Available sizes        Supported alphabets\n"
+" -------------------------------------------------------------\n"
+" A                   16    14          8\n"
+" A Asian             16                          abr\n"
+" Alt                 16    14          8           r\n"
+" Antiq               16                            r\n"
+" Antiq Asian         16                          abr\n"
+" Arab             18 16    14          8          br y\n"
+" B                   16                            r\n"
+" B Asian             16                          abr\n"
+" C                   16                           bruy\n"
+" Cage          19 18 16 15 14 12 11 10 8\n"
+" DOS                 16    14          8          br\n"
+" ISO                 16    14                     br y\n"
+" Lenta               16                           bruy\n"
+" Pln                 16    14          8          bruy\n"
+" Sarge               16                           br\n"
+" Sans                16                           bruy\n"
+" Terminus Asian      16    14                    abr\n"
+" Terminus Slavic     16    14                     bruy\n"
+" Terminus Unicode    16    14                    abruy\n"
+" Thin                16    14                     br\n"
+" UniCyr              16    14          8          bruy"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6001
+msgid "What is your favourite font size?"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6001
+msgid ""
+"Please select the size for the chosen font. If unsure choose the standard "
+"font size (16)."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Belarusian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Bulgarian BDS"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Bulgarian phonetic"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kazakh"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kazakh with letter IO"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Macedonian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Mongolian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Russian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Russian Winkeys"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Serbian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ukrainian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ukrainian Winkeys"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:7002
+msgid "Choose the keyboard layout"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:7002
+msgid "Please choose the keyboard layout to load at boot time."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Caps Lock"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:8001 ../templates:9001
+msgid "Right Alt"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Right Control"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Right Shift"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Alt+Shift"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Control+Shift"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Control+Alt"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:8001 ../templates:9001
+msgid "Left Windows logo key"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:8001 ../templates:9001
+msgid "Right Windows logo key"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:8001 ../templates:9001
+msgid "Menu key"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:8002
+msgid "Toggling between Cyrillic and Latin characters"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:8002
+msgid ""
+"How you will toggle between Cyrillic and Latin characters? Several "
+"possibilities are available."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:8002
+msgid ""
+"If you choose the Caps Lock key, then use the combination Shift+Caps Lock "
+"for normal Caps toggle."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:8002
+msgid ""
+"Obviously you may use Windows logo keys and Menu key only if your keyboard "
+"has them."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Both Windows logo keys"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "No temporary switch"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:9002
+msgid "Switching temporarily between Cyrillic and Latin characters"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:9002
+msgid ""
+"Sometimes you are in Cyrillic mode and want to type only a few Latin "
+"letters. In this case it may be desirable to have a key for temporary "
+"switching between Cyrillic and Latin letters. When this key is pressed in "
+"Cyrillic mode the keyboard types Latin letters and in reverse, when the "
+"keyboard is in Latin mode and you are pressing this key the keyboard will "
+"type Cyrillic letters."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:9002
+msgid ""
+"If you don't like this feature, choose the option \"No temporary switch\"."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid "What is your encoding?"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid "And finally you should choose your encoding."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid "If you want to live on the bleeding edge then choose UNICODE (=UTF-8)."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid "The Linux community in Russia prefers the KOI8-R encoding."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid ""
+"The Ukrainian encoding KOI8-U is especially designed to be compatible with "
+"KOI8-R."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid ""
+"If you live in Macedonia or Serbia and Montenegro, then ISO-8859-5 is for "
+"you."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid "If you live in Bulgaria or Belarus, then choose CP1251."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid ""
+"If you live in Kazakhstan or Mongolia, then choose UNICODE, PT154 or RK1048."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:10001
+msgid ""
+"CP1251 is used in MS Windows and OS/2. MAC-CYRILLIC is used in the operating "
+"systems of Apple Computers. CP866 is Russian encoding for DOS. MIK is "
+"Bulgarian encoding for DOS."
+msgstr ""

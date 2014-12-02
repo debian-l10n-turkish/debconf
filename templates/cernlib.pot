@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Source: cernlib@packages.debian.org\n"
+"POT-Creation-Date: 2007-12-12 00:38+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#. Translators: "Both" means both "Pawserv" and "Zserv" to the question
+#. about servers to be run
+#: ../pawserv.templates:2001
+msgid "Both"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../pawserv.templates:2002
+msgid "Servers to be run from inetd:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../pawserv.templates:2002
+msgid ""
+"This package includes both the pawserv daemon (permitting remote hosts to "
+"read local files while running PAW/Paw++) and the zserv daemon (allowing "
+"remote hosts to log in using CERN's ZFTP protocol)."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../pawserv.templates:2002
+msgid ""
+"These servers are run from the inetd superserver and either both or only one "
+"of them may be enabled. Enabling 'pawserv' alone is sufficient for most "
+"users."
+msgstr ""

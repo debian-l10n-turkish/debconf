@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: dom@earth.li\n"
+"POT-Creation-Date: 2008-07-22 20:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Install version of Wiki::Toolkit requiring schema upgrade?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"You are about to install a version of Wiki::Toolkit which requires a "
+"database schema upgrade. Until you have run the upgrade procedure on Wiki::"
+"Toolkit databases, this will cause applications using Wiki::Toolkit to stop "
+"working."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If your Wiki::Toolkit application installed an upgrade hook, this upgrade "
+"procedure will optionally run this hook to automatically upgrade the database"
+"(s) belonging to this application."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Automatically upgrade Wiki::Toolkit databases?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Upgrade hooks provided by Wiki::Toolkit applications have been found. They "
+"can be run after the package upgrade completes to automatically upgrade the "
+"relevant databases."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"It is recommended that you backup your Wiki::Toolkit databases before "
+"upgrading them."
+msgstr ""

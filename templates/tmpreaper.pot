@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tmpreaper@packages.debian.org\n"
+"POT-Creation-Date: 2008-05-19 19:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:1001
+msgid "tmpreaper can now be adjusted through /etc/tmpreaper.conf"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:1001
+msgid ""
+"Any local preferences for the daily tmpreaper run should now be configured "
+"through /etc/tmpreaper.conf (explanation is in that file)."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:1001
+msgid ""
+"Previously, you had to modify /etc/cron.daily/tmpreaper which could be a "
+"pain because that got updated regularly, and you'd have to reimplement your "
+"modifications each time (or miss out on the new changes). Now you can adjust "
+"the file age, extra --protect patterns, and which directories to reap in /"
+"etc/tmpreaper.conf."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:1001
+msgid ""
+"For this to work, however, you have to install the new /etc/cron.daily/"
+"tmpreaper file now."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:2001
+msgid "default value for TMPREAPER_TIME now set via /etc/default/rcS"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:2001
+msgid ""
+"Before, you could set the maximum age for files before they were removed in /"
+"etc/tmpreaper.conf; however, there is another place where something similar "
+"is set, namely the TMPTIME value in /etc/default/rcS which is used during "
+"booting to clean out /tmp."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:2001
+msgid ""
+"To avoid having to enter this value in two places, the new /etc/tmpreaper."
+"conf script now obtains the TMPTIME value from /etc/default/rcS, and uses "
+"that (if it is greater than zero, that is)."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:2001
+msgid ""
+"You apparently have changed the default value in /etc/tmpreaper.conf; you "
+"may want to check /etc/default/rcS to see if the value there is acceptable, "
+"if you want the upgrade procedure to replace your /etc/tmpreaper.conf with "
+"the new version."
+msgstr ""
+
+#. Type: note
+#. Description
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:3001 ../tmpreaper.templates:4001
+msgid "Please first read README.security"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:3001
+msgid ""
+"Before running tmpreaper for the first time, please read the file /usr/share/"
+"doc/tmpreaper/README.security.gz, e.g. with zless. Therein is contained a "
+"discussion of possible ways that usage of tmpreaper may be insecure."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:3001
+msgid ""
+"If after that you still want tmpreaper to run, please edit /etc/tmpreaper."
+"conf and remove the line:"
+msgstr ""
+
+#. Type: note
+#. Description
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:3001 ../tmpreaper.templates:4001
+msgid ""
+" echo \"Please read /usr/share/doc/tmpreaper/README.security.gz first.\";\n"
+" exit 0"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:4001
+msgid ""
+"Before running tmpreaper after this upgrade, please read the file /usr/share/"
+"doc/tmpreaper/README.security.gz e.g. with zless. Therein is contained a "
+"discussion of possible ways that usage of tmpreaper may be insecure."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tmpreaper.templates:4001
+msgid ""
+"If during the upgrade the /etc/tmpreaper.conf file is replaced, and you "
+"still want tmpreaper to run, please edit /etc/tmpreaper.conf and remove the "
+"line:"
+msgstr ""

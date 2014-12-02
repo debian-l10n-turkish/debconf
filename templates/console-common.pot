@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: mckinstry@debian.org\n"
+"POT-Creation-Date: 2007-07-30 07:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from arch list"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Don't touch keymap"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Keep kernel keymap"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from full list"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid "Policy for handling keymaps:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid "The keymap records the layout of symbols on the keyboard."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid ""
+" - 'Select keymap from arch list': select one of the predefined keymaps\n"
+"   specific for your architecture (recommended for non-USB keyboards);\n"
+" - 'Don't touch keymap': don't overwrite the keymap in /etc/console,\n"
+"   which is maintained manually with install-keymap(8);\n"
+" - 'Keep kernel keymap': prevent any keymap from being loaded next time\n"
+"   the system boots;\n"
+" - 'Select keymap from full list': list all the predefined keymaps.\n"
+"   Recommended when using cross-architecture (often USB) keyboards."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid "Ignored boot-time keymap in an old location"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"The keymap configuration tool has been set up not to touch an existing "
+"keymap."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"However, there are some 'default.kmap(.gz)' file(s) either in /etc/kbd/ or "
+"in /etc/console-tools/. These were recognized as boot-time keymaps by older "
+"versions of the console utilities, but are now ignored."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"If you wish one of these to take effect on next reboot, you will have to "
+"move it to /etc/console/boottime.kmap.gz manually."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+msgid "Keyboard layout family:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+msgid ""
+"Please specify the generic family name for the keyboard layout. Usually, the "
+"layout family name is taken from the first keys on the left of the top "
+"letters row of the keymap."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+msgid "Keyboard layout:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+msgid ""
+"In order to refine the keymap choice, please select the physical layout of "
+"the keyboard."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+msgid "Keyboard variant:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+msgid ""
+"The selected keyboard layout has several variants. Please select the one "
+"matching the keyboard."
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../templates.in:7001 ../templates.in:8001
+msgid "Keymap:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:7001
+msgid ""
+"The selected keyboard allows a choice from a range of keymaps. Usually these "
+"were designed either for specific tastes (for instance with dead keys) or "
+"for specific needs (such as programming)."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates.in:8001
+msgid ""
+"If the keyboard is designed for a different computer architecture, you "
+"should choose a specific keymap in the full map."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid "Are you ready for the ADB key codes transition?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"The kernel is configured to have the keyboard send ADB key codes. This "
+"behavior is now deprecated and no longer supported."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"For best results, you should reconfigure the kernel with "
+"CONFIG_MAC_ADBKEYCODES=n. Alternatively, you can pass "
+"'keyboard_sends_linux_keycodes=1' as an argument to the kernel."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"Please be aware that the transition will most probably break the X "
+"configuration, so it is strongly recommended to close all X sessions now and "
+"adapt the configuration afterwards by running 'dpkg-reconfigure console-"
+"data'."
+msgstr ""

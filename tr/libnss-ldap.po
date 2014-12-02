@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Atila KOÇ <akoc@artielektronik.com.tr>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libnss-ldap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-12 07:01+0100\n"
+"PO-Revision-Date: 2012-05-09 14:56+0200\n"
+"Last-Translator: Atila KOÇ <akoc@artielektronik.com.tr>\n"
+"Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Make the configuration file readable/writeable by its owner only?"
+msgstr ""
+"Yapılandırma dosyası yalnızca sahibi tarafından okunabilir/yazılabilir "
+"yapılsın mı?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you use passwords in your libnss-ldap configuration, it is usually a good "
+"idea to have the configuration set with mode 0600 (readable and writable "
+"only by the file's owner)."
+msgstr ""
+"libnss-ldap yapılandırmanızda parolalar kullanıyorsanız, yapılandırma kipini "
+"0600 yapmanız (yalnızca dosya sahibi tarafından okunabilir/yazılabilir) "
+"akıllıca olacaktır."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Note: As a sanity check, libnss-ldap will check if you have nscd installed "
+"and will only set the mode to 0600 if nscd is present."
+msgstr ""
+"Not: libnss-ldap sisteminizde nscd paketinin yüklü olup/olmadığını "
+"denetleyecek ve eğer nscd yüklü ise kipini 0600 yapacaktır."
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "nsswitch.conf not managed automatically"
+msgstr "nssswitch.conf dosyası kendiliğinden düzenlenemedi"
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"For the libnss-ldap package to work, you need to modify your /etc/nsswitch."
+"conf to use the \"ldap\" datasource.  There is an example file at /usr/share/"
+"doc/libnss-ldap/examples/nsswitch.ldap which can be used as an example for "
+"your nsswitch setup, or it can be copied over your current setup."
+msgstr ""
+"libnss-ldap paketinin çalışabilmesi için /etc/nsswitch.conf dosyasını \"ldap"
+"\" veritabanınızı kullanacak şekilde düzenlemelisiniz. /usr/share/doc/libnss-"
+"ldap/examples/nsswitch.ldap örnek dosyasını inceleyerek kendi dosyanızı "
+"oluşturabilir ya da size uygunsa bu dosyayı doğrudan kopyalayıp "
+"kullanabilirsiniz."
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"Also, before removing this package, it is wise to remove the \"ldap\" "
+"entries from nsswitch.conf to keep basic services functioning."
+msgstr ""
+"Temel hizmetlerin çalışmayı sürdürmesi için bu paketi kaldırmadan önce "
+"nsswitch.conf dosyasından \"ldap\" girdilerinin çıkarılması akıllıca "
+"olacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Distinguished name of the search base:"
+msgstr "Arama tabanı için belirgin ad:"
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Please enter the distinguished name of the LDAP search base.  Many sites use "
+"the components of their domain names for this purpose.  For example, the "
+"domain \"example.net\" would use \"dc=example,dc=net\" as the distinguished "
+"name of the search base."
+msgstr ""
+"LDAP arama tabanı için belirgin ad giriniz. Çoğu site bunun için alan "
+"adlarının bileşenlerini kullanır. Örneğin alan adı \"example.net\" olan "
+"site, arama tabanı belirgin adı olarak \"dc=example,dc=net\" kullanır."
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Does the LDAP database require login?"
+msgstr "LDAP veritabanı oturum açmayı gerektiriyor mu?"
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Choose this option if you can't retrieve entries from the database without "
+"logging in."
+msgstr ""
+"Oturum açmadan veri tabanından girdi alamıyorsanız bu seçeneği seçiniz."
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Note: Under a normal setup, this is not needed."
+msgstr "Not: Sıradan bir kurulumda buna gerek yoktur."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Automatically update libnss-ldap's configuration file?"
+msgstr ""
+"libnss-ldap paketinin yapılandırma dosyası kendiliğinden güncellensin mi?"
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "The libnss-ldap package may use debconf for its configuration."
+msgstr "libnss-ldap paketi kendi yapılandırması için debconf'u kullanabilir."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"If you choose this option, the configuration file will be prepended with "
+"\"###DEBCONF###\"; you can disable the debconf updates by removing that line."
+msgstr ""
+"Bu seçeneği seçerseniz, yapılandırma dosyasının başına \"###DEBCONF###\" "
+"satırı eklenecektir. Dilerseniz daha sonra bu satırı kaldırarak debconf "
+"güncellemelerini devre dışı bırakabilirsiniz."
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "All new installations will use this option by default."
+msgstr "Öntanımlı olarak tüm yeni kurulumlar bu seçeneği kullanacaktır."
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Unprivileged database user:"
+msgstr "Ayrıcalıksız veritabanı kullanıcısı:"
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"Please enter the name of the account that will be used to log in to the LDAP "
+"database."
+msgstr "LDAP veritabanında oturum açmak için kullanılacak hesap adını giriniz."
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid "Password for database login account:"
+msgstr "Veritabanı oturum açma parolası:"
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid ""
+"Please enter the password that will be used to log in to the LDAP database."
+msgstr "LDAP veritabanında oturum açmak için kullanılacak parolayı giriniz."
+
+#. Type: select
+#. Description
+#: ../templates:8001
+msgid "LDAP version to use:"
+msgstr "Kullanılacak LDAP sürümü:"
+
+#. Type: select
+#. Description
+#: ../templates:8001
+msgid ""
+"Please enter which version of the LDAP protocol should be used by ldapns.  "
+"It is usually a good idea to set this to the highest available version "
+"number."
+msgstr ""
+"ldapns tarafından kullanılacak LDAP iletişim kuralı sürümünü seçiniz. Eldeki "
+"en yüksek sürümü kullanmanız önerilir."
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "LDAP server Uniform Resource Identifier:"
+msgstr "LDAP sunucusu Tekdüzen Kaynak Tanımlayıcısı (URI):"
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Please enter the URI of the LDAP server used. This is a string in the form "
+"ldap://<hostname or IP>:<port>/ . ldaps:// or ldapi:// can also be used. The "
+"port number is optional."
+msgstr ""
+"LDAP sunucusunun kullandığı Tekdüzen Kaynak Tanımlayıcısını giriniz.  Bu "
+"ldap://<sunucuadı_ya_da_IP>:<bağlantı_noktası>/ şeklinde bir dizgedir. "
+"ldaps:// ya da ldapi:// de kullanılabilir. Bağlantı noktası (port) seçime "
+"bağlıdır."
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Note: It is usually a good idea to use an IP address; this reduces risks of "
+"failure in the event name service is unavailable."
+msgstr ""
+"Not: IP adresi kullanmak genellikle iyi bir fikirdir; böylece alan adı "
+"hizmetinin erişilemediği durumlarda aksama yaşanmayacaktır."
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid "Special LDAP privileges for root?"
+msgstr "root'a özel LDAP ayrıcalıkları?"
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid ""
+"This option will allow tools that perform requests to the nss system with "
+"libnss-ldap as backend to return more information when called as root."
+msgstr ""
+"Bu seçenek root hesabıyla libnss-ldap arka uçlu nss sistemlerine istek yapan "
+"araçlara daha fazla bilgi döndürülmesine olanak tanıyacaktır."
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid ""
+"If you are using NFS mounted /etc or any other custom setup, you should "
+"disable this."
+msgstr ""
+"NFS bağlantılı /etc dizini ya da başka bir özel yapılandırma kullanıyorsanız "
+"bu seçeneği devre dışı bırakmalısınız."
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid "LDAP account for root:"
+msgstr "root için LDAP hesabı:"
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid ""
+"Please choose which account will be used for nss requests with root "
+"privileges."
+msgstr "root ayrıcalıkları ile nss istekleri yapacak hesabı seçiniz."
+
+#. Type: string
+#. Description
+#: ../templates:11001
+msgid ""
+"Note: For this to work the account needs permission to access the attributes "
+"in the LDAP directory that are related to the users' shadow entries as well "
+"as users' and groups' passwords."
+msgstr ""
+"Not: Bunun çalışması için ilgili hesabın LDAP dizinindeki kullanıcıların "
+"shadow girdileri ve kullanıcıların ve grupların parolalarına ilişkin "
+"özniteliklere erişme iznine sahip olması gereklidir."
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid "LDAP root account password:"
+msgstr "LDAP root hesabı parolası:"
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid ""
+"Please enter the password to use when libnss-ldap tries to login to the LDAP "
+"directory using the LDAP account for root."
+msgstr ""
+"libnss-ldap'ın root'a ait LDAP hesabını kullanarak LDAP dizininde oturum "
+"açacağı parolayı giriniz."
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid ""
+"The password will be stored in a separate file /etc/libnss-ldap.secret which "
+"will be made readable to root only."
+msgstr ""
+"Parola yalnızca root tarafından erişilebilen /etc/libnss-ldap.secret "
+"dosyasında saklanacaktır."
+
+#. Type: password
+#. Description
+#: ../templates:12001
+msgid "Entering an empty password will re-use the old password."
+msgstr "Bu alan boş bırakılırsa eski parola kullanılacaktır."

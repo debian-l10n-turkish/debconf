@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: email-reminder@packages.debian.org\n"
+"POT-Creation-Date: 2009-02-26 09:58+1300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Run daily email-reminder cronjob?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"By default, email-reminder checks once a day for reminders that need to be "
+"sent out."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "SMTP server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"Specify the address of the outgoing mail server that email-reminder should "
+"use to send its emails."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "SMTP username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "If the outgoing mail server requires a username, enter it here."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: password
+#. Description
+#: ../templates:3001 ../templates:4001
+msgid "Leave this blank if the SMTP server doesn't require authentication."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:4001
+msgid "SMTP password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:4001
+msgid "If the outgoing mail server requires a password, enter it here."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Connect to the SMTP server using SSL?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid ""
+"If the SMTP server supports SSL and you choose this option, data exchanged "
+"with it will be encrypted."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Reminder mails originating address:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"Reminder emails will appear to come from this address. The default should "
+"work unless the SMTP server requires routable domains in source addresses."
+msgstr ""

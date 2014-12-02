@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: logtool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-17 22:52+0000\n"
+"PO-Revision-Date: 2008-07-17 19:04+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Turkish\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Manual configuration of logtool's database?"
+msgstr "logtool'un veritabanı elle yapılandırılsın mı?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Logtool needs a database with regular expressions that describe logfile "
+"entries that should be ignored, or considered less important. You can write "
+"this database manually, or use the very flexible database in the package "
+"logcheck-database for this purpose."
+msgstr ""
+"Logtool, görmezden gelinmesi ya da daha önemsiz sayılması gereken günlük "
+"dosyası girdilerini tanımlayan düzenli ifadeleri içeren bir veritabanına "
+"ihtiyaç duyar. Bu iş için kendi veritabanınızı yazabilir ya da logcheck-"
+"database paketindeki oldukça esnek veritabanını kullanabilirsiniz."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you choose to use logcheck-database and already added values to the files "
+"in /etc/logtool, these files will be replaced by symbolic links in the "
+"logcheck database (although backups will be preserved). Make sure this is "
+"not unwanted behaviour."
+msgstr ""
+"Eğer logcheck-database paketini kullanmayı seçmiş ve /etc/logtool dosyasına "
+"daha önceden değerler eklemişseniz, bu dosyalar veritabanında sembolik "
+"bağlantılarla değiştirilecek (ama yedekleri korunacak). Bunu istediğinizden "
+"emin olun."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Reply positively to manually write a database, or negatively to use the "
+"database from the package \"logcheck-database\"."
+msgstr ""
+"Bu soruya, kendi veritabanınızı yazacaksanız olumlu, \"logcheck-database\" "
+"paketindeki veritabanını kullanacaksanız olumsuz yanıt verin."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Note: since logtool does not depend on this database (but instead Recommends "
+"it), the default answer to this question is to manually configure the "
+"database."
+msgstr ""
+"Not: logtool bu veritabanı paketine bağımlı değildir (onu önerir), bu "
+"nedenle öntanımlı yanıt veritabanını elle yapılandırmaktır."
+
+#. Type: boolean
+#. Description
+#. NOTE to translators: The terms 'paranoid', 'server', 'workstation',
+#. 'violations', 'cracking', and 'violations-ignore' refer to file names in
+#. /etc/logcheck. To avoid user confusion, these terms should either NOT be
+#. translated, or the translated terms should be mentioned between brackets
+#. after the untranslated version, like so:
+#. violations (inbreuken).
+#. Or, if you prefer, the other way around.
+#: ../templates:3001
+msgid "Do you want to use the '${level}' level regular expressions?"
+msgstr "Düzenli ifadeler için '${level}'. düzeyi kullanmak istiyor musunuz?"
+
+#. Type: boolean
+#. Description
+#. NOTE to translators: The terms 'paranoid', 'server', 'workstation',
+#. 'violations', 'cracking', and 'violations-ignore' refer to file names in
+#. /etc/logcheck. To avoid user confusion, these terms should either NOT be
+#. translated, or the translated terms should be mentioned between brackets
+#. after the untranslated version, like so:
+#. violations (inbreuken).
+#. Or, if you prefer, the other way around.
+#: ../templates:3001
+msgid ""
+"The database in the logcheck-database package defines three levels: "
+"paranoid, server, and workstation; and it also has a database for cracking, "
+"violations, and ignored violations ('violations-ignore'). Logcheck allows "
+"you to pick one of the levels, and ignores the rest."
+msgstr ""
+"logcheck-database paketindeki veritabanı üç düzey tanımlar: paranoyak "
+"(paranoid), sunucu (server) ve iş istasyonu (workstation). Bu paket ayrıca "
+"zorla girme (cracking), ihlâller (violations) ve görmezden gelinen ihlâller "
+"(violations-ignore) için de veritabanları içerir. Logcheck üç düzeyden "
+"birini seçmenize izin verir ve geri kalanları görmezden gelir."
+
+#. Type: boolean
+#. Description
+#. NOTE to translators: The terms 'paranoid', 'server', 'workstation',
+#. 'violations', 'cracking', and 'violations-ignore' refer to file names in
+#. /etc/logcheck. To avoid user confusion, these terms should either NOT be
+#. translated, or the translated terms should be mentioned between brackets
+#. after the untranslated version, like so:
+#. violations (inbreuken).
+#. Or, if you prefer, the other way around.
+#: ../templates:3001
+msgid ""
+"Logtool, on the other hand, can use multiple databases, which either specify "
+"lines that should be completely excluded from output (/etc/logtool/exclude) "
+"or lines that should be given a specific color (green, yellow, blue, "
+"magenta, cyan, brightcyan). There is also the possibility to not create an "
+"exclude file, and use an 'include' style of file instead; its use is not "
+"recommended. Last but not least, files that are not excluded from output but "
+"that do not match any other regular expression are colored red."
+msgstr ""
+"Diğer taraftan Logtool, satırların çıktıdan hariç tutulmasını (/etc/logtool/"
+"exclude), ya da belirli bir renkte (yeşil, sarı, mavi, macenta, siyan, "
+"parlak siyan) verilmesini belirleyen birden fazla veritabanını kullanabilir. "
+"Hariç tutma yerine dahil etme dosyaları oluşturmak da mümkündür (ama "
+"önerilmez). Son olarak; çıktıdan hariç tutulmayan ama herhangi bir düzenli "
+"ifadeyle de eşleşmeyen satırlar kırmızı olarak renklendirilir."
+
+#. Type: boolean
+#. Description
+#. NOTE to translators: The terms 'paranoid', 'server', 'workstation',
+#. 'violations', 'cracking', and 'violations-ignore' refer to file names in
+#. /etc/logcheck. To avoid user confusion, these terms should either NOT be
+#. translated, or the translated terms should be mentioned between brackets
+#. after the untranslated version, like so:
+#. violations (inbreuken).
+#. Or, if you prefer, the other way around.
+#: ../templates:3001
+msgid ""
+"If you want to map the '${level}' level database of regular expressions to "
+"one of the above specified options, then answer positively to this question."
+msgstr ""
+"Eğer '${level}'. düzey düzenli ifade veritabanını yukarıdaki seçeneklerden "
+"birine eşlemek istiyorsanız bu soruya olumlu yanıt verin."
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "exclude, include, green, yellow, blue, magenta, cyan, brightcyan"
+msgstr "hariç tut, dahil et, yeşil, sarı, mavi, macenta, siyan, parlak siyan"
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid "What do you want the ${level} level of regular expressions to do?"
+msgstr "${level}. düzey düzenli ifadelerin ne yapmasını istersiniz?"
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid ""
+"Please specify what you want to do with a line if it matches at least one of "
+"the regular expressions in the ${level} level database. You have the "
+"following options (note that regular expressions are matched on a line-per-"
+"line basis):"
+msgstr ""
+"Bir satır ${level}. düzey veritabanındaki düzenli ifadelerden en az biriyle "
+"eşleşirse bu satırla ne yapmak istediğinizi belirtin. Seçenekleriniz şunlar "
+"(düzenli ifadelerin satır temelinde eşleştiğini unutmayın):"
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid ""
+" * exclude: discard matching lines\n"
+" * include: discard all but matching lines. Not recommended. Note that\n"
+"   this is mutually exclusive with 'exclude'.\n"
+" * green, yellow, blue, magenta, cyan, brightcyan: give matching lines\n"
+"   the specified color."
+msgstr ""
+" * hariç tut: eşleşen satırları eler.\n"
+" * dahil et: eşleşmeyen satırları eler. Kullanımı önerilmez. Hariç tutma\n"
+"   veya dahil etme seçeneklerinden sadece birini seçebilirsiniz.\n"
+" * yeşil, sarı, mavi, macenta, siyan, parlak siyan: eşleşen satırları\n"
+"   belirli bir renkte gösterir."
+
+#. Type: select
+#. Description
+#: ../templates:4002
+msgid ""
+"Note that each option can be specified for only one of paranoid, server, or "
+"workstation."
+msgstr ""
+"Her seçeneğin paranoyak, sunucu ya da iş istasyonu değerlerinden sadece biri "
+"için tayin edileceğini unutmayın."
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid "Please do not select an action more than once"
+msgstr "Lütfen bir eylemi birden fazla kez seçmeyin."
+
+#. Type: error
+#. Description
+#: ../templates:5001
+msgid ""
+"You have selected the action ${action} for at least ${level1} and ${level2}. "
+"This is invalid; please either select a unique action for each level, or go "
+"back and choose not to use a certain level."
+msgstr ""
+"${action} eylemini en azından ${level1}. ve ${level2}. düzeyler için "
+"seçtiniz. Bu geçersiz bir seçimdir. Ya her düzey için ayrı bir eylem seçin, "
+"ya da geri dönüp belirli bir düzey kullanmamayı tercih edin."

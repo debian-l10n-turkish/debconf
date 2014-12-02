@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: durep@packages.debian.org\n"
+"POT-Creation-Date: 2010-02-03 17:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "HTTP directory for supplementary files:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If this package shall provide disk usage information through a HTTP CGI-"
+"service, it needs a public web directory containing additional files like "
+"style sheet and images. This directory should be visible as '/durep' on the "
+"web site where the durep.cgi page is located."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Due to FHS policy these files are not automatically installed to system "
+"directories. To make them accessible, they can either be copied into a "
+"location inside the HTTP root directory, or the web server needs to be "
+"configured accordingly."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"To configure the Apache webserver (for example), the following directive "
+"creates the needed directory alias:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "      Alias /durep /usr/share/durep/www"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"To install supplementary files into another root directory please specify "
+"its path here. The directory must already exist. A typical answer would be '/"
+"var/www'. The subdirectory '/durep' with files will be created "
+"automatically, the files will be installed from '/usr/share/durep/www' "
+"unless they already exist."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you want to enable daily report generation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you wish, a daily script will create disk usage statistics of chosen "
+"filesystems. They will be kept for seven days."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"WARNING: with the default configuration, the statistics are stored in the "
+"public httpd directory, /var/www/durep. This may breach the privacy of the "
+"users."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "List of filesystems for durep reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"To specify single filesystems to report on, enter their mount points "
+"separated by spaces (eg. \"/data /var\"). A single dot (\".\") means "
+"scanning of the whole UNIX filesystem tree."
+msgstr ""

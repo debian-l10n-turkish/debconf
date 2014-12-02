@@ -1,0 +1,445 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-10 08:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001
+#: ../console-keymaps-atari.templates:1001
+#: ../console-keymaps-sun.templates:1001 ../console-keymaps-usb.templates:1001
+#: ../console-keymaps-dec.templates:1001
+msgid "American English"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Belarusian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Belgian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Brazilian (ABNT2 layout)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Brazilian (EUA layout)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+#: ../console-keymaps-atari.templates:1001
+#: ../console-keymaps-sun.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "British English"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Bulgarian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Canadian Multilingual"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Croatian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-sun.templates:1001
+msgid "Czech"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Danish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Dutch"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Dvorak"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Estonian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-sun.templates:1001
+#: ../console-keymaps-usb.templates:1001
+msgid "Finnish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001
+#: ../console-keymaps-atari.templates:1001
+#: ../console-keymaps-sun.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "French"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001
+#: ../console-keymaps-atari.templates:1001
+#: ../console-keymaps-sun.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "German"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Greek"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Hebrew"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Hungarian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Icelandic"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Italian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Japanese"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Kirghiz"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Latin American"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Latvian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Lithuanian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Macedonian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Norwegian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-sun.templates:1001
+msgid "Polish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Portuguese"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Romanian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-sun.templates:1001
+msgid "Russian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Serbian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Slovakian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Slovene"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Spanish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001
+#: ../console-keymaps-atari.templates:1001
+#: ../console-keymaps-usb.templates:1001
+msgid "Swedish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Swiss French"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-amiga.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-usb.templates:1001
+msgid "Swiss German"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Turkish (F layout)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001 ../console-keymaps-sun.templates:1001
+msgid "Turkish (Q layout)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-acorn.templates:1001
+#: ../console-keymaps-at.templates:1001
+msgid "Ukrainian"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../console-keymaps-acorn.templates:1002
+#: ../console-keymaps-amiga.templates:1002
+#: ../console-keymaps-at.templates:1002
+#: ../console-keymaps-atari.templates:1002
+#: ../console-keymaps-mac.templates:1002 ../console-keymaps-sun.templates:1002
+#: ../console-keymaps-dec.templates:1002
+msgid "Keymap to use:"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-at.templates:1001
+msgid "Canadian French"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-at.templates:1001
+msgid "Thai"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-mac.templates:1001
+msgid "American English (82 keys)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-mac.templates:1001
+msgid "American English (extended kbd)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-mac.templates:1001
+msgid "French (alternate)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-mac.templates:1001
+msgid "French (extended kbd)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-mac.templates:1001
+msgid "German (extended kbd)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Japanese (type 4)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Japanese (type 5)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Norwegian (type 4)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Norwegian (type 5)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Spanish (type 4)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../console-keymaps-sun.templates:1001
+msgid "Spanish (type 5)"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../console-keymaps-usb.templates:1002
+msgid "Keymap to use for a USB keyboard:"
+msgstr ""

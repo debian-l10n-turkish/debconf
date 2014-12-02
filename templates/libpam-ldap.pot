@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: libpam-ldap@packages.debian.org\n"
+"POT-Creation-Date: 2009-06-08 06:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "LDAP administrative account:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Please enter the name of the LDAP administrative account."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"This account will be used automatically for database management, so it must "
+"have the appropriate administrative privileges."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "LDAP administrative password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid "Please enter the password of the administrative account."
+msgstr ""
+
+#. Type: password
+#. Description
+#. Translators: do not translate "${filename}"
+#: ../templates:3001
+msgid ""
+"The password will be stored in the file ${filename}. This will be made "
+"readable to root only, and will allow ${package} to carry out automatic "
+"database management logins."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:3001
+msgid ""
+"If this field is left empty, the previously stored password will be re-used."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Does the LDAP database require login?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Please choose whether the LDAP server enforces a login before retrieving "
+"entries."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Such a setup is not usually needed."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Distinguished name of the search base:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"Please enter the distinguished name of the LDAP search base. Many sites use "
+"the components of their domain names for this purpose. For example, the "
+"domain \"example.net\" would use \"dc=example,dc=net\" as the distinguished "
+"name of the search base."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "clear"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "crypt"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "nds"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "ad"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "exop"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "md5"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid "Local encryption algorithm to use for passwords:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:6002
+msgid ""
+"The PAM module can encrypt the password locally when changing it, which is "
+"recommended:\n"
+" * clear: no encryption. This should be chosen when LDAP servers\n"
+"   automatically encrypt the userPassword entry;\n"
+" * crypt: make userPassword use the same format as the flat\n"
+"   local password database. If in doubt, you should choose this option;\n"
+" * nds: use Novell Directory Services-style updating. The old\n"
+"   password is first removed, then updated;\n"
+" * ad: Active Directory-style. This creates a Unicode password and\n"
+"   updates the unicodePwd attribute;\n"
+" * exop: use the OpenLDAP password change extended operation to update the\n"
+"   password."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:7001
+msgid "LDAP version to use:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:7001
+msgid ""
+"Please choose the version of the LDAP protocol that should be used by "
+"ldapns. Using the highest available version number is recommended."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid "LDAP login user account:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid ""
+"Please enter the name of the LDAP account that should be used for non-"
+"administrative (read-only) database logins."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid ""
+"It is highly recommended to use an unprivileged account, because the "
+"configuration file that contains the account name and password must be world-"
+"readable."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Allow LDAP admin account to behave like local root?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"This option will allow password utilities that use PAM to change local "
+"passwords."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"The LDAP admin account password will be stored in a separate file which will "
+"be made readable to root only."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "If /etc is mounted by NFS, this option should be disabled."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "LDAP server URI:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid ""
+"Please enter the Uniform Resource Identifier of the LDAP server. The format "
+"is 'ldap://<hostname_or_IP>:<port>/'. Alternatively, 'ldaps://' or "
+"'ldapi://' can be used. The port number is optional."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid ""
+"Using an IP address is recommended to avoid failures when domain name "
+"services are unavailable."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "Password for LDAP login user:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "Please enter the password for the nonadministrative LDAP login account."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid "Manage libpam-ldap configuration automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid ""
+"The libpam-ldap package configuration may be managed automatically using "
+"answers to questions asked during the configuration process. The resulting "
+"configuration file may overwrite local changes."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid ""
+"If you do not choose this option, no further questions will be asked and the "
+"configuration will need to be done manually."
+msgstr ""

@@ -1,0 +1,67 @@
+# This file is distributed under the same license as the safe-rm package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: safe-rm\n"
+"Report-Msgid-Bugs-To: safe-rm@packages.debian.org\n"
+"POT-Creation-Date: 2008-07-09 11:47+1200\n"
+"PO-Revision-Date: 2008-07-09 21:17+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Abort package upgrade?"
+msgstr "Paket yükseltme işlemi durdurulsun mu?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"WARNING! Your system could become unusable (i.e. you could lose the /bin/rm "
+"command)."
+msgstr ""
+"DİKKAT! Sisteminiz kullanılamaz hale gelebilir. (/bin/rm komutunu "
+"kaybedebilirsiniz)."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Due to a bug in previous versions of safe-rm, this package should be "
+"upgraded separately from other packages. If it is currently part of a larger "
+"upgrade, you should abort this upgrade now."
+msgstr ""
+"safe-rm'nin önceki sürümlerinde bulunan bir hata nedeniyle bu paket diğer "
+"paketlerden ayrı olarak yükseltilmelidir. Eğer şu anda safe-rm'den başka "
+"paketlerin de dahil olduğu geniş bir yükseltme işlemi yapıyorsanız bu işlemi "
+"derhal durdurmalısınız."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Then, upgrade the safe-rm package all by itself and this problem will be "
+"resolved. The new version no longer diverts important system files and will "
+"therefore not be subject to similar problems."
+msgstr ""
+"Daha sonra safe-rm paketini tek başına yükselterek bu sorunu çözebilirsiniz. "
+"Yeni sürüm artık önemli sistem dosyalarının yolunu değiştirmiyor, bu yüzden "
+"bir daha böyle sorunlara maruz kalmayacak."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"If you do end up losing the /bin/rm command for whatever reason, you should "
+"still be able to use /bin/rm.real directly."
+msgstr ""
+"Eğer herhangi bir sebepten ötürü /bin/rm komutunu kaybettiyseniz, hâlâ /bin/"
+"rm.real komutunu doğrudan kullabilirsiniz."

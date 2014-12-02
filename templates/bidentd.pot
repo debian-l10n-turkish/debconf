@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: bidentd@packages.debian.org\n"
+"POT-Creation-Date: 2009-10-28 20:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Be very quiet"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Be quiet"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Log all requests"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Be somewhat verbose"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Be quite verbose"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Be really verbose"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Manual config"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Logging level for bidentd:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"Bisqwit's IDENT Daemon can emit various amounts of information to the daemon "
+"facility of the system logs."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The choices have the following meaning:\n"
+"  \"Be very quiet\"        Log nothing\n"
+"  \"Be quiet\"             Log only errors\n"
+"  \"Log all requests\"     Log all requests (can generate lots of noise)\n"
+"  \"Be somewhat verbose\"  Log a little more than with \"log all requests\"\n"
+"  \"Be quite verbose\"     Log even more than \"be somewhat verbose\"\n"
+"  \"Be really verbose\"    Log very much (will generate lots of noise)\n"
+"  \"Manual config\"        Do not touch inetd.conf"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"You should choose \"Log all requests\" unless you know you need one of the  "
+"other choices. The verbose options are mostly useful for debugging."
+msgstr ""

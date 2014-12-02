@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: csmall@debian.org\n"
+"POT-Creation-Date: 2006-08-01 21:12+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "There are two lpd.conf files"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"You have a lpd.conf in the old location (/etc/lpd.conf) and the new location "
+"(/etc/lprng/lpd.conf). From lprng version 3.6.16-1 this file should be only "
+"in /etc/lprng, please check both files and remove /etc/lpd.conf"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "There are two lpd.perms files"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"You have a lpd.perms in the old location (/etc/lpd.perms) and the new "
+"location (/etc/lprng/lpd.perms). Since lprng version 3.6.16-1 this file "
+"should be only in /etc/lprng, please check both files and remove /etc/lpd."
+"perms"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Make lpr, lprm and lpq setuid root?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"For full RFC1179 compliance you need to make these programs setuid root.  "
+"This is mainly so they can create a socket with a low port number. The low "
+"port number may be important if you have network printers or have adjusted /"
+"etc/lprng/lpd.perms to restrict access to non-privledged ports. For the "
+"typical printer connected locally to parallel port (and many other) scenario "
+"you can leave these programs non setuid root."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Start lpd (Printer Daemon) at boot?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Some people for various reasons do not want to start lpd. Refusing this "
+"option means lpd will not start.  Unless you know why you want lpd not to "
+"start, just accept the default."
+msgstr ""

@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: crm114@packages.debian.org\n"
+"POT-Creation-Date: 2010-02-13 17:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:2001
+msgid "Proceed with CRM114 upgrade?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:2001
+msgid ""
+"The version of the crm114 package that is about to be installed is not able "
+"to use .css files created by the currently installed version. This means "
+"that any crm114 command is likely to fail with an error code, possibly "
+"rejecting incoming e-mail."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:2001
+msgid ""
+"If the mail system on this machine depends on crm114, it is highly "
+"recommended that delivery (or just crm114 processing) should be temporarily "
+"disabled before the package is upgraded."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:2001
+msgid ""
+"If you proceed with the upgrade, you should carefully check whether crm114 "
+"is still properly operating with existing .css files. If it does not, these "
+"files should be rebuilt by using the mailreaver cache, or recreated from "
+"scratch."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:3001
+msgid "Force CRM114 upgrade?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../crm114.templates:3001
+msgid ""
+"If you enable this option, crm114 package won't ask any safety questions "
+"during the upgrade.  It is your full responsibility to arrange things in "
+"advance in such a way that nothing breaks after the upgrade."
+msgstr ""

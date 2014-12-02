@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: chef-solr\n"
+"Report-Msgid-Bugs-To: chef-solr@packages.debian.org\n"
+"POT-Creation-Date: 2012-09-13 07:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: password
+#. Description
+#: ../chef-solr.templates:2001
+msgid "AMQP user password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../chef-solr.templates:2001
+msgid ""
+"Please choose the password for the \"chef\" AMQP user in the RabbitMQ vhost "
+"\"/chef\"."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../chef-solr.templates:2001
+msgid ""
+"RabbitMQ's rabbitmqctl program, which will be used to set this password, "
+"cannot read input from a file. Instead the password will be passed to it as "
+"a quoted string, so it must not include any shell special characters (such "
+"as the exclamation mark) which will cause errors."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../chef-solr.templates:2001
+msgid ""
+"The password will be stored in /etc/chef/solr.rb and /etc/chef/server.rb as "
+"\"amqp_pass\"."
+msgstr ""

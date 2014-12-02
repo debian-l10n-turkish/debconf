@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: radu@debian.org\n"
+"POT-Creation-Date: 2007-04-16 16:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../xmail.templates:1001
+msgid "Default Local Domain Name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:1001
+msgid ""
+"Xmail server has a sendmail replacement that is mostly used by system  "
+"programs and daemons to send mail containing their output or results."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:1001
+msgid ""
+"Historically, those programs use a user name (usually root) that is not "
+"followed by a domain."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:1001
+#, no-c-format
+msgid ""
+"Xmail server is a 100% RFC compliant server that does not allow \"default\" "
+"domains. Its users are completely virtual and separated from the system "
+"users."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:1001
+msgid ""
+"You must have at least one valid domain and one valid user created to "
+"receive mail from those programs."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:2001
+msgid "User that will receive the system mail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:2001
+msgid ""
+"The RFC and best practice instructions for setting a mail server require "
+"having at least valid root, postmaster, and abuse addresses. Historically, "
+"it was usually the root user that received that mail in addition to other "
+"system-related mail, e.g., from cron daemons and log watchers."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:2001
+msgid ""
+"You may now choose user other than root to receive those messages if you "
+"wish to do so."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:3001
+msgid "User Password:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:3001
+msgid ""
+"Please enter a password for that user. You will need this when you log in to "
+"the POP3 or IMAP server."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:4001
+msgid "Forward to email address:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:4001
+msgid ""
+"Optionally you can choose to forward the postmaster's mails to another "
+"mailbox."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../xmail.templates:4001
+msgid ""
+"This change will not take effect if you already have a redirect in place."
+msgstr ""

@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: cgiemail@packages.debian.org\n"
+"POT-Creation-Date: 2008-05-08 10:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Directory where you want to put the cgiemail's mail templates:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"In old versions of cgiemail, templates that were used for creating e-mails "
+"to be sent could be placed anywhere that would be served up by the web "
+"server.  This behaviour is a security vulnerability: an attacker can read "
+"files that he shouldn't be able to, such as scripts in cgi-bin, if they "
+"contain certain pieces of text."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"If you enter nothing (that is, erase the default directory, leaving this "
+"empty), cgiemail will still work. This may be needed if you are, for "
+"instance, hosting web services, and cannot move all of your clients cgiemail "
+"templates to one directory.  Remember that this will LEAVE THE SECURITY HOLE "
+"OPEN, and is only a choice for backwards compatibility."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"To close the hole, enter a directory, which MUST be accessible by your web "
+"server.  Template files that you want to use should go there. For further "
+"instructions, please read the README.Debian and README files in /usr/share/"
+"doc/cgiemail/."
+msgstr ""

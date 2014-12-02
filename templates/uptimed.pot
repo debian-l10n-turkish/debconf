@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: uptimed\n"
+"Report-Msgid-Bugs-To: uptimed@packages.debian.org\n"
+"POT-Creation-Date: 2012-06-01 19:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../uprecords-cgi.templates:2001
+msgid "pre"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uprecords-cgi.templates:2001
+msgid "list"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uprecords-cgi.templates:2001
+msgid "table"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uprecords-cgi.templates:2002
+msgid "Format used by uprecords.cgi:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uprecords-cgi.templates:2002
+msgid ""
+"Three different layouts are available for use by the uprecords CGI script. "
+"Which method you use is a matter of personal preference."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uprecords-cgi.templates:2002
+msgid ""
+" * pre: Encloses everything in <pre>...</pre>\n"
+" * list: Makes a list, using <ol>...</ol>\n"
+" * table: Creates an HTML table."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uprecords-cgi.templates:3001
+msgid "Number of records shown by uprecords.cgi:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uprecords-cgi.templates:3001
+msgid ""
+"While uptimed may keep a large number of uptime records, not all of them are "
+"interesting to the outside world. Thus, you can limit the number of records "
+"that will be shown here."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uprecords-cgi.templates:4001
+msgid "uprecords.cgi has been installed into the web tree"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uprecords-cgi.templates:4001
+msgid ""
+"You have installed the uprecords-cgi package. That means that a new CGI "
+"script has been installed, which is now visible to the outside world as "
+"http://${hostname}/cgi-bin/uprecords.cgi (if you didn't modify your web "
+"server configuration to have CGI scripts in a different place)."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uprecords-cgi.templates:4001
+msgid ""
+"In the default web server configuration, CGI scripts are accessible from "
+"anywhere in the world. If you do not want this, you should set up access "
+"restrictions... but why wouldn't you want to show off your uptimes?"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uprecords-cgi.templates:4001
+msgid ""
+"You may also want to modify the HTML header and footer files in /etc/"
+"uprecords-cgi (or have your webmaster do so)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:2001
+msgid "Delay between database updates (seconds):"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:2001
+msgid ""
+"Uptimed will update its database regularly so that the uptime doesn't get "
+"lost in case of a system crash. You can set how frequently this will happen "
+"(use higher values if you want to avoid disk activity, for instance on a "
+"laptop)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:3001
+msgid "Number of records that should be kept:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:3001
+msgid ""
+"On systems that reboot frequently, you will get a fairly large list of "
+"uptime records pretty soon. To avoid this, uptimed will only keep the n "
+"highest uptimes. You may want to limit this to a lower value if you want to "
+"get emails each time a record is broken or if you reboot your machine often."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uptimed.templates:4001
+msgid "Never"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uptimed.templates:4001
+msgid "Record"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uptimed.templates:4001
+msgid "Milestone"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../uptimed.templates:4001
+msgid "Both"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uptimed.templates:4002
+msgid "Send mails if a milestone or record is reached:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uptimed.templates:4002
+msgid ""
+"Uptimed can be configured to send a mail each time a record is broken or a "
+"\"milestone\" is reached. You can choose whether you:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../uptimed.templates:4002
+msgid ""
+" * never want to receive these mails;\n"
+" * want to be notified only when a record is broken;\n"
+" * would like to know about milestones;\n"
+" * are interested in both."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:5001
+msgid "Uptimed email recipient:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../uptimed.templates:5001
+msgid ""
+"Since you have chosen to be sent emails, you should specify where to send "
+"these mails."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uptimed.templates:6001
+msgid "Milestone configuration must be done manually"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../uptimed.templates:6001
+msgid ""
+"The milestones must be configured manually in /etc/uptimed.conf. Since you "
+"have chosen to receive emails for milestones you probably want to modify "
+"that file."
+msgstr ""

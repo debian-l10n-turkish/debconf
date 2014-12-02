@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: gildor@debian.org\n"
+"POT-Creation-Date: 2006-09-27 00:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../mtink.templates:1001
+msgid "Permissions for mtink"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../mtink.templates:1001
+msgid ""
+"Warning! Mtink requires special permissions for the device file associated "
+"with the printer. You should check your permission to see if users that "
+"could run mtink should also access this file. If you have got a normal "
+"Debian installation, this group should be lp."
+msgstr ""

@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tats@debian.org\n"
+"POT-Creation-Date: 2007-02-19 23:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Use setuid imget for RPOP?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"The RPOP feature is disabled by default. It is an obsolete feature (The RPOP "
+"command was used instead of the PASS command to authenticate access to a "
+"maildrop. It was removed in RFC 1460). If you prefer, you can use RPOP by "
+"setuid imget."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Generate /etc/im/SiteConfig by hand?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"This package normally generates /etc/im/SiteConfig. If you prefer, you can "
+"generate /etc/im/SiteConfig by hand."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Default From: domain:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"In a mail/news header, if a From: field does not have a domain part, imput "
+"will add this domain automatically."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../templates:3001 ../templates:4001 ../templates:5001
+msgid "If unsure, you can ignore this."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Default To: domain:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"In a mail header, if a To: field does not have a domain part, imput will add "
+"this domain automatically."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Organization:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "In a news header, imput will add an Organization: field automatically."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Use imget with maildir?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"A maildir is not used by default. If you prefer, imget can retrieve mails "
+"from ~/Maildir/{new,cur}."
+msgstr ""

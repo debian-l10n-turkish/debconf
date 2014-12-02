@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: freevo@packages.debian.org\n"
+"POT-Creation-Date: 2010-12-27 23:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Description
+#: ../freevo.templates:2001
+msgid "Video output:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:2001
+msgid "Please choose the type of video output to use with Freevo."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:3001
+msgid "Output resolution:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:3001
+msgid ""
+"Please choose the resolution to use with Freevo. Most CRT television systems "
+"should be configured as 768x576 (NTSC or PAL). HD television systems use "
+"1280x720, and FullHD uses 1920x1080."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:4001
+msgid "TV standard:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:4001
+msgid ""
+"Please choose the TV standard to use. NTSC is used in North America, much of "
+"South America, and Japan; SECAM in France, the former USSR, and parts of "
+"Africa and the Middle East; and PAL elsewhere."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "USA broadcast"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "USA cable"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "USA cable HRC"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Japan broadcast"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Japan cable"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Europe (West)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Europe (East)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Italy"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "New Zealand"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Australia"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Ireland"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "France"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "China broadcast"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "South Africa"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../freevo.templates:5001
+msgid "Argentina"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:5002
+msgid "Channel list:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../freevo.templates:5002
+msgid ""
+"Please choose the channel list (set of tuning frequencies) that most closely "
+"matches the one used in your country."
+msgstr ""
+
+#. Type: select
+#. Default
+#: ../freevo.templates:6001
+msgid "Video folder"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:6002
+msgid "Title of video folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:6002
+msgid "Please choose the title of the video folder."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../freevo.templates:6002 ../freevo.templates:8002 ../freevo.templates:10002
+msgid "This will be displayed by Freevo in overview."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:7001
+msgid "Path to videos:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:7001
+msgid "Please choose the directory where video files are stored."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#. Type: string
+#. Description
+#: ../freevo.templates:7001 ../freevo.templates:9001 ../freevo.templates:11001
+#: ../freevo.templates:12001
+msgid "You must use an absolute path (with a leading \"/\" character)."
+msgstr ""
+
+#. Type: string
+#. Default
+#: ../freevo.templates:8001
+msgid "Audio folder"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:8002
+msgid "Title of audio folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:8002
+msgid "Please choose the title of the audio folder."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:9001
+msgid "Path to audio folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:9001
+msgid "Please choose the directory where audio files are stored."
+msgstr ""
+
+#. Type: string
+#. Default
+#: ../freevo.templates:10001
+msgid "Image folder"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:10002
+msgid "Title of image folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:10002
+msgid "Please choose the title of the image folder."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:11001
+msgid "Path to image folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:11001
+msgid "Please choose the directory where image files are stored."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:12001
+msgid "Path to recorded video folder:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../freevo.templates:12001
+msgid "Please choose the directory where video recording files are stored."
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../freevo.templates:13001
+msgid "xserver"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../freevo.templates:13001
+msgid "recordserver"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../freevo.templates:13001
+msgid "encodingserver"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../freevo.templates:13001
+msgid "webserver"
+msgstr ""
+
+#. Type: multiselect
+#. Choices
+#: ../freevo.templates:13001
+msgid "rssserver"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../freevo.templates:13002
+msgid "Services to start during boot:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../freevo.templates:13002
+msgid ""
+"Freevo can be started automatically when the machine boots, using a "
+"dedicated X server. Web, encoding, RSS, and recording servers can be "
+"launched at the same time."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../freevo.templates:13002
+msgid "Please choose the services you wish to start on boot."
+msgstr ""

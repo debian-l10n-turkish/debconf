@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: apt-cacher@packages.debian.org\n"
+"POT-Creation-Date: 2011-06-25 21:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../apt-cacher.templates:1001
+msgid "daemon"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../apt-cacher.templates:1001
+msgid "inetd"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../apt-cacher.templates:1001
+msgid "manual"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-cacher.templates:1002
+msgid "Daemon mode for apt-cacher:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-cacher.templates:1002
+msgid "Please select the method for starting the apt-cacher daemon."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../apt-cacher.templates:1002
+msgid ""
+"Choose \"daemon\" to run as a stand-alone daemon, \"inetd\" to run under "
+"inetd or \"manual\" to use the (deprecated) CGI mode or some other manual "
+"configuration."
+msgstr ""

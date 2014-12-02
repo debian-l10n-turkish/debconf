@@ -1,0 +1,45 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-08 22:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../radioclk.templates:1001
+msgid "Serial port the radio receiver is connected to:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../radioclk.templates:1001
+msgid ""
+"Your time signal receiver should be connected to a serial port. Please enter "
+"the device name of the serial port, without the /dev/ part."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../radioclk.templates:1001
+msgid "Example: for the second serial port, /dev/ttyS1, enter ttyS1."
+msgstr ""

@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: pkg-zope-developers@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2007-07-23 08:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "configuring"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "end"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "manually"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Automatic restart of Zope instances:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Zope offers an extensible, modular structure that allows for the easy "
+"addition of extra components (products) or features. These are provided as "
+"packages with names that start with a 'zope-' prefix. Each Zope instance "
+"needs to be restarted to use any new add-on."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Please choose the default behavior of Zope instances when Zope needs to be "
+"restarted:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+" - configuring: restart instances after each product configuration;\n"
+" - end:         restart instances only once at the end of the whole\n"
+"                installation/upgrading process;\n"
+" - manually:    no automated restart."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "abort"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "remove and continue"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid "Action on old/incomplete zope instance '${instance}':"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid ""
+"An old/incomplete ${instance} instance was found in /var/lib/zope${zver}/"
+"instance/${instance}, with no Data.fs file. This installation is either "
+"incomplete or incompletely removed."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid "Choosing 'abort' will allow you to inspect the state of the instance."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:3002
+msgid ""
+"Choosing 'remove and continue' will remove /var/lib/zope${zver}/instance/"
+"${instance} and reinstall ${instance}. Existing log files in /var/log/zope"
+"${zver}/${instance} and configuration files in /etc/zope${zver}/${instance} "
+"will be preserved."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Keep data for ${instance} on package purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid ""
+"Purging the data files of a Zope instance on package purge will result in "
+"the loss of all data for that instance. These data files are stored in /var/"
+"lib/zope${zver}/instance/${instance}."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid "Administrative user for '${instance}' Zope instance:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:5001
+msgid ""
+"Please enter the login name of the administrative user for the '${instance}' "
+"Zope instance. Valid names must start with a letter and only include letters "
+"and digits."
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: password
+#. Description
+#: ../templates:5001 ../templates:6001
+msgid ""
+"This will only be used for instance creation. Please use the following "
+"command to change the administrative user login name and password at a later "
+"time:"
+msgstr ""
+
+#. Type: string
+#. Description
+#. Type: password
+#. Description
+#: ../templates:5001 ../templates:6001
+msgid ""
+"/var/lib/zope${zver}/instance/${instance}/bin/zopectl adduser <user> "
+"<password>"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:6001
+msgid "Password for the administrative user:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:6001
+msgid ""
+"Please enter a password for the administrative user. The password must not "
+"be empty. The password is deleted from the configuration database once the "
+"instance is successfully created and cannot be recovered."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid "Password confirmation:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid "Please confirm the administrative user's password."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid "HTTP port for this instance:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid "Please enter the HTTP port number for the ${instance} instance."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:8001
+msgid ""
+"Other services (e.g. FTP, WebDAV, debug) will be disabled by default. They "
+"can be enabled by editing /etc/zope${zver}/${instance}/zope.conf."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "TCP port for the ZEO instance:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "Please enter the TCP port number for the ${instance} ZEO instance."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:10001
+msgid "Automatically generated user and password for this instance"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:10001
+msgid ""
+"No administrative user login name or password were provided for this "
+"instance. They have been automatically generated."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:10001
+msgid "For ${instance} Zope${zver} logins, use the following values:"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:10001
+msgid ""
+" - User     : ${user}\n"
+" - Password : ${password}"
+msgstr ""

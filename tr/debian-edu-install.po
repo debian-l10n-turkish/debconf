@@ -1,0 +1,415 @@
+# Turkish translation of debian-edu-install.
+# This file is distributed under the same license as the debian-edu-install package.
+# Recai Oktaş <roktas@omu.edu.tr>, 2004.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-edu-install\n"
+"Report-Msgid-Bugs-To: debian-edu-install@packages.debian.org\n"
+"POT-Creation-Date: 2014-09-30 09:23+0200\n"
+"PO-Revision-Date: 2012-02-29 16:59+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Type: text
+#. Description
+#. Debian Installer Main-menu Item
+#: ../debian-edu-profile-udeb.templates:1001
+msgid "Choose Debian Edu profile"
+msgstr "Debian Edu profilini seçin"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Main Server"
+msgstr "Ana Sunucu"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Workstation"
+msgstr "İş-istasyonu"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Roaming Workstation"
+msgstr "Gezici İş İstasyonu"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Thin Client Server"
+msgstr "Hafif İstemci Sunucusu"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Standalone"
+msgstr "Kendibaşına"
+
+#. Type: multiselect
+#. Choices
+#. __Choices: Main-Server, Workstation, Roaming-Workstation, Thin-Client-Server, Standalone, Minimal, Sugar
+#: ../debian-edu-profile-udeb.templates:2001
+msgid "Minimal"
+msgstr "Asgari"
+
+#. Type: multiselect
+#. Description
+#: ../debian-edu-profile-udeb.templates:2002
+msgid "Profile(s) to apply to this machine:"
+msgstr "Bu makineye uygulanacak profil(ler):"
+
+#. Type: multiselect
+#. Description
+#: ../debian-edu-profile-udeb.templates:2002
+msgid "Profiles determine how the machine can be used out-of-the-box:"
+msgstr ""
+"Kurulum tamamlandığında makinenin nasıl kullanılacağını belirleyen profiller:"
+
+#. Type: multiselect
+#. Description
+#. # Translators, do not translate "Sugar"
+#: ../debian-edu-profile-udeb.templates:2002
+msgid ""
+" - Main Server: reserved for the Debian Edu server. It does not\n"
+"                include any GUI (Graphical User Interface). There\n"
+"                should only be one such server on a Debian Edu\n"
+"                network.\n"
+" - Workstation: for normal machines on the Debian Edu network.\n"
+" - Roaming Workstation: for single user machines on the Debian Edu\n"
+"                network which some times travel outside the network.\n"
+" - Thin Client Server:\n"
+"                includes 'Workstation' and requires two network\n"
+"                cards.\n"
+" - Standalone:  for machines meant to be used outside the Debian Edu\n"
+"                network. It includes a GUI and conflicts with other\n"
+"                profiles.\n"
+" - Minimal:     fully integrated into the Debian Edu network but\n"
+"                contains only a basic system without any GUI."
+msgstr ""
+" - Ana Sunucu:   Debian Edu sunucusuna mahsustur. Herhangi bir GUI\n"
+"                 (Grafik Kullanıcı Arabirimi) içermez. Bir Debian Edu\n"
+"                 ağında yalnızca bir adet Ana-sunucu olmalıdır.\n"
+" - İş istasyonu: Debian Edu ağındaki normal makineler içindir.\n"
+" - Roaming Workstation: for single user machines on the Debian Edu\n"
+"                network which some times travel outside the network.\n"
+" - Hafif İstemci Sunucusu:\n"
+"                 'İş istasyonu'nu kapsar ve iki ağ kartı gerektirir.\n"
+" - Kendibaşına:  Debian Edu ağının dışında kullanılacak makineler\n"
+"                 içindir. GUI içerir ve diğer profillerle çakışır.\n"
+" - Asgari:       Debian Edu ağıyla bütünleşiktir ama GUI içermez;\n"
+"                 sadece temel bir sistem içerir."
+
+# " - Sugar:        'Kendibaşına'nın, çocukları paylaşmaya teşvik eden\n"
+# "                 ve ortak öğrenmeyi sağlayan Sugar masaüstü ortamını\n"
+# "                 içeren bir çeşididir.\n"
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:3001
+msgid "Standalone profile cannot be used with other profiles"
+msgstr "Kendibaşına profili diğer profillerle kullanılamaz"
+
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:3001
+msgid ""
+"The Standalone profile cannot be installed together with any other profile "
+"on the same machine. Please either only choose Standalone or any other "
+"combination excluding Standalone."
+msgstr ""
+"Kendibaşına profili aynı makineye diğer profillerle birlikte kurulamaz. "
+"Lütfen ya sadece Kendibaşına'yı; ya da Kendibaşına'yı içermeyen diğer "
+"bileşimleri seçin."
+
+#. Type: note
+#. Description
+#: ../debian-edu-profile-udeb.templates:4001
+msgid "Standalone installation is partly manual"
+msgstr "Kendibaşına kurulumu kısmen elle yürütülür"
+
+#. Type: note
+#. Description
+#: ../debian-edu-profile-udeb.templates:4001
+msgid ""
+"The Standalone install is currently not as automatic as the other profiles, "
+"to make it easier to do manual partitioning.  You are now sent to the debian-"
+"installer main menu.  Select \"Change debconf priority\", and choose "
+"priority \"high\" to enable the automatic installation again."
+msgstr ""
+"Kendibaşına kurulumu, elle bölümlemeyi kolaylaştıracak şekilde hâlihazırda "
+"diğer profiller kadar otomatikleştirilmemiştir.  Şimdi Debian kurulum "
+"programının ana menüsüne gireceksiniz.  Otomatik kurulumu yeniden etkin "
+"kılmak için \"Debconf önceliğini değiştir\" menüsünden \"yüksek\" önceliği "
+"seçin."
+
+#. Type: text
+#. Description
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:6001
+#: ../debian-edu-profile-udeb.templates:7001
+msgid "Really use the automatic partitioning tool?"
+msgstr "Otomatik bölümleme aracını kullanmak istediğinizden emin misiniz?"
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:7001
+msgid ""
+"This will destroy the partition table on all disks in the machine. REPEAT: "
+"THIS WILL WIPE CLEAN ALL HARD DISKS IN THE MACHINE! If you have important "
+"data that are not backed up, you may want to stop now in order to do a "
+"backup. In that case, you'll have to restart the installation later."
+msgstr ""
+"Bu işlem makinede bulunan tüm disklerin bölümleme tablosunu yok edecektir. "
+"TEKRAR EDİYORUM: BU İŞLEM MAKİNEDE BULUNAN TÜM SABİT DİSKLERDEKİ VERİLERİ "
+"SİLECEKTİR! Eğer yedeklenmemiş önemli verileriniz varsa işlemi şimdi "
+"durdurup yedekleme yapmak isteyebilirsiniz.  Böyle bir durumda kurulumu daha "
+"sonra tekrar başlatmalısınız."
+
+#. Type: text
+#. Description
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:8001
+#: ../debian-edu-profile-udeb.templates:9001
+msgid "Participate in the package usage survey?"
+msgstr "Paket kullanım anketine katılmak ister misiniz?"
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:9001
+msgid ""
+"The system may anonymously supply the distribution developers with "
+"statistics about the most used packages on this system.  This information "
+"influences decisions such as which packages should go on the first "
+"distribution CD."
+msgstr ""
+"Bu sistemde en çok kullanılan paketler hakkındaki istatistiksel bilgiler "
+"isimsiz (anonim) şekilde dağıtım geliştiricilerine iletilebilir. Bu "
+"bilgiler, dağıtımın birinci CD'si içinde olması gereken paketlerin "
+"belirlenmesi gibi bazı kararlar üzerinde etkili olacaktır."
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:9001
+msgid ""
+"If you choose to participate, the automatic submission script will run once "
+"every week, sending statistics to the distribution developers. The collected "
+"statistics can be viewed on http://popcon.debian.org/."
+msgstr ""
+"Katılmak isterseniz otomatik gönderim betiği haftada bir kez çalışacak ve "
+"toplanan istatistikleri dağıtım geliştiricilerine gönderecektir. Bu "
+"istatistiklere http://popcon.debian.org/ adresinden erişilebilir."
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:9001
+msgid ""
+"This choice can be later modified by running \"dpkg-reconfigure popularity-"
+"contest\"."
+msgstr ""
+"Burada yapılan seçim daha sonra, \"dpkg-reconfigure popularity-contest\" "
+"komutu çalıştırılarak değiştirilebilir."
+
+#. Type: text
+#. Description
+#. Debian Edu main server menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:10001
+msgid "Debian Edu Main Server"
+msgstr "Debian Edu Ana Sunucu"
+
+#. Type: text
+#. Description
+#. Debian Edu ltsp server menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:11001
+msgid "Debian Edu Thin Client Server"
+msgstr "Debian Edu Hafif İstemci Sunucusu"
+
+#. Type: text
+#. Description
+#. Debian Edu workstation menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:12001
+msgid "Debian Edu Workstation"
+msgstr "Debian Edu İş-istasyonu"
+
+#. Type: text
+#. Description
+#. Debian Edu combo main+ltsp menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:13001
+msgid "Debian Edu Main Server and Thin Client Server"
+msgstr "Debian Edu Ana Sunucu ve Hafif İstemci Sunucusu"
+
+#. Type: text
+#. Description
+#. Debian Edu combo main+ws menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:14001
+msgid "Debian Edu Main Server and Workstation"
+msgstr "Debian Edu Ana Sunucu ve İş İstasyonu"
+
+#. Type: text
+#. Description
+#. Debian Edu minimal menu entry for partman recipe.
+#: ../debian-edu-profile-udeb.templates:15001
+msgid "Debian Edu Minimal"
+msgstr "Debian Edu Asgari"
+
+#. Type: title
+#. Description
+#: ../debian-edu-profile-udeb.templates:16001
+msgid "Debian Edu package installation failed"
+msgstr "Debian Edu paket kurulumu başarısız oldu"
+
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:17001
+msgid "Installation of required packages failed"
+msgstr "Gerekli paketler kurulamadı"
+
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:17001
+msgid ""
+"Some required packages failed to install. The packages were ${PACKAGES}. "
+"Check /var/log/syslog if there is some information why this happened. The "
+"installed system is not going to work properly, so the installation was "
+"aborted and the system will be rebooted now."
+msgstr ""
+"Gerekli paketlerden bazıları kurulamadı. Kurulamayan paketler: ${PACKAGES}. "
+"Bunun sebebini öğrenmek için /var/log/syslog dosyasına göz atın. Kurulan "
+"sistem düzgün çalışmayacak, bu nedenle kurulum iptal edildi ve şimdi sistem "
+"yeniden başlatılacak."
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:18001
+msgid "Available disk space is too small.  Abort the installation?"
+msgstr "Yeteri kadar boş disk alanı yok.  Kurulum iptal edilsin mi?"
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:18001
+msgid ""
+"The available disk space is too small for the selected profiles. Please "
+"choose whether you want to abort the installation or continue without "
+"setting up the recommended partitioning setup"
+msgstr ""
+"Boş disk alanı seçilen profiller için yetersiz.  Lütfen ya kurulumu iptal "
+"edin ya da kurulum işlemine önerilen bölümleme şeklini kullanmadan devam "
+"edin."
+
+#. Type: boolean
+#. Description
+#: ../debian-edu-profile-udeb.templates:18001
+msgid ""
+"If you choose to continue, one single partition will be used for all system "
+"files _and_ user files.  Note that this can cause stability problems after a "
+"while."
+msgstr ""
+"Devam etmeyi seçerseniz tüm sistem _ve_ kullanıcı dosyaları için tek bir "
+"bölüm kullanılacaktır.  Bu seçimin bir süre sonra kararlılık sorunlarına yol "
+"açabileceğini göz önünde bulundurun."
+
+#. Type: text
+#. Description
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:19001
+#: ../debian-edu-profile-udeb.templates:20001
+msgid "Missing required network connectivity"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../debian-edu-profile-udeb.templates:20001
+msgid ""
+"To install Debian Edu using PXE and NETINST CD, network connectivity is "
+"required.  It is currently missing, so this installation can not continue "
+"and will be aborted."
+msgstr ""
+
+#. Type: text
+#. Description
+#. Debian Installer Main-menu Item
+#: ../debian-edu-install-udeb.templates:1001
+msgid "Install Debian Edu profile (enforce menu order)"
+msgstr "Debian Edu profilini kur (menü sırasını takip et)"
+
+#. Type: error
+#. Description
+#: ../debian-edu-install.templates:1001
+msgid "Some errors were found during installation"
+msgstr "Kurulum sırasında bazı sorunlarla karşılaşıldı:"
+
+#. Type: error
+#. Description
+#: ../debian-edu-install.templates:1001
+msgid "${ERRORS}"
+msgstr "${ERRORS}"
+
+#. Type: error
+#. Description
+#: ../debian-edu-install.templates:1001
+msgid "Consider reporting them to the Debian Edu developers."
+msgstr "Bu sorunları Debian Edu geliştiricilerine bildirmeyi düşünün."
+
+#. Type: note
+#. Description
+#: ../debian-edu-install.templates:2001
+#, fuzzy
+#| msgid "Some errors were found during installation"
+msgid "No errors were found during installation"
+msgstr "Kurulum sırasında bazı sorunlarla karşılaşıldı:"
+
+#. Type: note
+#. Description
+#: ../debian-edu-install.templates:2001
+msgid ""
+"This is shown for the development version to make it clear that the "
+"installation was successful."
+msgstr ""
+
+#~ msgid ""
+#~ "The Debian Edu installer already has executed some disk setup commands. "
+#~ "Previous content of your disk might already have been destroyed by this."
+#~ msgstr ""
+#~ "Debian Edu kurulum programı halihazırda bazı disk kurulum komutlarını "
+#~ "çalıştırdı. Bu nedenle diskinizin önceki içeriği silinmiş olabilir."
+
+#~ msgid ""
+#~ " - Main Server: reserved for the Debian Edu server. It does not\n"
+#~ "                include any GUI (Graphical User Interface). There\n"
+#~ "                should only be one such server on a Debian Edu\n"
+#~ "                network.\n"
+#~ " - Workstation: for normal machines on the Debian Edu network.\n"
+#~ " - Roaming Workstation: for single user machines on the Debian Edu\n"
+#~ "                network which some times travel outside the network.\n"
+#~ " - Thin Client Server:\n"
+#~ "                includes 'Workstation' and requires two network\n"
+#~ "                cards.\n"
+#~ " - Standalone:  for machines meant to be used outside the Debian Edu\n"
+#~ "                network. It includes a GUI and conflicts with other\n"
+#~ "                profiles."
+#~ msgstr ""
+#~ " - Ana Sunucu:   Debian Edu sunucusuna mahsustur. Herhangi bir GUI\n"
+#~ "                 (Grafik Kullanıcı Arabirimi) içermez. Bir Debian Edu\n"
+#~ "                 ağında yalnızca bir adet Ana-sunucu olmalıdır.\n"
+#~ " - İş istasyonu: Debian Edu ağındaki normal makineler içindir.\n"
+#~ " - Gezici İş İstasyonu: Debian Edu ağındaki, arada sırada seyahate\n"
+#~ "                 çıkan tek kullanıcılı makineler içindir.\n"
+#~ " - Hafif İstemci-Sunucusu:\n"
+#~ "                 'İş istasyonu'nu kapsar ve iki ağ kartı gerektirir.\n"
+#~ " - Kendibaşına:  Debian Edu ağının dışında kullanılacak makineler\n"
+#~ "                 içindir. GUI içerir ve diğer profillerle çakışır."

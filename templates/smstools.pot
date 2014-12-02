@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: smstools@packages.debian.org\n"
+"POT-Creation-Date: 2008-02-26 16:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Manage smsd configuration automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Reject this option if you want to configure smsd manually."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Global event-handler:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Please specify an external program or script that will execute, whenever a "
+"message is sent or received, or on failures. This is useful for instance "
+"when running an email2sms gateway."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"Examples of event-handlers are detailed in /usr/share/doc/smstools/examples."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Modem name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"Please specify the short name for the modem device. This is a mandatory "
+"setting."
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:5001 ../templates:7001
+msgid "Other"
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: string
+#. Description
+#: ../templates:5002 ../templates:6001
+msgid "Modem device:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:5002
+msgid ""
+"Please specify the modem device. Usually the modem device is /dev/ttyS0 (the "
+"first serial port), but your setup may differ; e.g. for a USB device, choose "
+"'Other' and specify the full path of the appropriate device node."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Please specify an optional extra device for the modem."
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: string
+#. Description
+#: ../templates:7002 ../templates:8001
+msgid "Modem device speed (bps):"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:7002
+msgid ""
+"Most modems work well with a speed of 19200bps, but some modems may require "
+"9600 bps. If your modem does not support any of the baud rates in the list, "
+"select 'Other'."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Receive SMS with this device?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"Please choose whether the device should be used to receive incoming SMS."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid "Modem initialization string:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:10001
+msgid ""
+"Please specify the modem initialization command. That may be left empty for "
+"most modems. Please consult your modem's manual for more details about its "
+"supported commands."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "SIM device PIN code:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:11001
+msgid "If the device's SIM needs a PIN to be unlocked, please enter it here."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid "Configure another modem?"
+msgstr ""

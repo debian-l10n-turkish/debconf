@@ -1,0 +1,82 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-04 09:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Apache"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Apache-ssl"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Apache2"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Other"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Webserver type:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"By default IlohaMail supports any webserver that is PHP4 capable, but this "
+"process only supports Apache. This installation  will manage (or attempt to "
+"manage)  the configuration of the Apache portions specific necessary to run "
+"IlohaMail properly.   If you do not wish this to happen, please choose the "
+"'Other' option."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Apache Alias for IlohaMail:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"An alias entry is added to the Apache configuration pointing to the "
+"IlohaMail source. By default this is /IlohaMail, so that the webmail is "
+"reachable at http://your.host/IlohaMail/. If you want another location "
+"(like /webmail) enter it here."
+msgstr ""

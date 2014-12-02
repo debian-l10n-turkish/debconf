@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: metche@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-01 09:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "E-mail address receiving metche reports:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"metche monitors \"system state\" changes.  An hour after the last change has "
+"been recorded an e-mail report is sent describing changes made to:\n"
+" - files inside the watched directory (/etc by default),\n"
+" - user maintained changelog file(s) (if configured to do so),\n"
+" - the list of installed Debian packages (if configured to do so)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Please enter the e-mail that should receive these reports.  It typically "
+"corresponds to the alias or mailing-list used by system administrators for "
+"this computer."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Note: by default, metche does not send detailed diffs describing file "
+"changes as this can leak confidential information.  If you want to use this "
+"feature, you are strongly encouraged to turn on GPG encryption at the same "
+"time. See the metche(8) man page and the configuration file for more details."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Single changelog file"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Multiple changelog files"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "No changelog monitoring"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Changelog monitoring type:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"metche can monitor one or more changelogs written by the system "
+"administrators."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"These changelogs should contain comments describing the changes made to the "
+"system.  The easiest way to organize these comments is to put them all "
+"together in one file."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Another possibility is to have a subdirectory for each administrative task "
+"with a file named \"Changelog\".  This way, you can store source code or "
+"configuration examples along with the documentation on how they have been "
+"used."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Changelog file to be monitored:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "This option sets the path of the changelog file to be monitored."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Changelog directory to be monitored:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This option sets the path to the root directory containing the Changelogs. "
+"Each \"Changelog\" file should be in a sub-directory of this directory."
+msgstr ""

@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: david@planetwatson.co.uk\n"
+"POT-Creation-Date: 2006-07-17 22:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "Listen port:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"The NTLM Authorization Proxy Server listens to this port.  This is the port "
+"number you use in your http_proxy or web browser settings."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Proxy servers are commonly set to listen to port 8080, but in NTLM APS the "
+"default value is 5865."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid "Parent proxy:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"This is the address of the NTLM proxy server (e.g. the Microsoft ISA server) "
+"which NTLM APS is authenticating against."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:2001
+msgid ""
+"The address may be given with or without the leading http://, for example:\n"
+"    proxy.myworkplace.com\n"
+"    http://proxy.myworkplace.com"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Parent proxy port:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"This is the port number which the NTLM proxy server (e.g. the Microsoft ISA "
+"server), that NTLM APS is authenticating against, listens to."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "It is commonly set to 8080."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "NT Windows username:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid ""
+"This field identifies the NT Windows username that you use for "
+"authentication."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid "NT Windows password:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid ""
+"This field identifies the NT Windows password that you use for "
+"authentication."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid ""
+"To help with security, it is not stored permanently in the debconf database, "
+"but is deleted from there after being written to the ntlmaps config file.  "
+"Be aware that it is temporarily stored in the debconf database while this "
+"setup procedure is taking place. It is deleted from there at the end of "
+"setup."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid ""
+"If you prefer not to have the password stored, even temporarily, in the "
+"debconf database, then leave this entry blank, and insert the value manually "
+"into the config file /etc/ntlmaps/server.cfg."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "NT Windows domain:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"This field identifies the NT Windows domain that you authenticate against."
+msgstr ""

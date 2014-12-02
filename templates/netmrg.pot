@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: netmrg\n"
+"Report-Msgid-Bugs-To: netmrg@packages.debian.org\n"
+"POT-Creation-Date: 2012-01-18 06:57+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. choices
+#: ../templates:1001
+msgid "None, Apache2, Apache, Apache-SSL, All"
+msgstr ""
+
+#. Type: select
+#. description
+#: ../templates:1002
+msgid "Web server to configure:"
+msgstr ""
+
+#. Type: string
+#. default
+#: ../templates:2001
+msgid "localhost"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:2002
+msgid "Host name of the mysql database server:"
+msgstr ""
+
+#. Type: string
+#. default
+#. Type: string
+#. default
+#: ../templates:3001 ../templates:5001
+msgid "netmrg"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:3002
+msgid "Name for the database:"
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:4002
+msgid "The database already exists"
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:4002
+msgid ""
+"A simple test revealed that a database with the name \"${dbname}\" already "
+"exists and appears to be a netmrg database. If you really like to use this "
+"database then confirm the name in the next step."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:5002
+msgid "Name of the database user:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:5002
+msgid "This user will have read/write access to the netmrg database."
+msgstr ""
+
+#. Type: password
+#. description
+#: ../templates:6002
+msgid "Password of the database user:"
+msgstr ""
+
+#. Type: password
+#. description
+#: ../templates:7002
+msgid "Confirm the password of the database user:"
+msgstr ""
+
+#. Type: text
+#. description
+#: ../templates:8002
+msgid "Password mismatch"
+msgstr ""
+
+#. Type: text
+#. description
+#: ../templates:8002
+msgid "The database user passwords you entered didn't match. Please try again."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:9002
+msgid "Name of the database system administrator:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:9002
+msgid ""
+"In order to be able to create the initial database and database user for "
+"netmrg, the account name of the database system administrator is needed."
+msgstr ""
+
+#. Type: password
+#. description
+#: ../templates:10002
+msgid "Password of the database system administrator:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:11002
+msgid "Name of web host:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:11002
+msgid ""
+"netmrg's user interface is web based. The hostname of the web server is used "
+"for URLs within the netmrg web interface. Leaving this entry field empty is "
+"usually a good choice."
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:12002
+msgid "Name of your company:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:12002
+msgid ""
+"The web front end of netmrg shows the name of your company in the header of "
+"each web page."
+msgstr ""
+
+#. Type: string
+#. default
+#: ../templates:13001
+msgid "http://"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:13002
+msgid "URL of your company's website:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../templates:13002
+msgid ""
+"Clicking on the company name will follow a link. It is usually the URL "
+"pointing to the start page of your company's web site."
+msgstr ""
+
+#. Type: boolean
+#. default
+#: ../templates:14001
+msgid "true"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:14002
+msgid "Delete data after purging software?"
+msgstr ""
+
+#. Type: boolean
+#. description
+#: ../templates:14002
+msgid ""
+"Purging a package usually removes all data collected by the software "
+"including the log files. Choose 'no' if you would like to keep the mysql "
+"database and the datafiles even if the netmrg package is purged sometime in "
+"the future."
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:15002
+msgid "Package configuration note"
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:15002
+msgid ""
+"The package has been successfully installed and configured. Point your web "
+"browser towards http://${site}/netmrg/ and log in as user 'admin' with the "
+"password 'nimda'. Make sure to change the password as soon as possible since "
+"it is the default password for all netmrg installations."
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:16002
+msgid "Error while creating database"
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:17002
+msgid "Error while creating database user"
+msgstr ""
+
+#. Type: note
+#. description
+#: ../templates:18002
+msgid "Error while creating database tables"
+msgstr ""

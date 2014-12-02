@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wims-moodle\n"
+"Report-Msgid-Bugs-To: wims-moodle@packages.debian.org\n"
+"POT-Creation-Date: 2014-04-14 18:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid "URL to access Wims from remote machines:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"Please specify the URL that will allow users to access Wims assignments from "
+"Moodle."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:1001
+msgid ""
+"It should include the server hostname, but not the path, and must use the "
+"HTTPS protocol (with the web server configured to answer HTTPS requests). "
+"For instance, if Wims is accessed from https://wims.example.org/wims/ then "
+"you should enter https://wims.example.org here."
+msgstr ""

@@ -1,0 +1,260 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-31 07:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "configure manually"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "zoneedit"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "ez-ip"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "pgpow"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "dhs"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "dyndns"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "dyndns-static"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "dyndns-custom"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "ods"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "tzo"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "easydns"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "easydns-partner"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "gnudip"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "justlinux"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "dyns"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "hn"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "heipv6tb"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Dynamic DNS provider to use:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"There are many Dynamic DNS providers supported by ez-ipupdate. If you want "
+"your default configuration to be created automatically, you must select the "
+"provider that you wish to use here. You must configure an account on your "
+"chosen provider's service yourself."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"If you prefer your default ez-ipupdate configuration not to be managed for "
+"you, you may choose \"configure manually\"."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"Whatever your decision, you can later put as many additional configuration "
+"files in /etc/ez-ipupdate/ as you need."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Does this system use dialup PPP to connect to the internet?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you use dialup PPP to connect to the internet, then ez-ipupdate can be "
+"run to notify providers of your new address when ppp connects to the "
+"network. Otherwise it will run in the background, and scan for changes to "
+"your address while you are online."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid "Address for your Dynamic DNS server:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:3001
+msgid ""
+"The service type you selected requires a server address to connect to. You "
+"may specify either a full hostname or an IP address."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:4001
+msgid "Username for your Dynamic DNS account:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid "Password for your Dynamic DNS account:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid "Network interface to monitor:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:6001
+msgid ""
+"ez-ipupdate will monitor the chosen network interface for changes of IP "
+"address. It is not possible to automatically detect which interface should "
+"be monitored, so you must name the interface here."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:7001
+msgid "Dynamic DNS hostname to keep updated:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Enable DNS wildcards for your Dynamic DNS hostname?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"Many Dynamic DNS providers are capable of supporting \"wildcard\" DNS "
+"lookups. This means that for yourdomain, a lookup for anything.yourdomain "
+"will return an answer that points to yourdomain."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid "MX record to add:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"Many Dynamic DNS providers are capable of supporting MX records. If you want "
+"an MX record enabled for your domain, specify the content of that MX record "
+"here. If you do not want an MX record, leave it blank."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../templates:9001
+msgid ""
+"For further information on MX records, what they do, and how they are used, "
+"see your Dynamic DNS provider."
+msgstr ""

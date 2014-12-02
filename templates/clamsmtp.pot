@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: clamsmtp@packages.debian.org\n"
+"POT-Creation-Date: 2009-12-07 14:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Add a clamsmtp system user and group?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"New installations of clamsmtp install with a system user and group of "
+"\"clamsmtp\".  The \"clamav\" user is added to the clamsmtp group to allow "
+"the clamav-daemon process to view the quarantine directory.  If this option "
+"is set, the installation process will also update the ownership and "
+"permissions of the quarantine and run directories."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Fix directory permissions?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"clamsmtpd needs read and write permissions to the virus spool directory, and "
+"the run directory in which its PID file is created.  Additionally, the Clam "
+"AV daemon must have read access to the spool directory to scan for viruses."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"The post-installation script can fix the permissions and ownership of these "
+"two directories.  It will consult the /etc/clamsmtpd.conf and /etc/default/"
+"clamsmtp files for the administratively assigned TempDirectory, PidFile, "
+"User, and Group variables, and then update the two directories appropriately."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Be sure to check directory permissions after running the init script with "
+"the parameters 'start' or 'restart'."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Purge spool directory on --purge?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"The virus spool directory may contain quarantined viruses that can be "
+"removed automatically when purging the package."
+msgstr ""

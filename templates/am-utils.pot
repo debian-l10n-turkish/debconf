@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: am-utils@packages.debian.org\n"
+"POT-Creation-Date: 2011-01-12 08:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:2001
+msgid "Import old amd configuration?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:2001
+msgid ""
+"amd package configuration files are available (the \"amd\" package was the "
+"precursor to am-utils)"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:2001
+msgid ""
+"A mechanism is available to import these files, but it may fail in some "
+"cases."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:3001
+msgid "Failed to log to file"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:3001
+msgid ""
+"The old \"amd\" configuration used to log to a file instead of using syslog."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:3001
+msgid ""
+"The \"am-utils\" package only supports logging to the syslog out of the box. "
+"You might want to modify the /etc/am-utils/amd.conf file to enable logging "
+"to a file."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:3001
+msgid "This will require manual intervention."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:4001
+msgid "Automatic import of amd's configuration failed"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:4001
+msgid ""
+"Unfortunately, the automatic import of the old amd configuration failed."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:4001
+msgid "Please review your am-utils configuration."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:5001
+msgid "Is the amd master map propagated through NIS?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:5001
+msgid ""
+"At large sites the automounter tables (called 'maps') may be available "
+"through the \"Network Information Service\", or NIS for short (formerly "
+"known as \"Yellow pages\").  This is the recommended way of using the "
+"automounter on client systems."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:5001
+msgid ""
+"The master map contains the list of mount points to be managed by amd. This "
+"master map can be propagated through NIS or can be a file. Whatever answer "
+"you choose here does not prevent amd from retrieving the other maps via NIS."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:5001
+msgid "Only the *master* map is concerned here."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:6001
+msgid "Name of the master map:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:6001
+msgid ""
+"The master map is the map containing amd's startup arguments and refers to "
+"other maps."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:6001
+msgid "It's generally called \"amd.master\"."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../am-utils.templates:7001
+msgid "config"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../am-utils.templates:7001
+msgid "onekey"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../am-utils.templates:7001
+msgid "mountpoint"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../am-utils.templates:7001
+msgid "custom"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid "Master map style:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid "The Amd master map can be of different styles:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+"With the `config' style, every key in the master map specifies a different "
+"configuration. You might have different configurations depending on which OS "
+"is booted, or on what the machine's purpose is. The value associated with "
+"each key is the list of mountpoints and maps to be used with this "
+"configuration."
+msgstr ""
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid "Example map:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+" linux   /home amd.home /boot amd.boot -cache:=all\n"
+" freebsd /home amd.home /usr/sys amd.usr-sys"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid "You will need to specify which key to use."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+"The `onekey' style is the same as `config' except there is only one single "
+"configuration. No key needs to be specified."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+"With the `mountpoint' style, every key in the master map is the mount point "
+"and the value is the map name to be used for this mount point, plus some "
+"options if needed. This is the default map style for FreeBSD."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+" /home amd.home\n"
+" /boot amd.boot -cache:=all"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../am-utils.templates:7002
+msgid ""
+"With the `custom' style, you will be prompted for a command to extract the "
+"master map which will be run everytime amd starts."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:8001
+msgid "NIS key to use for this system:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:8001
+msgid ""
+"The key is typically the name of the os (\"linux\" for example), or a "
+"description of this computer's usage (\"marketing\", \"r&d\", etc)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:9001
+msgid "Command to run to extract the master map:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:9001
+msgid ""
+"Please enter a shell command to run when amd starts up. This command should "
+"print a valid list of amd command line maps on stdout."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:10001
+msgid "Use the 'net' map?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:10001
+msgid ""
+"Amd can be configured to use the net map. With this map, one can access all "
+"the filesystems exported via NFS from a particular host by looking under:\n"
+"   /net/<HOSTNAME>/<FILESYSTEM>"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:10001
+msgid ""
+"While convenient, this can result in mounting a lot of filesystems "
+"simultaneously."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid "Use the passwd map?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid "A map for automounting of home directories on /home."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid ""
+"If you use the following system for the home directories of your users, then "
+"you will not need to do any configuration, because amd provides a special "
+"\"passwd\" map type for this case. Amd will break the string"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid " /anydir/[dom1[/...]/]domN/login"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid "to:"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid ""
+" rfs:=/anydir/domN\n"
+" rhost:=domN[[....].dom1]\n"
+" sublink:=login"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../am-utils.templates:11001
+msgid ""
+"If your home directories do *not* follow this pattern, you should not enable "
+"this feature."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:12001
+msgid "Other maps to use:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:12001
+msgid "If you need to use other maps, enter them here."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:12001
+msgid ""
+"A map entry requires the two following elements:\n"
+"  1. A mount point (where the map will be mounted and accessed)\n"
+"  2. The name of a map, in a text file, DBM file, or the name of a\n"
+"     NIS map."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:12001
+msgid ""
+"For example, if you have a text map in /etc/am-utils/amd.test to be mounted "
+"on /foo and a NIS map called amd.other to be mounted on /bar, then you "
+"should enter:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:12001
+msgid " /foo /etc/am-utils/amd.test /bar amd.other"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:13001
+msgid "Cluster name to use:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:13001
+msgid ""
+"A map entry can use the '\\${cluster}' selector, to identify a machine as "
+"belonging to a particular cluster."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../am-utils.templates:13001
+msgid ""
+"If you use that facility, set the cluster name here.  If you leave it blank, "
+"amd will use the DNS domain name instead."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:14001
+msgid "Cannot contact RPC service on localhost"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:14001
+msgid ""
+"Access to localhost's amd RPC service is denied!  am-utils will not work "
+"until you take manual action to rectify this."
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:14001
+msgid ""
+"Please fix your /etc/hosts.allow and /etc/hosts.deny files and grant access "
+"to the amd service for localhost. This is typically done by inserting the "
+"following line to /etc/hosts.allow:"
+msgstr ""
+
+#. Type: error
+#. Description
+#: ../am-utils.templates:14001
+msgid "amd: localhost"
+msgstr ""

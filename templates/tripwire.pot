@@ -1,0 +1,458 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tripwire@packages.debian.org\n"
+"POT-Creation-Date: 2010-10-17 16:41+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you wish to upgrade?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"The format of the Tripwire database and configuration files have changed "
+"substantially between previous versions and this release."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"To ensure your system remains secure, the upgrade process keeps a copy of "
+"the old version of Tripwire and the old configuration file along with any "
+"old databases that may exist.  You will find a detailed explanation for "
+"using the old version of Tripwire in /usr/share/doc/tripwire/README.Debian."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"However, as no conversion of the old configuration file and database is "
+"attempted, you may prefer not to upgrade."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Due to the way Debian handles configuration files, if you choose to upgrade "
+"you must accept the new version of /etc/cron.daily/tripwire for regular "
+"reporting to occur.  The cron job associated with the previous version will "
+"continue to run regardless."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you wish to create/use your site key passphrase during installation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"Tripwire uses a pair of keys to sign various files, thus ensuring their "
+"unaltered state.  By accepting here, you will be prompted for the passphrase "
+"for the first of those keys, the site key, during the installation.  You are "
+"also agreeing to create a site key if one doesn't exist already.  Tripwire "
+"uses the site key to sign files that may be common to multiple systems, e.g. "
+"the configuration & policy files.  See twfiles(5) for more information."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:2001 ../templates:3001
+msgid ""
+"Unfortunately, due to the Debian installation process, there is a period of "
+"time where this passphrase exists in a unencrypted format. Were an attacker "
+"to have access to your machine during this period, he could possibly "
+"retrieve your passphrase and use it at some later point."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid ""
+"If you would rather not have this exposure, decline here.  You will then "
+"need to create a site key, configuration file & policy file by hand.  See "
+"twadmin(8) for more information."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"Do you wish to create/use your local key passphrase during installation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"Tripwire uses a pair of keys to sign various files, thus ensuring their "
+"unaltered state.  By accepting here, you will be prompted for the passphrase "
+"for the second of those keys, the local key, during the installation.  You "
+"are also agreeing to create a local key if one doesn't exist already.  "
+"Tripwire uses the local key to sign files that are specific to this system, "
+"e.g. the tripwire database. See twfiles(5) for more information."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid ""
+"If you would rather not have this exposure, decline here.  You will then "
+"need to create a local key file by hand.  See twadmin(8) for more "
+"information."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:4001
+msgid "Enter site-key passphrase:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:4001
+msgid ""
+"Tripwire uses two different keys for authentication and encryption of "
+"files.  The site key is used to protect files that could be used across "
+"several systems.  This includes the policy and configuration files."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:4001
+msgid ""
+"You are being prompted for this passphrase either because no site key exists "
+"at this time or because you have requested the rebuilding of the policy or "
+"configuration files."
+msgstr ""
+
+#. Type: password
+#. Description
+#. Type: password
+#. Description
+#: ../templates:4001 ../templates:7001
+msgid "Remember this passphrase; it is not stored anywhere!"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid "Repeat the site-key passphrase:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:5001
+msgid "Please repeat the site pass phrase to be sure you didn't mistype."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Your site passphrase is incorrect. Retry operation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"The site passphrase you entered is incorrect.  If you think you mistyped it "
+"and would like to retry the current operation accept below.  If you can't "
+"remember the passphrase, decline below and the tripwire installation process "
+"will terminate gracefully.  When you remember the site passphrase continue "
+"the installation process by running"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:6001 ../templates:9001
+msgid "  dpkg-reconfigure tripwire"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:6001 ../templates:9001
+msgid "as root."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid ""
+"If you have completely forgotten your site passphrase, generate a new site "
+"key with a new passphrase by running"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "  twadmin -m G -S /etc/tripwire/site.key"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid "Enter local key passphrase:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid ""
+"Tripwire uses two different keys for authentication and encryption of "
+"files.  The local key is used to protect files specific to the local "
+"machine, such as the Tripwire database.  The local key may also be used for "
+"signing integrity check reports."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:7001
+msgid ""
+"You are being prompted for this passphrase because no local key file "
+"currently exists."
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:8001
+msgid "Repeat the local key passphrase:"
+msgstr ""
+
+#. Type: password
+#. Description
+#: ../templates:8001
+msgid "Please repeat the local pass phrase to be sure you didn't mistype."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Your local passphrase is incorrect. Retry operation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"The local passphrase you entered is incorrect.  If you think you mistyped it "
+"and would like to retry the current operation accept below.  If you can't "
+"remember the passphrase, decline below and the tripwire installation process "
+"will terminate gracefully.  When you remember the local passphrase continue "
+"the installation process by running"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid ""
+"If you have completely forgotten your local passphrase, generate a new local "
+"key with a new passphrase by running"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "  twadmin -m G -L /etc/tripwire/${hostname}-local.key"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid "Rebuild Tripwire configuration file?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid ""
+"Tripwire keeps its configuration in a encrypted database that is generated, "
+"by default, from /etc/tripwire/twcfg.txt"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid ""
+"Any changes to /etc/tripwire/twcfg.txt, either as a result of a change in "
+"this package or due to administrator activity, require the regeneration of "
+"the encrypted database before they will take effect."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:10001 ../templates:11001
+msgid ""
+"Selecting this action will result in your being prompted for the site key "
+"passphrase during the post-installation process of this package."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid "Rebuild Tripwire policy file?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid ""
+"Tripwire keeps its policies on what attributes of which files should be "
+"monitored in a encrypted database that is generated, by default, from /etc/"
+"tripwire/twpol.txt"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid ""
+"Any changes to /etc/tripwire/twpol.txt, either as a result of a change in "
+"this package or due to administrator activity, require the regeneration of "
+"the encrypted database before they will take effect."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:12001
+msgid "Tripwire no longer emails reports by default"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:12001
+msgid ""
+"Previous versions of Tripwire provided the administrator with the option of "
+"emailing the compliance report generated by the daily cron job to a "
+"particular address.  This functionality is no longer provided."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:12001
+msgid ""
+"Instead, the administrator may choose to mail failures associated with "
+"individual rules or sets of rules to one or more accounts, with different "
+"rule sets using independent email addresses."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:12001
+msgid ""
+"By default, this package does not enable this feature.  Please see the "
+"twpolicy(4) man page for details on how to configure this functionality."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:13001
+msgid "Tripwire has been installed"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:13001
+msgid ""
+"The Tripwire binaries are located in /usr/sbin and the database is located "
+"in /var/lib/tripwire. It is strongly advised that these locations be stored "
+"on write-protected media (e.g. mounted RO floppy). See /usr/share/doc/"
+"tripwire/README.Debian for details."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:14001
+msgid "Your Tripwire installation may be misconfigured"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:14001
+msgid ""
+"There was a bug in version 2.3.0-1 of this package that resulted in "
+"Tripwire's site and local keys being generated without a passphrase."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:14001
+msgid ""
+"You are strongly urged to delete both the site key file, /etc/tripwire/site."
+"key, and local key file, /etc/tripwire/${hostname}-local.key, and "
+"reconfigure this package using dpkg-reconfigure once you have completed this "
+"upgrade.  This will result in new key files and protect the configuration "
+"and policy files once the are generated."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:15001
+msgid "The default Tripwire policy has changed"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:15001
+msgid ""
+"With release ${release}, the default tripwire policy has changed.  If you "
+"accept dpkg's offer to upgrade /etc/tripwire/twpol.txt and have previously "
+"chosen to have policy regenerate automatically, the daily tripwire cron job "
+"will fail until you update your tripwire database."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:15001
+msgid ""
+"To avoid this, either chose not to accept the new version of /etc/tripwire/"
+"twpol.txt or update your database to reflect the change in policy by "
+"executing"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:15001
+msgid "  tripwire -m p /etc/tripwire/twpol.txt"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:15001
+msgid ""
+"as root once you have completed installing this package.  Please see /usr/"
+"share/doc/tripwire/README.Debian for more details."
+msgstr ""

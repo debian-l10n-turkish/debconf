@@ -1,0 +1,328 @@
+# Turkish translation of console-common.
+# This file is distributed under the same license as the console-common package.
+# Recai Oktas <roktas@debian.org>  2004, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: console-common\n"
+"Report-Msgid-Bugs-To: mckinstry@debian.org\n"
+"POT-Creation-Date: 2007-07-30 07:02+0200\n"
+"PO-Revision-Date: 2008-05-10 12:40+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from arch list"
+msgstr "Klavye düzenini mimari (arch) listesinden seç"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Don't touch keymap"
+msgstr "Klavye ayarına dokunma"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Keep kernel keymap"
+msgstr "Çekirdekle gelen klavye düzenini koru"
+
+#. Type: select
+#. Choices
+#: ../templates.in:2001
+msgid "Select keymap from full list"
+msgstr "Klavye düzenini tam listeden seç"
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid "Policy for handling keymaps:"
+msgstr "Klavye düzenlerinin idaresinde uyulacak yöntem:"
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid "The keymap records the layout of symbols on the keyboard."
+msgstr "Klavye düzeni, klavyedeki simgelerin düzenini kaydeder."
+
+#. Type: select
+#. Description
+#: ../templates.in:2002
+msgid ""
+" - 'Select keymap from arch list': select one of the predefined keymaps\n"
+"   specific for your architecture (recommended for non-USB keyboards);\n"
+" - 'Don't touch keymap': don't overwrite the keymap in /etc/console,\n"
+"   which is maintained manually with install-keymap(8);\n"
+" - 'Keep kernel keymap': prevent any keymap from being loaded next time\n"
+"   the system boots;\n"
+" - 'Select keymap from full list': list all the predefined keymaps.\n"
+"   Recommended when using cross-architecture (often USB) keyboards."
+msgstr ""
+" - 'Klavye düzenini mimari (arch) listesinden seç': Kullandığınız mimariye "
+"özel\n"
+"   önceden tanımlı klavye düzenlerinden birini seç (USB olmayan klavye\n"
+"   kullanıcılarına önerilir);\n"
+" - 'Klavye ayarına dokunma': Bakımı install-keymap(8) tarafından elle "
+"sağlanan,\n"
+"   /etc/console'daki klavye ayarını değiştirme ;\n"
+" - 'Çekirdekle gelen klavye düzenini koru': Sistemin sonraki açılışında \n"
+"   herhangi bir klavye düzeninin yüklenmesini önle;\n"
+" - 'Klavye düzenini tam listeden seç': Önceden tanımlı tüm klavye "
+"düzenlerini\n"
+"   listele. Çapraz mimari (çoğu kez USB) klavyeleri kullanırken önerilir."
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid "Ignored boot-time keymap in an old location"
+msgstr ""
+"Eski bir dizinde bulunan açılış zamanında yüklenmek niyetiyle hazırlanmış "
+"bir klavye düzeni göz ardı edildi."
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"The keymap configuration tool has been set up not to touch an existing "
+"keymap."
+msgstr ""
+"Klavye düzeni yapılandırma aracı, var olan klavye düzenini değiştirmemeye "
+"ayarlandı."
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"However, there are some 'default.kmap(.gz)' file(s) either in /etc/kbd/ or "
+"in /etc/console-tools/. These were recognized as boot-time keymaps by older "
+"versions of the console utilities, but are now ignored."
+msgstr ""
+"Bununla birlikte, /etc/kbd veya /etc/console-tools dizininde default.kmap(."
+"gz) adında dosya(lar) var. Bunlar konsol araçlarının eski sürümleri "
+"tarafından açılış zamanı klavye düzenleri olarak tanınır, fakat şimdi göz "
+"ardı edilecek."
+
+#. Type: note
+#. Description
+#: ../templates.in:3001
+msgid ""
+"If you wish one of these to take effect on next reboot, you will have to "
+"move it to /etc/console/boottime.kmap.gz manually."
+msgstr ""
+"Bunlardan birinin bir sonraki açılışta etkin olmasını istiyorsanız, bu "
+"dosyayı elle /etc/console/boottime.kmap.gz olarak kopyalayın."
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+msgid "Keyboard layout family:"
+msgstr "Klavye düzeni ailesi:"
+
+#. Type: select
+#. Description
+#: ../templates.in:4001
+msgid ""
+"Please specify the generic family name for the keyboard layout. Usually, the "
+"layout family name is taken from the first keys on the left of the top "
+"letters row of the keymap."
+msgstr ""
+"Lütfen seçtiğiniz klavye düzeninin ait olduğu genel ailenin ismini belirtin. "
+"Aile, çoğunlukla klavyenin en üst harf sırasının solundaki tuşlarla "
+"isimlendirilir."
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+msgid "Keyboard layout:"
+msgstr "Klavye düzeni:"
+
+#. Type: select
+#. Description
+#: ../templates.in:5001
+msgid ""
+"In order to refine the keymap choice, please select the physical layout of "
+"the keyboard."
+msgstr ""
+"Klavye seçimini yenilemek için lütfen klavyenizdeki tuşların fiziksel "
+"yerleşimini seçin."
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+msgid "Keyboard variant:"
+msgstr "Klavye alt türü:"
+
+#. Type: select
+#. Description
+#: ../templates.in:6001
+msgid ""
+"The selected keyboard layout has several variants. Please select the one "
+"matching the keyboard."
+msgstr ""
+"Seçtiğiniz klavye düzeni çok sayıda alt türe sahip.  Lütfen bunlardan "
+"klavyenize uygun olan birini seçin."
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../templates.in:7001 ../templates.in:8001
+msgid "Keymap:"
+msgstr "Tuş eşlemi"
+
+#. Type: select
+#. Description
+#: ../templates.in:7001
+msgid ""
+"The selected keyboard allows a choice from a range of keymaps. Usually these "
+"were designed either for specific tastes (for instance with dead keys) or "
+"for specific needs (such as programming)."
+msgstr ""
+"Seçili klavye bir dizi klavye düzeni arasında tercih yapmaya olanak "
+"sağlıyor.  Bunlar genellikle özel isteklere (ör. ölü tuşların kullanılıp "
+"kullanılmaması) veya özel gereksinimlere (ör. programcı klavyesi) göre "
+"tasarlanmıştır."
+
+#. Type: select
+#. Description
+#: ../templates.in:8001
+msgid ""
+"If the keyboard is designed for a different computer architecture, you "
+"should choose a specific keymap in the full map."
+msgstr ""
+"Klavyeniz farklı bir bilgisayar mimarisine göre düzenlendiyse, tam listeden "
+"belirli bir klavye düzeni seçmelisiniz."
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid "Are you ready for the ADB key codes transition?"
+msgstr "ADB tuş kodlarına geçiş için hazır mısınız?"
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"The kernel is configured to have the keyboard send ADB key codes. This "
+"behavior is now deprecated and no longer supported."
+msgstr ""
+"Çekirdek, klavyenin ADB tuş kodlarını göndermesini sağlayacak şekilde "
+"yapılandırılmış.  Bu davranış artık terkedilmiştir ve artık "
+"desteklenmemektedir."
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"For best results, you should reconfigure the kernel with "
+"CONFIG_MAC_ADBKEYCODES=n. Alternatively, you can pass "
+"'keyboard_sends_linux_keycodes=1' as an argument to the kernel."
+msgstr ""
+"En iyi sonuçlar için çekirdeği CONFIG_MAC_ADBKEYCODES=n seçeneği ile "
+"yapılandırmalısınız. Bunun yerine, açılış sırasında çekirdeğe "
+"keyboard_sends_linux_keycodes=1 ayarını da geçirebilirsiniz."
+
+#. Type: boolean
+#. Description
+#: ../templates.in:9001
+msgid ""
+"Please be aware that the transition will most probably break the X "
+"configuration, so it is strongly recommended to close all X sessions now and "
+"adapt the configuration afterwards by running 'dpkg-reconfigure console-"
+"data'."
+msgstr ""
+"Lütfen dikkat edin, bu geçiş büyük olasılıkla X yapılandırmasını bozacaktır. "
+"Bu nedenle bütün X oturumlarından şimdi çıkmanız ve sonrasında 'dpkg-"
+"reconfigure console-data' komutunu çalıştırarak yapılandırmayı uyarlamanız "
+"şiddetle önerilir."
+
+#~ msgid ""
+#~ "The keymap describes how keys are laid out on your keyboard, and what "
+#~ "symbols (letters, digits, etc.) are drawn on them."
+#~ msgstr ""
+#~ "Klavye düzeni tuşların klavye üzerinde nasıl dizildiğini ve bunların "
+#~ "üzerinde (harfler, rakamlar, vb.) hangi sembollerin bulunduğunu tanımlar."
+
+#~ msgid ""
+#~ "\"Select keymap from arch list\" will allow you to select one of the "
+#~ "predefined keymaps specific for your architecture - you will most likely "
+#~ "want this unless you have a USB keyboard."
+#~ msgstr ""
+#~ "\"Klavye düzenini mimari (arch) listesinden seç\" kullandığınız mimariye "
+#~ "(i386, powerpc gibi) özgü önceden tanımlı klavye düzenlerinden birini "
+#~ "seçmenizi sağlar - USB klavye kullanmıyorsanız bunun seçilmesi önerilir."
+
+#~ msgid ""
+#~ "\"Don't touch keymap\" will prevent the configuration system from "
+#~ "overwriting the keymap you have in /etc/console.  Select this if you want "
+#~ "to keep a keymap you obtained through other means.  Please remember to "
+#~ "install new keymaps with install-keymap(8) if you select this choice."
+#~ msgstr ""
+#~ "\"Klavye ayarına dokunma\" bu yapılandırma sisteminin /etc/console "
+#~ "dosyasında bulunan klavye ayarının üzerine yazmasını önleyecektir.  Bu "
+#~ "paketin kontrolü dışında bir yolla kurmak istediğiniz bir klavye düzeni "
+#~ "varsa bunu seçin.  Bu seçeneğin kullanılması halinde yeni klavye "
+#~ "düzenlerini install-keymap komutuyla kurmayı lütfen unutmayın."
+
+#~ msgid ""
+#~ "\"Keep kernel keymap\" will prevent any keymap from being loaded next "
+#~ "time your system boots.  It will remove from /etc/console any keymap you "
+#~ "may have already selected (it will be lost), but if you have already "
+#~ "loaded a keymap, it cannot be changed back until you reboot."
+#~ msgstr ""
+#~ "\"Çekirdekle gelen klavye düzenini koru \" sistemin bir sonraki "
+#~ "açılışında herhangi bir klavye düzeninin yüklenmesini önleyecektir.  Bu "
+#~ "seçenek /etc/console'da zaten varolan bir ayarı silecektir (bu ayarı "
+#~ "kaybedeceksiniz). Fakat şu an zaten yüklenmiş ve etkin olan bir klavye "
+#~ "düzeni varsa, sistemi tekrar açıncaya kadar bu ayar değiştirilemez."
+
+#~ msgid ""
+#~ "\"Select keymap from full list\" offers a full listing of all predefined "
+#~ "keymaps.  You want this, if you use an USB keyboard from a different "
+#~ "computer architecture or if you use an adapter to use such a keyboard."
+#~ msgstr ""
+#~ "\"Klavye düzenini tam listeden seç\" önceden tanımlı bütün klavye "
+#~ "düzenlerini listeler.  Farklı bir mimaride USB klavye veya klavye için "
+#~ "bir uyarlayıcı (adaptör) kullanıyorsanız bunu seçmek isteyeceksiniz."
+
+#~ msgid ""
+#~ "You have asked the keymap configuration tool not to touch an existing "
+#~ "keymap you installed, or you asked for higher-priority questions only to "
+#~ "be asked and the tool decided not to mess with your existing setup."
+#~ msgstr ""
+#~ "Bu yapılandırma aracının kurulu bulunan klavye düzenine dokunmamasını "
+#~ "veya sadece yüksek önceliğe sahip yapılandırma sorularının yöneltilmesini "
+#~ "istediğinizden mevcut ayarla ilgili hiçbir şey yapılmayacak."
+
+#~ msgid ""
+#~ "Select keymap from arch list, Don't touch keymap, Keep kernel keymap, "
+#~ "Select keymap from full list"
+#~ msgstr ""
+#~ "Klavye düzenini mimari (arch) listesinden seç, Klavye ayarına dokunma, "
+#~ "Çekirdekle gelen klavye düzenini koru, Klavye düzenini tam listeden seç"
+
+#~ msgid "What policy do you want to apply regarding keymaps ?"
+#~ msgstr ""
+#~ "Klavye düzeniyle ilgili olarak hangi kuralın uygulanmasını istersiniz?"
+
+#~ msgid "What is the keys layout of your keyboard ?"
+#~ msgstr "Klavyenizin tuş düzeni nedir?"
+
+#~ msgid "Which variant do you have ?"
+#~ msgstr "Hangi alt türü (varyant) kullanıyorsunuz?"
+
+#~ msgid "Which specific keymap do you want ?"
+#~ msgstr "Özel olarak hangi klavye düzenini istiyorsunuz?"
+
+#~ msgid "Which keymap do you want ?"
+#~ msgstr "Hangi klavye düzenini istiyorsunuz?"
+
+#~ msgid "yes, no"
+#~ msgstr "evet, hayır"

@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: pm@debian.org\n"
+"POT-Creation-Date: 2007-06-17 15:40-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid "Mandatory configuration of clients for the RADIUS server"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:1001
+msgid ""
+"Please copy the example file /usr/share/doc/radiusd-livingston/examples/"
+"clients to /etc/radiusd-livingston/clients and edit it, adding an entry for "
+"each client system."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid "Mandatory configuration of users for the RADIUS server"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../templates:2001
+msgid ""
+"Please copy the example file /usr/share/doc/radiusd-livingston/examples/"
+"users to /etc/radiusd-livingston/users and edit it, adding an entry for each "
+"user account."
+msgstr ""

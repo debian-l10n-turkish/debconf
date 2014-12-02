@@ -1,0 +1,60 @@
+# Turkish translation of debian-security-support package
+# Copyright (C) 2014 Mert Dirik
+# This file is distributed under the same license as the debian-security-support package.
+# Mert Dirik <mertdirik@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-security-support\n"
+"Report-Msgid-Bugs-To: debian-security-support@packages.debian.org\n"
+"POT-Creation-Date: 2014-06-05 06:50+0200\n"
+"PO-Revision-Date: 2014-08-03 17:04+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+msgid "Ended security support for one or more packages"
+msgstr "Bir ya da daha fazla pakete verilen güvenlik desteği sona erdi"
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+msgid ""
+"Unfortunately, it has been necessary to end security support for some "
+"packages before the end of the regular security maintenance life cycle."
+msgstr ""
+"Maalesef bazı paketlerin güvenlik desteğine dağıtım için normalde öngörülen "
+"güvenlik desteği süresi dolmadan önce son vermek zorunda kaldık."
+
+#. Type: text
+#. Description
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:2001
+#: ../debian-security-support.templates:3001
+msgid "The following packages found on this system are affected by this:"
+msgstr "Sisteminizde kurulu olan şu paketler bu durumdan etkilenmektedir:"
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:3001
+msgid "Limited security support for one or more packages"
+msgstr ""
+"Bir ya da daha fazla pakete yalnızca sınırlı güvenlik desteği verilebiliyor"
+
+#. Type: text
+#. Description
+#: ../debian-security-support.templates:3001
+msgid ""
+"Unfortunately, it has been necessary to limit security support for some "
+"packages."
+msgstr ""
+"Maalesef bazı paketlere verilen güvenlik desteğini sınırlandırmak zorunda "
+"kaldık."

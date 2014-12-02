@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mert Dirik <mertdirik@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: anon-proxy 00.05.38+20080527-1\n"
+"Report-Msgid-Bugs-To: anon-proxy@packages.debian.org\n"
+"POT-Creation-Date: 2008-04-24 09:25-0700\n"
+"PO-Revision-Date: 2008-06-23 22:40+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Should the http_proxy variable be set?"
+msgstr "http_proxy değişkeni ayarlansın mı?"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"To surf the web anonymously browsers have to use the new proxy server. For "
+"graphical browsers like mozilla or konqueror that can easily be configured "
+"in the proxy information using the graphical setup dialogs."
+msgstr ""
+"Web'i isimsiz bir şekilde gezebilmeniz için tarayıcılar yeni vekil "
+"sunucusunu kullanacak şekilde ayarlanmalıdır. Vekil sunucu bilgisi Mozilla "
+"ya da Konqueror gibi görsel tarayıcıların ayar pencerelerindeki ilgili "
+"bölümünde kolaylıkla düzenlenebilir."
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"Shellbrowsers like lynx or w3m use the environment variables http_proxy and "
+"HTTP_PROXY. If you want these variables can be set globally in /etc/"
+"environment now. They will be removed if the anon-proxy package is purged."
+msgstr ""
+"\"lynx\" ya da \"w3m\" gibi metin tabanlı tarayıcılar http_proxy ve "
+"HTTP_PROXY ortam değişkenlerini kullanır. Eğer isterseniz bu ortam "
+"değişkenleri sistem genelinde (/etc/environment dosyasında) ayarlanabilir. "
+"\"anon-proxy\" paketi temizlenirse bu ayarlar kaldırılır."

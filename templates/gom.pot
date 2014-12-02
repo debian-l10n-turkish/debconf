@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gom\n"
+"Report-Msgid-Bugs-To: gom@packages.debian.org\n"
+"POT-Creation-Date: 2012-08-27 10:43-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:1001
+msgid "Initialize mixer on system startup?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:1001
+msgid ""
+"If you choose this option, \"/etc/init.d/gom start\" (on system startup, or "
+"if run manually) will set mixer settings to your saved configuration."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:1001
+msgid ""
+"You may use upstream's \"gomconfig\" script as root later to fine-tune the "
+"settings."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../gom.templates:2001
+msgid "Space-separated list of valid sound devices:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../gom.templates:2001
+msgid ""
+"If none of these device names exists in /proc/devices, /etc/init.d/gom will "
+"exit silently (so it does not produce errors if the system has no sound at "
+"all)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../gom.templates:2001
+msgid ""
+"You would usually not touch the default value (\"sound\" is OSS, \"alsa\" is "
+"ALSA)."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:3001
+msgid "Remove /etc/gom completely?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:3001
+msgid ""
+"The /etc/gom directory seems to contain additional local customization "
+"files. Please choose whether you want to remove it entirely."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:4001
+msgid "Remove obsoleted /etc/rc.boot/gom?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../gom.templates:4001
+msgid ""
+"The /etc/rc.boot/gom file is obsoleted but might contain local "
+"customizations."
+msgstr ""

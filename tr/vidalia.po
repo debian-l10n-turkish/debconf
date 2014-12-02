@@ -1,0 +1,52 @@
+# Turkish translation of vidalia package
+# Copyright (C) 2014 Mert Dirik
+# This file is distributed under the same license as the vidalia package.
+# Mert Dirik <mertdirik@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vidalia\n"
+"Report-Msgid-Bugs-To: vidalia@packages.debian.org\n"
+"POT-Creation-Date: 2012-01-06 01:47-0300\n"
+"PO-Revision-Date: 2014-08-01 17:24+0200\n"
+"Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
+"Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. Type: multiselect
+#. Description
+#: ../templates:1001
+msgid "Users to add to the debian-tor group:"
+msgstr "debian-tor grubuna eklenilecek kullanıcılar:"
+
+#. Type: multiselect
+#. Description
+#: ../templates:1001
+msgid ""
+"Select which users from the list below should be able to control Tor daemon."
+msgstr ""
+"Tor artalan sürecini yönetmesini istediğiniz kullanıcıları aşağıdaki "
+"listeden seçin."
+
+#. Type: multiselect
+#. Description
+#: ../templates:1001
+msgid ""
+"Please restart your X sessions to apply changes before starting Vidalia."
+msgstr ""
+"Lütfen Vidalia'yı başlatmadan önce X oturumlarını yeniden başlatarak "
+"ayarların etkin hale gelmesini sağlayın."
+
+#. Type: multiselect
+#. Description
+#: ../templates:1001
+msgid ""
+"For more information, please refer to /usr/share/doc/vidalia/README.Debian."
+"gz."
+msgstr ""
+"Daha fazla bilgi için /usr/share/doc/vidalia/README.Debian.gz dosyasına "
+"bakabilirsiniz."

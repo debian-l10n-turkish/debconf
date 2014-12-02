@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: plan@packages.debian.org\n"
+"POT-Creation-Date: 2008-08-28 08:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "australia"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "austria"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "bavarian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "belgium"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "belgium_french"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "canada"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "combi"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "czech"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "denmark"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "dutch"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "finnish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "french"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "frswiss"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "german"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "greek"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "hungary"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "italy"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "japan"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "norway"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "portugal"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "quebec"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "spain"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "swedish"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "uk"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "us"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../plan.templates:1001
+msgid "none"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../plan.templates:1002
+msgid "What default holiday scheme do you want?"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../plan.templates:1002
+msgid ""
+"Please choose a holiday scheme from the list. This will be the default "
+"holiday used in plan. You can override this default by copying the required "
+"holiday file from /usr/share/doc/plan/examples/holiday to /etc/plan/holiday."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../plan.templates:1002
+msgid ""
+"Alternatively, per user holiday schemes might be had by copying the required "
+"holiday files to ~/.plan.dir/holiday."
+msgstr ""

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: ocsinventory-agent@packages.debian.org\n"
+"POT-Creation-Date: 2009-11-14 21:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../ocsinventory-agent.templates:2001
+msgid "local"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../ocsinventory-agent.templates:2001
+msgid "http"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../ocsinventory-agent.templates:2002
+msgid "Method used to generate the inventory:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../ocsinventory-agent.templates:2002
+msgid "Choose the 'local' method if you do not have a network connection."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../ocsinventory-agent.templates:2002
+msgid "Choose the 'http' method if an OCS Inventory server is set up."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../ocsinventory-agent.templates:3001
+msgid "OCS Inventory server host name:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../ocsinventory-agent.templates:3001
+msgid "Please enter the host name of the OCS inventory server."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../ocsinventory-agent.templates:4001
+msgid "Tag for the generated inventory:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../ocsinventory-agent.templates:4001
+msgid ""
+"Each inventory can have an associated tag. Please enter the tag you would "
+"like for the new inventory."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../ocsinventory-agent.templates:4001
+msgid ""
+"This field can be left blank to continue without setting a new tag for the "
+"inventory."
+msgstr ""

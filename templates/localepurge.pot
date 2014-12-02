@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: localepurge\n"
+"Report-Msgid-Bugs-To: localepurge@packages.debian.org\n"
+"POT-Creation-Date: 2013-11-08 07:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: multiselect
+#. Description
+#: ../localepurge.templates:2001
+msgid "Locale files to keep on this system:"
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../localepurge.templates:2001
+msgid ""
+"The localepurge package will remove all locale files from the system except "
+"those that you select here."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../localepurge.templates:2001
+msgid ""
+"When selecting the locale corresponding to your language and country code "
+"(such as \"de_DE\", \"de_CH\", \"it_IT\", etc.) it is recommended to choose "
+"the two-character entry (\"de\", \"it\", etc.) as well."
+msgstr ""
+
+#. Type: multiselect
+#. Description
+#: ../localepurge.templates:2001
+msgid ""
+"Entries from /etc/locale.gen will be preselected if no prior configuration "
+"has been successfully completed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:3001
+msgid "Use dpkg --path-exclude?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:3001
+msgid ""
+"dpkg supports --path-exclude and --path-include options to filter files from "
+"packages being installed."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:3001
+msgid ""
+"Please see /usr/share/doc/localepurge/README.dpkg-path for more information "
+"about this feature. It can be enabled (or disabled) later by running \"dpkg-"
+"reconfigure localepurge\"."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:3001
+msgid ""
+"This option will become active for packages unpacked after localepurge has "
+"been (re)configured. Packages installed or upgraded together with "
+"localepurge may (or may not) be subject to the previous configuration of "
+"localepurge."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:4001
+msgid "Really remove all locales?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:4001
+msgid ""
+"No locale has been chosen for being kept. This means that all locales will "
+"be removed from this system. Please confirm whether this is really your "
+"intent."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../localepurge.templates:5001
+msgid "No localepurge action until the package is configured"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../localepurge.templates:5001
+msgid ""
+"The localepurge package will not be useful until it has been successfully "
+"configured using the command \"dpkg-reconfigure localepurge\". The "
+"configured entries from /etc/locale.gen of the locales package will then be "
+"automatically preselected."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:6001
+msgid "Also delete localized man pages?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:6001
+msgid ""
+"Based on the same locale information you chose, localepurge can also delete "
+"localized man pages."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:7001
+msgid "Inform about new locales?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:7001
+msgid ""
+"If you choose this option, you will be given the opportunity to decide "
+"whether to keep or delete newly introduced locales."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:7001
+msgid ""
+"If you don't choose it, newly introduced locales will be automatically "
+"dropped from the system."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:8001
+msgid "Display freed disk space?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:8001
+msgid ""
+"The localepurge program can display the disk space freed by each operation, "
+"and show a final summary of saved disk space."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:9001
+msgid "Accurate disk space calculation?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:9001
+msgid ""
+"There are two ways available to calculate freed disk space. One is much "
+"faster than the other but far less accurate if other changes occur on the "
+"file system during disk space calculation. The other one is more accurate "
+"but slower."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:10001
+msgid "Display verbose output?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../localepurge.templates:10001
+msgid ""
+"The localepurge program can be configured to explicitly show which locale "
+"files it deletes. This may cause a lot of screen output."
+msgstr ""

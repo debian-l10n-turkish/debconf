@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: fwlogwatch@packages.debian.org\n"
+"POT-Creation-Date: 2010-10-21 16:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../fwlogwatch.templates:1001
+msgid "Would you like fwlogwatch as a daemon (realtime mode)?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../fwlogwatch.templates:1001
+msgid ""
+"Running fwlogwatch as a daemon will let fwlogwatch act (i.e. adding new "
+"firewall rules) against active 'attacks', or warn you (i.e. sending email) "
+"about them. It could also run a web server to access fwlogwatch's current "
+"status."
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../fwlogwatch.templates:2001 ../fwlogwatch.templates:3001
+msgid "no"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../fwlogwatch.templates:2001
+msgid "yes (iptables)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../fwlogwatch.templates:2001
+msgid "yes (ipchains)"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../fwlogwatch.templates:2001 ../fwlogwatch.templates:3001
+msgid "yes (other)"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:2002
+msgid "Add new firewall rules (or take another action) in case of alert?"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:2002
+msgid ""
+"Don't use this option unless you know what you're doing. Doing so could "
+"expose your system to a Denial of Service attack. i.e. spoofed packets could "
+"be made to look like coming from your DNS. Adding a rule to block packets "
+"from your DNS won't be good ;-)"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:2002
+msgid ""
+"In case of choosing 'other', you'll have to edit '/etc/fwlogwatch/"
+"fwlw_respond' to meet your requirements."
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../fwlogwatch.templates:3001
+msgid "yes (mail)"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:3002
+msgid "Send alerts by mail or other ways?"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:3002
+msgid ""
+"This option will make fwlogwatch send you alerts by email or other ways. You "
+"may wish to adjust 'alert_threshold' in '/etc/fwlogwatch/fwlogwatch.config' "
+"to avoid getting too many warnings."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../fwlogwatch.templates:3002
+msgid ""
+"In case of choosing 'other', you'll have to edit '/etc/fwlogwatch/"
+"fwlw_notify' to meet your requirements."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:4001
+msgid "Email address to send the alerts to:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:5001
+msgid "Email address to send daily reports on firewall events:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:5001
+msgid ""
+"If you want a daily cron job to send you an email with a report of the day's "
+"log entries, just type the address where you want the email to be sent."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:5001
+msgid ""
+"If you don't want these emails, just set the field to 'none' (without "
+"quotes)."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:6001
+msgid "fwlogwatch parameters to use in the cron job:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../fwlogwatch.templates:6001
+msgid "If you do not know what these mean, it's safe to leave the defaults."
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../fwlogwatch.templates:7001
+msgid "Rebuild configuration file from debconf's values?"
+msgstr ""

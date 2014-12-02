@@ -1,0 +1,33 @@
+# po-debconf translation for abook.
+# Copyright (C) 2006 Gerfried Fuchs <rhonda@debian.org>
+# This file is distributed under the same license as the abook package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: abook VERSION\n"
+"Report-Msgid-Bugs-To: abook@packages.debian.org\n"
+"POT-Creation-Date: 2006-08-18 10:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want to enable abook system wide for mutt?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid ""
+"abook offers the possibility to be used as query backend from within mutt.  "
+"If you acknowledge this question the package will create an /etc/Muttrc.d/"
+"abook.rc file that enables querying the abook database and adding mail "
+"addresses to abook with pressing \"A\" from pager mode."
+msgstr ""

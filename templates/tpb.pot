@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tpb@packages.debian.org\n"
+"POT-Creation-Date: 2009-09-22 22:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: note
+#. Description
+#: ../tpb.templates:1001
+msgid "Group for tpb users changed!"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../tpb.templates:1001
+msgid ""
+"The group of the device file used by tpb changed. Note that you have to move "
+"the tpb users from the old group \"thinkpad\" to the new group \"nvram\"!"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../tpb.templates:2001
+msgid "Start tpb automatically?"
+msgstr ""
+
+#. Type: boolean
+#. Description
+#: ../tpb.templates:2001
+msgid ""
+"tpb can be started automatically after X has been started for a user. That "
+"can be either after startx from console or after login with a display "
+"manager."
+msgstr ""
